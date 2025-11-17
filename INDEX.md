@@ -7,16 +7,19 @@
 ## 📚 Documentação Principal
 
 ### Visão e Estratégia
+
 - **[Manifesto](manifesto.md)** — Visão, valores e missão do projeto
 - **[Changelog](changelog.md)** — Histórico completo de mudanças
 
 ### Arquitetura
+
 - **[Arquitetura Técnica](architecture.md)** — Arquitetura técnica detalhada dos contratos
 - **[Arquitetura Cirúrgica](ARCHITECTURE_SURGICAL.md)** — Descrição cirúrgica de cada bloco do sistema
 - **[Base Repository](BASE_REPOSITORY.md)** — Base técnica purificada (erc20-token-generator)
 - **[Nomenclatura](NOMENCLATURA.md)** — Padrões e convenções de nomenclatura
 
 ### Versões e Patches
+
 - **[Patch v0.5.1 — IGNIÇÃO](patch-v0.5.1.md)** — Notas do patch de ignição
 
 ---
@@ -24,43 +27,57 @@
 ## 🔍 Auditoria e Histórico
 
 ### Auditoria
+
 - **[Relatório de Auditoria](auditoria/RELATORIO_AUDITORIA.md)** — Comparação modelo inicial vs implementação atual
+
+- **[Status da Factory](auditoria/factory-status.md)** — Status atual e roadmap
 - **[Modelo Inicial Conceitual](auditoria/MODELO_INICIAL_CONCEITUAL.md)** — Modelo mental e visão inicial (brainstorm)
 - **[Estrutura — Validação](auditoria/STRUCTURE_VALIDACAO.md)** — Checklist de validação da estrutura v0.5.1
+
+### Planejamento Futuro (Multi-Repo)
+
+- **[Arquitetura Multi-Repo](auditoria/analise-conclusao/arquitetura.md)** — Visão completa da arquitetura modular (proposta futura)
+- **[Catálogo de Repositórios](auditoria/analise-conclusao/repos.md)** — Lista completa de repositórios planejados
+- **[Plano de Migração](auditoria/analise-conclusao/plano-migr.md)** — Timeline de 9 semanas para migração
+- **[Análise dos Documentos](auditoria/analise-conclusao/ANALISE_DOCUMENTOS.md)** — Comparação com estrutura atual
 
 ---
 
 ## 🎯 Documentação por Módulo
 
 ### forge-core
+
 - Ver `forge-core/README.md` (se existir)
 - Contratos: `forge-core/contracts/`
 - Scripts: `forge-core/scripts/`
 - Testes: `forge-core/test/`
 
 ### forge-ui
+
 - **[forge-ui/README.md](../forge-ui/README.md)** — Documentação da interface web
 - Landing: `forge-ui/landing/README.md`
 - Nuxt App: `forge-ui/nuxt-app/README.md`
 
 ### forge-cli
+
 - Ver `forge-cli/package.json` para comandos
 - Comandos: `forge-cli/commands/`
 
 ### internal-ops
+
 - **[README](../internal-ops/README.md)** — Visão geral do sistema interno
 - **[Comandos](../internal-ops/COMMANDS.md)** — Guia completo de comandos
 - **[Uso](../internal-ops/USAGE.md)** — Como usar o sistema interno
 - **[Simulador de Ecossistemas](../internal-ops/ECOSYSTEM_SIMULATOR.md)** — Documentação do simulador
 
 ### tokens
+
 - **[README](../tokens/README.md)** — Estrutura e formato de tokens criados
 
 ---
 
 ## 🗂️ Estrutura de Documentação
 
-```
 docs/
 ├── INDEX.md                          ← Este arquivo
 ├── manifesto.md                      ← Visão e valores
@@ -75,7 +92,6 @@ docs/
     ├── INCONSISTENCIAS_NOMENCLATURA.md ← Inconsistências (resolvidas)
     ├── MODELO_INICIAL_CONCEITUAL.md ← Modelo inicial (brainstorm)
     └── STRUCTURE_VALIDACAO.md       ← Validação estrutura
-```
 
 ---
 
@@ -101,4 +117,3 @@ docs/
 
 **Última atualização**: v0.5.1 — IGNIÇÃO  
 **Mantido por**: NΞØ Protocol
-
