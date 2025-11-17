@@ -15,7 +15,8 @@
 ### Novos Componentes
 
 #### forge-core
-- Contrato `IgnitionToken.sol` — Token de ignição v0.5.1
+- Contrato `NeoTokenBase.sol` — Base purificada (do erc20-token-generator)
+- Contrato `IgnitionToken.sol` — Token de ignição v0.5.1 (herda de NeoTokenBase)
 - Scripts de deploy, verificação e simulação
 - Configuração Polygon-ready
 - Templates de contratos
