@@ -11,6 +11,7 @@
 A NΞØ SMART FACTORY v0.5.1 está em **desenvolvimento ativo**.
 
 **O que isso significa:**
+
 - ✅ O core funciona e está estável
 - ⚠️ Nem todas as features prometidas estão implementadas
 - ⚠️ Bugs podem ocorrer
@@ -18,6 +19,7 @@ A NΞØ SMART FACTORY v0.5.1 está em **desenvolvimento ativo**.
 - ⚠️ Documentação pode estar desatualizada
 
 **O que você deve fazer:**
+
 - 🧪 Sempre teste em **testnet** primeiro (Polygon Mumbai ou Amoy)
 - 📖 Leia a documentação antes de usar
 - 🐛 Reporte bugs no GitHub
@@ -66,12 +68,14 @@ A NΞØ SMART FACTORY v0.5.1 está em **desenvolvimento ativo**.
 ### ⚠️ IMPORTANTE: Você é responsável pelo seu deploy
 
 **O que a NΞØ SMART FACTORY faz:**
+
 - ✅ Fornece contratos base auditáveis
 - ✅ Valida configurações básicas
 - ✅ Detecta problemas comuns
 - ✅ Fornece templates seguros
 
 **O que a NΞØ SMART FACTORY NÃO faz:**
+
 - ❌ Não garante que seu token terá sucesso
 - ❌ Não audita código customizado que você adicionar
 - ❌ Não se responsabiliza por configurações erradas

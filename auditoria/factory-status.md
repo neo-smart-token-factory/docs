@@ -64,9 +64,9 @@
 | Versão | Nome | Tema | Entrega |
 |--------|------|------|---------|
 | **v0.6.0** | **ORÁCULO** | Inteligência e refinamento | **Fev 2025** |
-| **v0.7.0** | **CULT** | Narrativa e documentos | **Mar 2025** |
-| **v0.8.0** | **KERNEL** | Automação total | **Abr 2025** |
-| **v1.0.0** | **IGNIÇÃO COMPLETA** | Sistema coeso | **Q2 2025** |
+| **v0.7.0** | **CULT** | Narrativa e documentos | **Mar 2026** |
+| **v0.8.0** | **KERNEL** | Automação total | **Abr 2026** |
+| **v1.0.0** | **IGNIÇÃO COMPLETA** | Sistema coeso | **Q2 2026** |
 
 **Veja o [Changelog completo](../changelog.md) para detalhes do roadmap.**
 

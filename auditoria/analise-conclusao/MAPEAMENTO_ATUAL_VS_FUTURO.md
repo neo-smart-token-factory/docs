@@ -9,7 +9,7 @@
 | Aspecto | Estrutura Atual (v0.5.1) | Proposta Futura (Multi-Repo) |
 |---------|--------------------------|------------------------------|
 | **Tipo** | Monorepo | Multi-repo (8 repositórios) |
-| **GitHub** | `neo-smart-factory` (repo único) | `neosmart-factory/*` (org com 8 repos) |
+| **GitHub** | `neo-smart-factory` (repo único) | `neo-smart-token-factory/*` (org com 8 repos) |
 | **Pastas** | `forge-core/`, `forge-ui/`, `forge-cli/` | `smart-core/`, `smart-ui/`, `smart-cli/` |
 | **CLI** | `neo-smart-factory` | `nxf` (com `neo-smart-factory` como alias) |
 | **NPM Scope** | `neo-smart-factory-*` | `@neosmart/*` |
@@ -123,7 +123,7 @@ github.com/kauntdewn1/neo_smart_factory
 ### Proposto (Futuro)
 
 ```
-github.com/neosmart-factory/
+github.com/neo-smart-token-factory/
 ├── smart-core/
 ├── smart-ui/
 ├── smart-cli/

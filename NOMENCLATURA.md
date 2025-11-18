@@ -127,12 +127,14 @@ neo-smart-factory/           # Repositório
 ```
 
 ### Comandos
+
 ```bash
 neo-smart-factory init
 neo-smart-factory deploy
 ```
 
 ### Pacotes NPM
+
 ```json
 {
   "name": "neo-smart-factory-core",
@@ -142,6 +144,7 @@ neo-smart-factory deploy
 ```
 
 ### Documentação
+
 - Títulos: **NΞØ SMART FACTORY**
 - Código: `neo-smart-factory`
 - Módulos: `forge-core/`, `forge-ui/`, `forge-cli/` (mantém)

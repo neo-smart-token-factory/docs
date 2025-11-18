@@ -16,7 +16,7 @@ neo-smart-factory/  (monorepo atual)
 
 Para:
 ```
-github.com/neosmart-factory/
+github.com/neo-smart-token-factory/
 ├── smart-core/
 ├── smart-ui/
 ├── smart-cli/
@@ -32,14 +32,16 @@ github.com/neosmart-factory/
 ## 📅 Timeline
 
 ### Fase 1: Preparação (Semana 1)
+
 **Objetivo:** Organizar estrutura atual e preparar separação
 
-- [ ] Criar GitHub Organization `neosmart-factory`
+- [ ] Criar GitHub Organization `neo-smart-token-factory`
 - [ ] Criar repositórios vazios (privados inicialmente)
 - [ ] Definir estrutura de cada repo
 - [ ] Preparar scripts de migração
 
 ### Fase 2: Separação Core (Semana 2)
+
 **Objetivo:** Separar módulos funcionais
 
 - [ ] Migrar `forge-core/` → `smart-core`
@@ -48,6 +50,7 @@ github.com/neosmart-factory/
 - [ ] Testar cada repo isoladamente
 
 ### Fase 3: NPM e Integração (Semana 3)
+
 **Objetivo:** Publicar packages e integrar
 
 - [ ] Configurar NPM organization `@neosmart`
@@ -57,6 +60,7 @@ github.com/neosmart-factory/
 - [ ] Atualizar dependências entre repos
 
 ### Fase 4: Novos Módulos (Semanas 4-8)
+
 **Objetivo:** Criar módulos planejados
 
 - [ ] Criar `smart-dna` (v0.6.0)
@@ -65,6 +69,7 @@ github.com/neosmart-factory/
 - [ ] Criar `smart-kernel` (v0.8.0)
 
 ### Fase 5: Documentação e Lançamento (Semana 9)
+
 **Objetivo:** Documentar e tornar público
 
 - [ ] Migrar docs para `docs/`
@@ -81,12 +86,13 @@ github.com/neosmart-factory/
 ```bash
 # Via GitHub web
 1. Ir em: github.com/organizations/new
-2. Nome: neosmart-factory
+2. Nome: neo-smart-token-factory
 3. Email: team@neosmart.factory
 4. Tipo: Open Source (Free)
 ```
 
 **Configurações:**
+
 - ✅ Two-factor authentication obrigatório
 - ✅ Base permissions: Read
 - ✅ Member privileges: Can create repositories
@@ -98,17 +104,17 @@ github.com/neosmart-factory/
 ```bash
 # Via GitHub CLI
 gh auth login
-gh org create neosmart-factory
+gh org create neo-smart-token-factory
 
 # Criar repos
-gh repo create neosmart-factory/smart-core --private
-gh repo create neosmart-factory/smart-ui --private
-gh repo create neosmart-factory/smart-cli --private
-gh repo create neosmart-factory/smart-oracle --private
-gh repo create neosmart-factory/smart-cult --private
-gh repo create neosmart-factory/smart-dna --private
-gh repo create neosmart-factory/smart-kernel --private
-gh repo create neosmart-factory/docs --public
+gh repo create neo-smart-token-factory/smart-core --private
+gh repo create neo-smart-token-factory/smart-ui --private
+gh repo create neo-smart-token-factory/smart-cli --private
+gh repo create neo-smart-token-factory/smart-oracle --private
+gh repo create neo-smart-token-factory/smart-cult --private
+gh repo create neo-smart-token-factory/smart-dna --private
+gh repo create neo-smart-token-factory/smart-kernel --private
+gh repo create neo-smart-token-factory/docs --public
 ```
 
 ---
@@ -157,7 +163,7 @@ npm init -y
 npm pkg set name="@neosmart/core"
 npm pkg set version="0.5.1"
 npm pkg set description="Smart contracts and deployment scripts for NΞØ SMART FACTORY"
-npm pkg set repository="github:neosmart-factory/smart-core"
+npm pkg set repository="github:neo-smart-token-factory/smart-core"
 npm pkg set license="MIT"
 
 # 4. Criar README.md
@@ -191,7 +197,7 @@ EOF
 # 6. Commit e push
 git add .
 git commit -m "feat: initial commit - migrate from forge-core"
-git remote add origin git@github.com:neosmart-factory/smart-core.git
+git remote add origin git@github.com:neo-smart-token-factory/smart-core.git
 git push -u origin main
 ```
 
@@ -260,7 +266,7 @@ smart-cli/
     "neo-smart-factory": "./bin/nxf.js"
   },
   "keywords": ["cli", "blockchain", "polygon", "token", "factory"],
-  "repository": "github:neosmart-factory/smart-cli"
+  "repository": "github:neo-smart-token-factory/smart-cli"
 }
 ```
 
@@ -459,8 +465,8 @@ export default {
 mkdir neosmart-workspace
 cd neosmart-workspace
 
-git clone git@github.com:neosmart-factory/smart-core.git
-git clone git@github.com:neosmart-factory/smart-cli.git
+git clone git@github.com:neo-smart-token-factory/smart-core.git
+git clone git@github.com:neo-smart-token-factory/smart-cli.git
 
 cd smart-core && npm link
 cd ../smart-cli && npm link @neosmart/core

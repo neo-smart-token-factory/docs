@@ -30,7 +30,7 @@ Você pode usar:
 
 | | |
 |---|---|
-| **GitHub** | [`neosmart-factory/smart-core`](https://github.com/neosmart-factory/smart-core) |
+| **GitHub** | [`neo-smart-token-factory/smart-core`](https://github.com/neo-smart-token-factory/smart-core) |
 | **NPM** | [`@neosmart/core`](https://npmjs.com/package/@neosmart/core) |
 | **Versão** | v0.5.1 |
 | **Status** | ✅ Ativo |
@@ -51,7 +51,7 @@ npm install @neosmart/core
 
 **Uso:**
 ```bash
-git clone https://github.com/neosmart-factory/smart-core.git
+git clone https://github.com/neo-smart-token-factory/smart-core.git
 cd smart-core
 npm install
 npm run deploy:polygon
@@ -70,7 +70,7 @@ npm run deploy:polygon
 
 | | |
 |---|---|
-| **GitHub** | [`neosmart-factory/smart-ui`](https://github.com/neosmart-factory/smart-ui) |
+| **GitHub** | [`neo-smart-token-factory/smart-ui`](https://github.com/neo-smart-token-factory/smart-ui) |
 | **NPM** | [`@neosmart/ui`](https://npmjs.com/package/@neosmart/ui) |
 | **Versão** | v0.5.1 |
 | **Status** | ✅ Ativo |
@@ -95,7 +95,7 @@ npm install @neosmart/ui
 
 **Uso:**
 ```bash
-git clone https://github.com/neosmart-factory/smart-ui.git
+git clone https://github.com/neo-smart-token-factory/smart-ui.git
 cd smart-ui/landing
 npm install
 npm run dev
@@ -115,7 +115,7 @@ npm run dev
 
 | | |
 |---|---|
-| **GitHub** | [`neosmart-factory/smart-cli`](https://github.com/neosmart-factory/smart-cli) |
+| **GitHub** | [`neo-smart-token-factory/smart-cli`](https://github.com/neo-smart-token-factory/smart-cli) |
 | **NPM** | [`nxf`](https://npmjs.com/package/nxf) ou [`@neosmart/cli`](https://npmjs.com/package/@neosmart/cli) |
 | **Versão** | v0.5.1 |
 | **Status** | ✅ Ativo |
@@ -155,7 +155,7 @@ nxf deploy
 
 | | |
 |---|---|
-| **GitHub** | [`neosmart-factory/smart-oracle`](https://github.com/neosmart-factory/smart-oracle) |
+| **GitHub** | [`neo-smart-token-factory/smart-oracle`](https://github.com/neo-smart-token-factory/smart-oracle) |
 | **NPM** | [`@neosmart/oracle`](https://npmjs.com/package/@neosmart/oracle) |
 | **Versão** | v0.6.0 (planejado) |
 | **Status** | 🔨 Em desenvolvimento |
@@ -192,7 +192,7 @@ const refined = await oracle.refine(dna)
 
 | | |
 |---|---|
-| **GitHub** | [`neosmart-factory/smart-cult`](https://github.com/neosmart-factory/smart-cult) |
+| **GitHub** | [`neo-smart-token-factory/smart-cult`](https://github.com/neo-smart-token-factory/smart-cult) |
 | **NPM** | [`@neosmart/cult`](https://npmjs.com/package/@neosmart/cult) |
 | **Versão** | v0.7.0 (planejado) |
 | **Status** | 🔨 Em desenvolvimento |
@@ -232,7 +232,7 @@ const whitepaper = await cult.generateWhitepaper(dna)
 
 | | |
 |---|---|
-| **GitHub** | [`neosmart-factory/smart-dna`](https://github.com/neosmart-factory/smart-dna) |
+| **GitHub** | [`neo-smart-token-factory/smart-dna`](https://github.com/neo-smart-token-factory/smart-dna) |
 | **NPM** | [`@neosmart/dna`](https://npmjs.com/package/@neosmart/dna) |
 | **Versão** | v0.6.0 (planejado) |
 | **Status** | 🔨 Em desenvolvimento |
@@ -272,7 +272,7 @@ const template = DNA.templates.minimal
 
 | | |
 |---|---|
-| **GitHub** | [`neosmart-factory/smart-kernel`](https://github.com/neosmart-factory/smart-kernel) |
+| **GitHub** | [`neo-smart-token-factory/smart-kernel`](https://github.com/neo-smart-token-factory/smart-kernel) |
 | **NPM** | [`@neosmart/kernel`](https://npmjs.com/package/@neosmart/kernel) |
 | **Versão** | v0.8.0 (planejado) |
 | **Status** | 🔜 Planejado |
@@ -314,7 +314,7 @@ await kernel.forge({
 
 | | |
 |---|---|
-| **GitHub** | [`neosmart-factory/docs`](https://github.com/neosmart-factory/docs) |
+| **GitHub** | [`neo-smart-token-factory/docs`](https://github.com/neo-smart-token-factory/docs) |
 | **URL** | [docs.neosmart.factory](https://docs.neosmart.factory) |
 | **Versão** | v0.5.1 |
 | **Status** | ✅ Ativo |
@@ -331,7 +331,7 @@ await kernel.forge({
 
 **Instalação:**
 ```bash
-git clone https://github.com/neosmart-factory/docs.git
+git clone https://github.com/neo-smart-token-factory/docs.git
 cd docs
 npm install
 npm run dev
@@ -355,20 +355,20 @@ npx nxf clone-all
 **Manual (agora):**
 ```bash
 # Core
-git clone https://github.com/neosmart-factory/smart-core.git
-git clone https://github.com/neosmart-factory/smart-ui.git
-git clone https://github.com/neosmart-factory/smart-cli.git
+git clone https://github.com/neo-smart-token-factory/smart-core.git
+git clone https://github.com/neo-smart-token-factory/smart-ui.git
+git clone https://github.com/neo-smart-token-factory/smart-cli.git
 
 # Intelligence (quando disponível)
-git clone https://github.com/neosmart-factory/smart-oracle.git
-git clone https://github.com/neosmart-factory/smart-cult.git
+git clone https://github.com/neo-smart-token-factory/smart-oracle.git
+git clone https://github.com/neo-smart-token-factory/smart-cult.git
 
 # Data & Orchestration (quando disponível)
-git clone https://github.com/neosmart-factory/smart-dna.git
-git clone https://github.com/neosmart-factory/smart-kernel.git
+git clone https://github.com/neo-smart-token-factory/smart-dna.git
+git clone https://github.com/neo-smart-token-factory/smart-kernel.git
 
 # Docs
-git clone https://github.com/neosmart-factory/docs.git
+git clone https://github.com/neo-smart-token-factory/docs.git
 ```
 
 ---
@@ -391,7 +391,7 @@ git clone https://github.com/neosmart-factory/docs.git
 ## 🔗 Links Rápidos
 
 ### GitHub Organization
-🐙 [github.com/neosmart-factory](https://github.com/neosmart-factory)
+🐙 [github.com/neo-smart-token-factory](https://github.com/neo-smart-token-factory)
 
 ### NPM Organization
 📦 [npmjs.com/org/neosmart](https://npmjs.com/org/neosmart)
@@ -404,7 +404,7 @@ git clone https://github.com/neosmart-factory/docs.git
 ### Comunidade
 - 💬 [Discord](https://discord.gg/neosmart)
 - 🐦 [Twitter/X](https://twitter.com/neosmart_factory)
-- 💼 [LinkedIn](https://linkedin.com/company/neosmart-factory)
+- 💼 [LinkedIn](https://linkedin.com/company/neo-smart-token-factory)
 
 ---
 

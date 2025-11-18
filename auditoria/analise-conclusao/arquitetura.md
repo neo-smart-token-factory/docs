@@ -379,6 +379,7 @@ graph TD
 ```
 
 **Legenda:**
+
 - `smart-kernel` depende de todos os módulos
 - `smart-cli` é intermediário entre UI e Core
 - `smart-dna` é dependência compartilhada
@@ -391,14 +392,17 @@ graph TD
 ### Estratégia
 
 **Semantic Versioning (semver):**
+
 - `v0.x.x` → Alpha/Beta (breaking changes permitidos)
 - `v1.x.x` → Estável (breaking changes só em major)
 
 **Independência:**
+
 - Cada repo tem sua própria versão
 - Kernel especifica versões compatíveis
 
 **Exemplo:**
+
 ```json
 {
   "dependencies": {
@@ -428,7 +432,7 @@ graph TD
 ### GitHub Organization
 
 ```
-github.com/neosmart-factory/
+github.com/neo-smart-token-factory/
 ├── smart-core
 ├── smart-ui
 ├── smart-cli
@@ -446,18 +450,20 @@ github.com/neosmart-factory/
 ### Workflow
 
 **1. Clone completo:**
+
 ```bash
 # Script automático (futuro)
 npx nxf clone-all
 
 # Ou manual:
-git clone git@github.com:neosmart-factory/smart-core.git
-git clone git@github.com:neosmart-factory/smart-ui.git
-git clone git@github.com:neosmart-factory/smart-cli.git
+git clone git@github.com:neo-smart-token-factory/smart-core.git
+git clone git@github.com:neo-smart-token-factory/smart-ui.git
+git clone git@github.com:neo-smart-token-factory/smart-cli.git
 # ...
 ```
 
 **2. Desenvolvimento isolado:**
+
 ```bash
 cd smart-core
 npm install
@@ -466,6 +472,7 @@ npm run build
 ```
 
 **3. Integração:**
+
 ```bash
 cd smart-kernel
 npm link ../smart-core
@@ -480,6 +487,7 @@ npm test
 ### Por Repositório
 
 Cada repo tem seus próprios testes:
+
 ```bash
 smart-core/     → Hardhat tests (Solidity)
 smart-oracle/   → Jest/Vitest (TypeScript)
@@ -490,6 +498,7 @@ smart-cli/      → Jest (CLI tests)
 ### Integração
 
 `smart-kernel` testa integração entre módulos:
+
 ```bash
 cd smart-kernel
 npm run test:integration
@@ -576,7 +585,7 @@ docs(oracle): update API reference
 
 ### Issues
 - Usar labels: `bug`, `feature`, `documentation`
-- Referenciar entre repos: `neosmart-factory/smart-core#123`
+- Referenciar entre repos: `neo-smart-token-factory/smart-core#123`
 
 ### Pull Requests
 - Sempre em branches: `feature/`, `fix/`, `docs/`

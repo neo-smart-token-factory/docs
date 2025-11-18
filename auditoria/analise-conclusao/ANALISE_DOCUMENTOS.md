@@ -72,7 +72,7 @@ Estes documentos descrevem uma **arquitetura futura multi-repo** onde:
 
 **Documentos propõem:**
 - Multi-repo (8 repositórios separados)
-- GitHub Organization: `neosmart-factory`
+- GitHub Organization: `neo-smart-token-factory`
 
 **Estrutura atual:**
 - Monorepo (`neo-smart-factory`)
@@ -90,7 +90,7 @@ Estes documentos descrevem uma **arquitetura futura multi-repo** onde:
 | **Pastas** | `forge-core/`, `forge-ui/`, `forge-cli/` | `smart-core/`, `smart-ui/`, `smart-cli/` |
 | **CLI** | `neo-smart-factory` | `nxf` |
 | **NPM Scope** | `neo-smart-factory-*` | `@neosmart/*` |
-| **GitHub** | `neo-smart-factory` (monorepo) | `neosmart-factory/*` (org) |
+| **GitHub** | `neo-smart-factory` (monorepo) | `neo-smart-token-factory/*` (org) |
 | **Status** | ✅ Implementado | 🔜 Planejado |
 
 ---
