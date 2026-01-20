@@ -16,7 +16,7 @@
 - **Name:** NEOFlowOFF
 - **Symbol:** NEOFLW
 - **Max Supply:** 1,000,000,000 NEOFLW
-- **Mint Price:** 0.1 ETH
+- **Mint Price:** 0.003 ETH
 - **Mint Amount:** 1,000 NEOFLW per mint
 
 #### Features Deployed

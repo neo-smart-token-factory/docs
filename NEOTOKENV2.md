@@ -242,7 +242,7 @@ classDiagram
 
 ```solidity
 // Usuário paga MINT_PRICE e recebe MINT_AMOUNT
-await token.publicMint({ value: ethers.parseEther("0.1") });
+await token.publicMint({ value: ethers.parseEther("0.003") });
 ```
 
 **Cenário:**
@@ -403,7 +403,7 @@ async function main() {
   const token = await NeoTokenV2.deploy(
     "Neo Protocol",                    // name
     "NEO",                             // symbol
-    ethers.parseEther("0.1"),          // mintPrice: 0.1 POL
+    ethers.parseEther("0.003"),          // mintPrice: 0.003 ETH
     ethers.parseEther("1000"),         // mintAmount: 1000 tokens
     deployer.address                   // initialOwner
   );
