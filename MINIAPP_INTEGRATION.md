@@ -48,7 +48,7 @@ setPublicMintStatus(false)
 ### 3. Financiar Wallet Distribuidor
 
 ```bash
-# Enviar ~0.01 ETH para gas
+# Enviar ~0.003 ETH para gas
 # Endereço: 0x... (do distribuidor)
 ```
 
