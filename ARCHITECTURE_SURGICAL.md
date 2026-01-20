@@ -41,9 +41,16 @@ forge-core/
 
 **Este é o bloco que você clona, purifica e padroniza.**
 
-**Base Original**: https://github.com/Smart-Contracts-Solutions/erc20-token-generator
+**Base Técnica**: OpenZeppelin Contracts v5.0
+**Arquitetura**: Implementação nativa e limpa (Vanilla Implementation).
 
----
+Ao contrário de "Token Generators" genéricos que carregam código morto e flags desnecessárias, o `NeoTokenBase` utiliza herança direta de padrões auditados.
+
+**Diferenciais da nossa Base:**
+- Sem lógica condicional complexa (menor custo de gas)
+- Sem dependências de terceiros obscuras
+- Compatibilidade nativa EVM (Ethereum, Polygon, BSC, Base)
+- Solidity ^0.8.20 (Moderno e Seguro)
 
 ## 2. `forge-cli/` — O Ritual de Criação
 
