@@ -1,14 +1,14 @@
-# Guia Operacional NΞØ SMART FACTORY v0.5.1
+# Guia Operacional NΞØ SMART FACTORY v0.5.3
 
-> **Status Atual:** Híbrido (Core pronto / UI pendente)
+> **Status Atual:** Multichain Foundation (Base, Polygon, Arbitrum)
 > **Data:** 20 de Janeiro de 2026
 
 Este documento explica como utilizar as ferramentas da NΞØ SMART FACTORY no estado atual ("Ignição"), onde a interface visual ainda não está disponível, mas o motor interno (`internal-ops`) está totalmente funcional via terminal.
 
 ## 🎯 Visão Geral
 
-O projeto está na versão **v0.5.1**.
-- **O que está pronto:** O "cérebro" da fábrica (simuladores, auditores, geradores de contratos).
+O projeto está na versão **v0.5.3**.
+- **O que está pronto:** O cérebro neural da fábrica (simuladores, auditores), contratos multichain (NeoTokenV2), bridge manual e integração MiniApp.
 - **O que falta:** A "face" da fábrica (website, dashboard visual).
 
 Você pode (e deve) usar o terminal para acessar todas as funcionalidades críticas hoje.

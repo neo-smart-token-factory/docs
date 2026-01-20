@@ -17,6 +17,8 @@
 - **[Arquitetura Cirúrgica](ARCHITECTURE_SURGICAL.md)** — Descrição cirúrgica de cada bloco do sistema
 - **[Base Repository](BASE_REPOSITORY.md)** — Base técnica purificada (erc20-token-generator)
 - **[NeoTokenV2](NEOTOKENV2.md)** ⭐ — Documentação técnica completa do NeoTokenV2 (Multichain & AA-Ready)
+- **[Manual Bridge](MANUAL_BRIDGE.md)** 🌉 — Sistema de bridge manual multi-sig para multichain
+- **[MiniApp Integration](MINIAPP_INTEGRATION.md)** 🤖 — Guia de integração com Telegram MiniApp
 - **[Nomenclatura](NOMENCLATURA.md)** — Padrões e convenções de nomenclatura
 - **[Decision Log](DECISION_LOG.md)** — Registro de decisões técnicas (ADRs)
 
@@ -103,10 +105,13 @@ docs/
 2. **Quer entender a arquitetura?** → Leia [Arquitetura Cirúrgica](ARCHITECTURE_SURGICAL.md)
 3. **Quer ver o que mudou?** → Veja [Changelog](changelog.md)
 4. **Quer entender a base técnica?** → Leia [Base Repository](BASE_REPOSITORY.md)
-5. **Quer usar NeoTokenV2?** ⭐ → Veja [NeoTokenV2](NEOTOKENV2.md)
+5. **Quer entender a operação?** → Leia [Guia Operacional](GUIA_OPERACIONAL.md)
+6. **Quer usar NeoTokenV2?** ⭐ → Veja [NeoTokenV2](NEOTOKENV2.md)
 6. **Quer usar o sistema interno?** → Veja [Comandos](../internal-ops/COMMANDS.md)
-7. **Quer entender nomenclatura?** → Veja [Nomenclatura](NOMENCLATURA.md)
-8. **Quer entender decisões técnicas?** → Veja [Decision Log](DECISION_LOG.md)
+7. **Quer integrar com Telegram?** → Veja [MiniApp Integration](MINIAPP_INTEGRATION.md)
+8. **Quer fazer bridge entre chains?** → Veja [Manual Bridge](MANUAL_BRIDGE.md)
+9. **Quer entender nomenclatura?** → Veja [Nomenclatura](NOMENCLATURA.md)
+10. **Quer entender decisões técnicas?** → Veja [Decision Log](DECISION_LOG.md)
 
 ---
 
