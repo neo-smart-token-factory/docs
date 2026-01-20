@@ -16,7 +16,9 @@
 - **[Arquitetura Técnica](architecture.md)** — Arquitetura técnica detalhada dos contratos
 - **[Arquitetura Cirúrgica](ARCHITECTURE_SURGICAL.md)** — Descrição cirúrgica de cada bloco do sistema
 - **[Base Repository](BASE_REPOSITORY.md)** — Base técnica purificada (erc20-token-generator)
+- **[NeoTokenV2](NEOTOKENV2.md)** ⭐ — Documentação técnica completa do NeoTokenV2 (Multichain & AA-Ready)
 - **[Nomenclatura](NOMENCLATURA.md)** — Padrões e convenções de nomenclatura
+- **[Decision Log](DECISION_LOG.md)** — Registro de decisões técnicas (ADRs)
 
 ### Versões e Patches
 
@@ -101,8 +103,10 @@ docs/
 2. **Quer entender a arquitetura?** → Leia [Arquitetura Cirúrgica](ARCHITECTURE_SURGICAL.md)
 3. **Quer ver o que mudou?** → Veja [Changelog](changelog.md)
 4. **Quer entender a base técnica?** → Leia [Base Repository](BASE_REPOSITORY.md)
-5. **Quer usar o sistema interno?** → Veja [Comandos](../internal-ops/COMMANDS.md)
-6. **Quer entender nomenclatura?** → Veja [Nomenclatura](NOMENCLATURA.md)
+5. **Quer usar NeoTokenV2?** ⭐ → Veja [NeoTokenV2](NEOTOKENV2.md)
+6. **Quer usar o sistema interno?** → Veja [Comandos](../internal-ops/COMMANDS.md)
+7. **Quer entender nomenclatura?** → Veja [Nomenclatura](NOMENCLATURA.md)
+8. **Quer entender decisões técnicas?** → Veja [Decision Log](DECISION_LOG.md)
 
 ---
 
@@ -115,5 +119,16 @@ docs/
 
 ---
 
-**Última atualização**: v0.5.1 — IGNIÇÃO  
-**Mantido por**: NΞØ Protocol
+**Última atualização**: v0.5.3 — MULTICHAIN FOUNDATION
+
+---
+
+### 👤 Autoria
+
+**Project Lead**: NODE NEØ  
+**Email**: neo@neoprotocol.space  
+**Web3 Identity**: neoprotocol.eth  
+**NEØ PROTOCOL**: https://neoprotocol.space  
+[![GitHub](https://img.shields.io/badge/GitHub-neo--smart--token--factory-181717?style=flat&logo=github)](https://github.com/neo-smart-token-factory)
+
+> *Expand until silence becomes structure.*

@@ -16,9 +16,17 @@ A NΞØ SMART FACTORY é dividida em **5 blocos cirúrgicos**, cada um com funç
 ```
 forge-core/
 ├── contracts/          # Contratos inteligentes
-│   ├── NeoTokenBase.sol      # Base purificada
-│   ├── IgnitionToken.sol     # Token de ignição
-│   └── ...
+│   ├── NeoTokenBase.sol      # Base purificada (v0.5.1)
+│   ├── NeoTokenV2.sol         # Multichain & AA-Ready (v0.5.3) ⭐
+│   ├── IgnitionToken.sol      # Token de ignição
+│   ├── NeoSmartFactory.sol    # Factory principal
+│   ├── tokens/                # Módulos de tokens
+│   │   ├── NeoERC20.sol
+│   │   └── NeoERC721.sol
+│   ├── vesting/               # Sistema de vesting
+│   │   └── NeoVesting.sol
+│   └── rewards/               # Sistema de recompensas
+│       └── NeoRewards.sol
 ├── scripts/            # Scripts de deploy e operação
 │   ├── deploy.js
 │   ├── simulate.js
@@ -33,7 +41,8 @@ forge-core/
 ```
 
 **Responsabilidades**:
-- ✅ Contratos base (NeoTokenBase, IgnitionToken)
+- ✅ Contratos base (NeoTokenBase, **NeoTokenV2**, IgnitionToken)
+- ✅ Factory modular (NeoSmartFactory)
 - ✅ Scripts de deploy e verificação
 - ✅ Testes automatizados
 - ✅ Templates para geração
@@ -44,13 +53,19 @@ forge-core/
 **Base Técnica**: OpenZeppelin Contracts v5.0
 **Arquitetura**: Implementação nativa e limpa (Vanilla Implementation).
 
-Ao contrário de "Token Generators" genéricos que carregam código morto e flags desnecessárias, o `NeoTokenBase` utiliza herança direta de padrões auditados.
+Ao contrário de "Token Generators" genéricos que carregam código morto e flags desnecessárias, nossos contratos utilizam herança direta de padrões auditados.
+
+**Evolução dos Contratos:**
+- **NeoTokenBase** (v0.5.1): Base purificada original, ideal para tokens simples
+- **NeoTokenV2** (v0.5.3): Evolução com ERC20Permit + Bridge Minter (Multichain & AA-Ready) ⭐
+- **IgnitionToken**: Token de ignição específico do projeto
 
 **Diferenciais da nossa Base:**
 - Sem lógica condicional complexa (menor custo de gas)
 - Sem dependências de terceiros obscuras
 - Compatibilidade nativa EVM (Ethereum, Polygon, BSC, Base)
 - Solidity ^0.8.20 (Moderno e Seguro)
+- **NeoTokenV2**: Preparado para Account Abstraction e Multichain
 
 ## 2. `forge-cli/` — O Ritual de Criação
 
@@ -248,5 +263,17 @@ docs/        →  Inteligência (documenta tudo)
 
 **Cada bloco tem função cirúrgica específica. Nenhum bloco faz o trabalho do outro.**
 
-*NΞØ SMART FACTORY v0.5.1 — IGNIÇÃO*
+*NΞØ SMART FACTORY v0.5.3 — MULTICHAIN FOUNDATION*
+
+---
+
+### 👤 Autoria
+
+**Project Lead**: NODE NEØ  
+**Email**: neo@neoprotocol.space  
+**Web3 Identity**: neoprotocol.eth  
+**NEØ PROTOCOL**: https://neoprotocol.space  
+[![GitHub](https://img.shields.io/badge/GitHub-neo--smart--token--factory-181717?style=flat&logo=github)](https://github.com/neo-smart-token-factory)
+
+> *Expand until silence becomes structure.*
 

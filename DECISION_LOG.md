@@ -33,7 +33,119 @@ Optamos pela **Abordagem NΞØ (Factory Modular)** baseada em OpenZeppelin.
 3.  **Profissionalismo:** Tokens gerados são "puros" (`contract Token is ERC20`), sem a estigma de "tokens de gerador" que muitas vezes são associados a scams ou projetos amadores.
 4.  **Longevidade:** Manutenção simplificada por depender de padrões da indústria (OZ) e não de repositórios mantidos por indivíduos.
 
-### Consequências
-*   O documento `ARCHITECTURE_SURGICAL.md` foi atualizado para remover referências a geradores antigos.
-*   A base técnica oficial é **OpenZeppelin**.
-*   Qualquer nova funcionalidade deve ser implementada via módulos/extensões, não inchando o contrato base.
+## ADR-002: Soberania Web3 (Raiz) vs. Managed SaaS (Thirdweb style)
+
+**Data:** 20 de Janeiro de 2026
+**Status:** Decidido
+
+### Contexto
+Plataformas como Thirdweb facilitam o deploy, mas muitas vezes criam uma dependência (lock-in) onde o controle do contrato ou sua interface depende de mensalidades ou infraestrutura proprietária ("SaaS Web3").
+
+### Decisão
+A **NΞØ SMART FACTORY** adota a filosofia **Web3 Raiz**.
+1. **Zero Fees recorrentes:** O usuário é dono total do contrato; a fábrica é a ferramenta de forja, não o dono da bigorna.
+2. **Código Aberto e Verificável:** Sem amarras em dashboards proprietários.
+3. **Poder ao Criador:** Foco em ferramentas que o criador pode rodar localmente ou em sua própria infra (ex: internal-ops).
+
+---
+
+## ADR-003: Evolução para Smart Accounts e Multichain
+
+**Data:** 20 de Janeiro de 2026
+**Status:** Planejado
+
+### Decisão
+Integrar suporte nativo para:
+1. **Account Abstraction (ERC-4337):** Wallets que não dependem de seed phrases puras.
+2. **MPC (Multi-Party Computation):** Seguindo a tendência de wallets da BASE/Coinbase para onboarding em massa.
+3. **Metamask Snaps:** Extensões da fábrica diretamente na wallet do usuário.
+4. **Arquitetura Multichain:** Tokens que nascem preparados para pontes e presença em múltiplas redes simultaneamente.
+
+---
+
+## ADR-004: NeoTokenV2 — Multichain & Account Abstraction Ready
+
+**Data:** 20 de Janeiro de 2026
+**Status:** ✅ Implementado (v0.5.3)
+
+### Contexto
+Com a evolução do ecossistema Web3 para Account Abstraction (ERC-4337) e arquiteturas multichain, o `NeoTokenBase` original precisava evoluir para suportar:
+- Transações gasless via ERC20Permit (EIP-2612)
+- Mint cross-chain via bridges autorizadas
+- Proteção anti-bot nativa
+- Supply cap rígido
+
+### Análise Técnica
+
+#### Limitações do NeoTokenBase
+- Sem suporte nativo para meta-transactions
+- Sem preparação para operações cross-chain
+- Proteção anti-bot dependente de implementação externa
+- Supply cap configurável (não imutável)
+
+#### Solução: NeoTokenV2
+Evolução que mantém a filosofia "Vanilla" mas adiciona recursos essenciais para o ecossistema moderno:
+
+1. **ERC20Permit (EIP-2612)**
+   - Meta-transactions nativas via assinaturas off-chain
+   - Compatível com Smart Wallets (Coinbase, Safe, Argent)
+   - UX gasless para onboarding
+
+2. **Bridge Minter Role**
+   - Endereço autorizado para mint cross-chain
+   - Preparado para LayerZero, Wormhole, Axelar
+   - Validações de segurança (zero address, supply cap)
+
+3. **Supply Cap Imutável**
+   - `MAX_SUPPLY` constante de 1 bilhão
+   - Verificação em `publicMint()` e `bridgeMint()`
+   - Transparência e escassez garantidas
+
+4. **Anti-bot Integrado**
+   - Mapping `hasPublicMinted` (1 mint por wallet)
+   - Proteção contra ataques sybil
+   - Função `resetPublicMint()` para casos de emergência
+
+5. **Eventos Completos**
+   - `PublicMinted(minter, amount, pricePaid)`
+   - `BridgeMinted(to, amount)`
+   - Otimizado para indexadores (The Graph, Dune)
+
+6. **Segurança Reforçada**
+   - `withdraw()` usa `call{}` em vez de `transfer()`
+   - Validações de zero address
+   - Ownable2Step para transferência segura de ownership
+
+### Decisão
+Adotar **NeoTokenV2** como padrão para novos tokens que requerem:
+- Account Abstraction
+- Arquitetura Multichain
+- Proteção anti-bot nativa
+- Supply cap imutável
+
+**NeoTokenBase** permanece disponível para casos de uso mais simples.
+
+**Justificativa:**
+1. **AA-Ready**: Suporte nativo para Smart Wallets sem dependências externas
+2. **Multichain**: Arquitetura preparada para expansão cross-chain
+3. **Segurança**: Padrões modernos (call{}, validações, eventos)
+4. **DX**: View function `getContractInfo()` facilita integração frontend
+5. **Compatibilidade**: Mantém herança OpenZeppelin v5.0 (auditado)
+
+### Impacto
+- ✅ Tokens criados são "future-proof" para AA e multichain
+- ✅ Reduz necessidade de upgrades futuros
+- ✅ Mantém filosofia "Vanilla" (sem bloatware)
+- ✅ Facilita integração com wallets modernas
+
+---
+
+### 👤 Autoria
+
+**Project Lead**: NODE NEØ  
+**Email**: neo@neoprotocol.space  
+**Web3 Identity**: neoprotocol.eth  
+**NEØ PROTOCOL**: https://neoprotocol.space  
+[![GitHub](https://img.shields.io/badge/GitHub-neo--smart--token--factory-181717?style=flat&logo=github)](https://github.com/neo-smart-token-factory)
+
+> *Expand until silence becomes structure.*

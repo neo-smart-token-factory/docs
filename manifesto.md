@@ -36,5 +36,17 @@ E quer ativar uma geração de criadores que desejam exatamente isso.
 
 ---
 
-*NΞØ SMART FACTORY v0.5.1 — IGNIÇÃO*
+*NΞØ SMART FACTORY v0.5.3 — MULTICHAIN FOUNDATION*
+
+---
+
+### 👤 Autoria
+
+**Project Lead**: NODE NEØ  
+**Email**: neo@neoprotocol.space  
+**Web3 Identity**: neoprotocol.eth  
+**NEØ PROTOCOL**: https://neoprotocol.space  
+[![GitHub](https://img.shields.io/badge/GitHub-neo--smart--token--factory-181717?style=flat&logo=github)](https://github.com/neo-smart-token-factory)
+
+> *Expand until silence becomes structure.*
 

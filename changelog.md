@@ -97,6 +97,43 @@ A versão 1.0 representa o cumprimento completo do manifesto: uma fábrica desce
 
 ## 📋 Histórico de Versões
 
+### [0.5.3] - 2026-01-20 — MULTICHAIN FOUNDATION
+
+**Status**: ✅ Implementado — Arquitetura Multichain & AA-Ready
+
+#### Adicionado
+- **NeoTokenV2.sol** — Evolução do NeoTokenBase para o ecossistema moderno
+  - ✅ **ERC20Permit (EIP-2612)**: Transações gasless via assinaturas off-chain
+  - ✅ **Bridge Minter Role**: Sistema autorizado para mint cross-chain
+  - ✅ **Supply Cap Imutável**: `MAX_SUPPLY` constante de 1 bilhão de tokens
+  - ✅ **Anti-bot Integrado**: Mapping `hasPublicMinted` (1 mint por wallet)
+  - ✅ **Eventos Completos**: `PublicMinted(minter, amount, pricePaid)` e `BridgeMinted(to, amount)`
+  - ✅ **View Function**: `getContractInfo()` retorna status completo do contrato
+  - ✅ **Função de Emergência**: `resetPublicMint(address)` para casos edge
+
+#### Melhorado
+- **Segurança do `withdraw()`**: Migrado de `transfer()` para `call{}` (padrão moderno)
+- **Validações Reforçadas**: Zero address checks em `bridgeMint()` e `setBridgeMinter()`
+- **Documentação Inline**: NatSpec completo em todas as funções públicas
+- **Mensagens de Erro**: Strings descritivas para melhor debugging
+
+#### Arquitetura
+- **Account Abstraction Ready**: Suporte nativo para Smart Wallets (Coinbase, Safe, Argent)
+- **Multichain Ready**: Preparado para LayerZero, Wormhole, Axelar
+- **Indexação Otimizada**: Eventos estruturados para The Graph e Dune Analytics
+- **Frontend-Friendly**: `getContractInfo()` simplifica integração com dApps
+
+#### Compatibilidade
+- OpenZeppelin Contracts v5.0
+- Solidity ^0.8.20
+- EVM-compatible chains (Ethereum, Polygon, Base, Arbitrum, Optimism)
+
+#### Decisões Técnicas
+- Ver `docs/DECISION_LOG.md` → ADR-004 para justificativa completa
+- Ver `docs/NEOTOKENV2.md` para documentação técnica detalhada
+
+---
+
 ### [0.5.1] - 2024-01-01 — IGNIÇÃO
 
 **Status**: ✅ Estável — Base funcional
@@ -177,3 +214,15 @@ Cada versão tem um nome temático relacionado ao manifesto:
 ---
 
 **Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/)**
+
+---
+
+### 👤 Autoria
+
+**Project Lead**: NODE NEØ  
+**Email**: neo@neoprotocol.space  
+**Web3 Identity**: neoprotocol.eth  
+**NEØ PROTOCOL**: https://neoprotocol.space  
+[![GitHub](https://img.shields.io/badge/GitHub-neo--smart--token--factory-181717?style=flat&logo=github)](https://github.com/neo-smart-token-factory)
+
+> *Expand until silence becomes structure.*

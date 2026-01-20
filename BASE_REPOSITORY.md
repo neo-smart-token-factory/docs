@@ -85,10 +85,22 @@ forge-core/
 
 **Transformação:**
 - Purificado e adaptado para NΞØ SMART FACTORY
-- Versão: v0.5.1 — IGNIÇÃO
+- Versão: v0.5.3 — MULTICHAIN FOUNDATION
 - Padronizado para Polygon
 
 ---
 
-*Base purificada e transformada em NΞØ SMART FACTORY v0.5.1*
+*Base purificada e transformada em NΞØ SMART FACTORY v0.5.3*
+
+---
+
+### 👤 Autoria
+
+**Project Lead**: NODE NEØ  
+**Email**: neo@neoprotocol.space  
+**Web3 Identity**: neoprotocol.eth  
+**NEØ PROTOCOL**: https://neoprotocol.space  
+[![GitHub](https://img.shields.io/badge/GitHub-neo--smart--token--factory-181717?style=flat&logo=github)](https://github.com/neo-smart-token-factory)
+
+> *Expand until silence becomes structure.*
 
