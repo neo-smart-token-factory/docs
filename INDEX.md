@@ -9,6 +9,7 @@
 ### Visão e Estratégia
 
 - **[Manifesto](manifesto.md)** — Visão, valores e missão do projeto
+- **[Roadmap: Product & Cash](roadmap-product-cash.md)** ⭐ — Estratégia de monetização e evolução do produto
 - **[Changelog](changelog.md)** — Histórico completo de mudanças
 
 ### Arquitetura
