@@ -21,7 +21,7 @@ O `smart-cli` evolui de uma ferramenta interna para um produto de diagnóstico d
 - [ ] **Modo Demo:** Diagnósticos básicos gratuitos (Read-only).
 - [ ] **Modo PRO:** Diagnósticos avançados + Relatórios exportáveis (Requer Licença/Token).
 
-> **📌 Nota de Valor:** Isso é vendável como um "Pre-Audit Check" rápido.
+> **📌 Nota de Valor:** Isso é vendável como um "Pre-Audit Check" rápido. Veja mais em [Doctor CLI Deep Dive](../architecture/specs/doctor-cli-deep-dive.md).
 
 ---
 

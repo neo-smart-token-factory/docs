@@ -1,139 +1,82 @@
 # Índice da Documentação — NΞØ SMART FACTORY
 
-> **Navegação rápida para toda a documentação do projeto**
+> **Navegação rápida para toda a documentação da organização organizada por domínios.**
 
 ---
 
-## 📚 Documentação Principal
+## 🏛️ 1. Core & Governança
+Fundamentos, valores e regras de contribuição da organização.
 
-### Visão e Estratégia
-
-- **[Manifesto](manifesto.md)** — Visão, valores e missão do projeto
-- **[Roadmap: Product & Cash](roadmap-product-cash.md)** ⭐ — Estratégia de monetização e evolução do produto
-- **[Changelog](changelog.md)** — Histórico completo de mudanças
-
-### Arquitetura
-
-- **[Arquitetura Técnica](architecture.md)** — Arquitetura técnica detalhada dos contratos
-- **[Arquitetura Cirúrgica](ARCHITECTURE_SURGICAL.md)** — Descrição cirúrgica de cada bloco do sistema
-- **[Base Repository](BASE_REPOSITORY.md)** — Base técnica purificada (erc20-token-generator)
-- **[NeoTokenV2](NEOTOKENV2.md)** ⭐ — Documentação técnica completa do NeoTokenV2 (Multichain & AA-Ready)
-- **[Manual Bridge](MANUAL_BRIDGE.md)** 🌉 — Sistema de bridge manual multi-sig para multichain
-- **[MiniApp Integration](MINIAPP_INTEGRATION.md)** 🤖 — Guia de integração com Telegram MiniApp
-- **[Nomenclatura](NOMENCLATURA.md)** — Padrões e convenções de nomenclatura
-- **[Decision Log](DECISION_LOG.md)** — Registro de decisões técnicas (ADRs)
-
-### Versões e Patches
-
-- **[Patch v0.5.1 — IGNIÇÃO](patch-v0.5.1.md)** — Notas do patch de ignição
+- **[Manifesto](core/manifesto.md)** — Visão, valores e missão do projeto.
+- **[Governança](core/governance.md)** — Resumo de governança e tomada de decisão.
+- **[Guia de Contribuição](core/contributing.md)** — Como contribuir e padrões de commit.
+- **[Licença](core/LICENSE)** — Termos de uso MIT.
 
 ---
 
-## 🔍 Auditoria e Histórico
+## 🎯 2. Estratégia & Produto
+Planejamento de mercado, monetização e roadmaps.
 
-### Auditoria
-
-- **[Relatório de Auditoria](auditoria/RELATORIO_AUDITORIA.md)** — Comparação modelo inicial vs implementação atual
-
-- **[Status da Factory](auditoria/factory-status.md)** — Status atual e roadmap
-- **[Modelo Inicial Conceitual](auditoria/MODELO_INICIAL_CONCEITUAL.md)** — Modelo mental e visão inicial (brainstorm)
-- **[Estrutura — Validação](auditoria/STRUCTURE_VALIDACAO.md)** — Checklist de validação da estrutura v0.5.1
-
-### Planejamento Futuro (Multi-Repo)
-
-- **[Arquitetura Multi-Repo](auditoria/analise-conclusao/arquitetura.md)** — Visão completa da arquitetura modular (proposta futura)
-- **[Catálogo de Repositórios](auditoria/analise-conclusao/repos.md)** — Lista completa de repositórios planejados
-- **[Plano de Migração](auditoria/analise-conclusao/plano-migr.md)** — Timeline de 9 semanas para migração
-- **[Análise dos Documentos](auditoria/analise-conclusao/ANALISE_DOCUMENTOS.md)** — Comparação com estrutura atual
+- **[Roadmap: Product & Cash](strategy/roadmap-cash.md)** ⭐ — Estratégia de monetização e fluxos de caixa.
+- **[Roadmap Técnico](strategy/roadmap-tech.md)** — Evolução da stack tecnológica.
+- **[CLI Product Roadmap](strategy/cli-product-roadmap.md)** — Evolução do `smart-cli` como produto.
+- **Planejamento de Execução:**
+    - [Visão Geral de Planejamento](strategy/planning/overview.md)
+    - [Plano de Landing Page](strategy/planning/landing-plan.md)
+    - [Definição de Oferta](strategy/planning/offer-definition.md)
+    - [Plano de Monetização Detalhado](strategy/planning/monetization-plan.md)
 
 ---
 
-## 🎯 Documentação por Módulo
+## 🏗️ 3. Arquitetura & Decisões
+Especificações técnicas e registros de decisões estruturais.
 
-### forge-core
-
-- Ver `forge-core/README.md` (se existir)
-- Contratos: `forge-core/contracts/`
-- Scripts: `forge-core/scripts/`
-- Testes: `forge-core/test/`
-
-### forge-ui
-
-- **[forge-ui/README.md](../forge-ui/README.md)** — Documentação da interface web
-- Landing: `forge-ui/landing/README.md`
-- Nuxt App: `forge-ui/nuxt-app/README.md`
-
-### forge-cli
-
-- Ver `forge-cli/package.json` para comandos
-- Comandos: `forge-cli/commands/`
-
-### internal-ops
-
-- **[README](../internal-ops/README.md)** — Visão geral do sistema interno
-- **[Comandos](../internal-ops/COMMANDS.md)** — Guia completo de comandos
-- **[Uso](../internal-ops/USAGE.md)** — Como usar o sistema interno
-- **[Simulador de Ecossistemas](../internal-ops/ECOSYSTEM_SIMULATOR.md)** — Documentação do simulador
-
-### tokens
-
-- **[README](../tokens/README.md)** — Estrutura e formato de tokens criados
+- **[Arquitetura Detalhada](architecture/architecture.md)** — Visão técnica dos contratos.
+- **[Arquitetura Cirúrgica](architecture/surgical.md)** — Análise modular dos blocos do sistema.
+- **[Nomenclatura](architecture/nomenclature.md)** — Padrões e convenções.
+- **[Decision Log (ADRs)](architecture/adr/decision-log.md)** — Registro de decisões técnicas.
+- **Especificações (Specs):**
+    - [NeoTokenV2](architecture/specs/neotoken-v2.md) ⭐ — Multichain & AA-Ready.
+    - [Doctor CLI Deep Dive](architecture/specs/doctor-cli-deep-dive.md) 🩺 — Detalhamento do Produto Fase A.
+    - [Base Repository](architecture/specs/base-repository.md) — O "padrão ouro" do repositório.
+    - [AgentKit Guide](architecture/specs/base-agentkit-guide.md) — Integração com agentes de IA.
 
 ---
 
-## 🗂️ Estrutura de Documentação
+## ⚙️ 4. Operações & Padrões
+Guias práticos, padrões de repositório e infraestrutura de CI.
 
-docs/
-├── INDEX.md                          ← Este arquivo
-├── manifesto.md                      ← Visão e valores
-├── architecture.md                   ← Arquitetura técnica
-├── ARCHITECTURE_SURGICAL.md         ← Arquitetura cirúrgica
-├── BASE_REPOSITORY.md               ← Base técnica
-├── NOMENCLATURA.md                  ← Padrões de nomenclatura
-├── patch-v0.5.1.md                  ← Patch notes
-├── changelog.md                     ← Histórico
-└── auditoria/
-    ├── RELATORIO_AUDITORIA.md       ← Relatório de auditoria
-    ├── INCONSISTENCIAS_NOMENCLATURA.md ← Inconsistências (resolvidas)
-    ├── MODELO_INICIAL_CONCEITUAL.md ← Modelo inicial (brainstorm)
-    └── STRUCTURE_VALIDACAO.md       ← Validação estrutura
+- **Guias Operacionais:**
+    - [Manual de Operação](operations/guides/operational-guide.md)
+    - [Manual de Bridge Manuel](operations/guides/manual-bridge.md)
+    - [Integração MiniApp Telegram](operations/guides/miniapp-integration.md)
+- **Deployment & CI:**
+    - [Histórico de Deployments](operations/deployment/history.md)
+    - [Especificação de Workflows CI](operations/deployment/ci-workflows.md)
+- **Padrões de Repositório (Standards):**
+    - [Workflow Baseline](operations/standards/workflow-baseline.md)
+    - [Bootstrap Checklist](operations/standards/bootstrap-checklist.md)
+    - [GitHub Apps & Integrações](operations/standards/github-apps.md)
 
 ---
 
-## 🚀 Início Rápido
+## 📜 5. Histórico & Auditoria
+Arquivo e verificações de segurança.
 
-1. **Novo no projeto?** → Comece pelo [Manifesto](manifesto.md)
-2. **Quer entender a arquitetura?** → Leia [Arquitetura Cirúrgica](ARCHITECTURE_SURGICAL.md)
-3. **Quer ver o que mudou?** → Veja [Changelog](changelog.md)
-4. **Quer entender a base técnica?** → Leia [Base Repository](BASE_REPOSITORY.md)
-5. **Quer entender a operação?** → Leia [Guia Operacional](GUIA_OPERACIONAL.md)
-6. **Quer usar NeoTokenV2?** ⭐ → Veja [NeoTokenV2](NEOTOKENV2.md)
-6. **Quer usar o sistema interno?** → Veja [Comandos](../internal-ops/COMMANDS.md)
-7. **Quer integrar com Telegram?** → Veja [MiniApp Integration](MINIAPP_INTEGRATION.md)
-8. **Quer fazer bridge entre chains?** → Veja [Manual Bridge](MANUAL_BRIDGE.md)
-9. **Quer entender nomenclatura?** → Veja [Nomenclatura](NOMENCLATURA.md)
-10. **Quer entender decisões técnicas?** → Veja [Decision Log](DECISION_LOG.md)
+- **[Changelog](archive/changelog.md)** — Histórico de versões.
+- **[Relatório de Auditoria](auditoria/RELATORIO_AUDITORIA.md)** — Comparação e segurança.
+- **[Patch v0.5.1](archive/patch-v0.5.1.md)** — Notas da versão de ignição.
 
 ---
 
-## 📝 Convenções
-
-- **Documentação principal**: `docs/*.md`
-- **Auditoria/Histórico**: `docs/auditoria/*.md`
-- **Documentação de módulos**: `{modulo}/README.md`
-- **Templates**: `{modulo}/templates/*.md`
-
----
-
-**Última atualização**: v0.5.3 — MULTICHAIN FOUNDATION
+**Última reorganização estrutural**: v0.5.3 — MULTICHAIN FOUNDATION
+**Status**: 🟢 Estrutura Refatorada
 
 ---
 
 ### 👤 Autoria
 
 **Project Lead**: NODE NEØ  
-**Email**: neo@neoprotocol.space  
-**Web3 Identity**: neoprotocol.eth  
 **NEØ PROTOCOL**: https://neoprotocol.space  
 [![GitHub](https://img.shields.io/badge/GitHub-neo--smart--token--factory-181717?style=flat&logo=github)](https://github.com/neo-smart-token-factory)
 

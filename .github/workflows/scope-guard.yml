@@ -15,7 +15,7 @@ jobs:
 
             - name: Check for restricted paths
               run: |
-                  RESTRICTED_PATHS=".github/workflows/ LICENSE CONTRIBUTING.md repo-workflow-baseline.md ci-workflows-spec.md"
+                  RESTRICTED_PATHS=".github/workflows/ core/LICENSE core/contributing.md operations/standards/workflow-baseline.md operations/deployment/ci-workflows.md"
                   CHANGED_FILES=$(git diff --name-only origin/${{ github.base_ref }} ${{ github.sha }})
 
                   VIOLATION=false
