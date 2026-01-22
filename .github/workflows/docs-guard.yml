@@ -1,0 +1,35 @@
+name: Docs Guard
+
+on:
+    pull_request:
+        branches: [main]
+
+jobs:
+    check-docs:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout code
+              uses: actions/checkout@v4
+              with:
+                  fetch-depth: 0
+
+            - name: Check Index Updates
+              run: |
+                  # Get list of new markdown files
+                  NEW_MD_FILES=$(git diff --name-only --diff-filter=A origin/${{ github.base_ref }} ${{ github.sha }} | grep '\.md$' || true)
+
+                  if [ -n "$NEW_MD_FILES" ]; then
+                    echo "New markdown files detected:"
+                    echo "$NEW_MD_FILES"
+                    
+                    # Check if INDEX.md was changed
+                    INDEX_CHANGED=$(git diff --name-only origin/${{ github.base_ref }} ${{ github.sha }} | grep 'INDEX.md' || true)
+                    
+                    if [ -z "$INDEX_CHANGED" ]; then
+                      echo "Error: New documentation files must be linked in INDEX.md."
+                      echo "Files added: $NEW_MD_FILES"
+                      exit 1
+                    fi
+                  fi
+
+                  echo "Documentation index check passed."

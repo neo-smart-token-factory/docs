@@ -14,7 +14,12 @@ We value clear, precise, and inspiring documentation. As the NΞØ SMART FACTORY
 1. **Fork** the `docs` repository.
 2. **Update** or add the necessary markdown files.
 3. **Link** new files in the **[INDEX.md](./INDEX.md)** relative to their section.
-4. **Submit a Pull Request** with a clear description of what was changed and why.
+4. **Commit** using **Conventional Commits**:
+   - `feat`: New documentation section.
+   - `docs`: Updates to existing documentation.
+   - `fix`: Correcting errors or broken links.
+   - `chore`: Maintenance (workflows, README, etc.).
+5. **Submit a Pull Request** with a clear description of what was changed and why.
 
 ## 🧱 Structure
 
