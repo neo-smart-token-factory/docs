@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>MANIFESTO DE PROVA — SHA-256 E TXID</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', serif;
+            font-size: 12pt;
+            line-height: 1.5;
+            margin: 2.5cm;
+        }
+        h1 {
+            font-size: 18pt;
+            font-weight: bold;
+            text-align: center;
+            margin-top: 24pt;
+            margin-bottom: 12pt;
+        }
+        h2 {
+            font-size: 14pt;
+            font-weight: bold;
+            margin-top: 18pt;
+            margin-bottom: 9pt;
+        }
+        h3 {
+            font-size: 12pt;
+            font-weight: bold;
+            margin-top: 12pt;
+            margin-bottom: 6pt;
+        }
+        p {
+            margin-bottom: 6pt;
+            text-align: justify;
+        }
+        ul, ol {
+            margin-left: 1.5cm;
+            margin-bottom: 6pt;
+        }
+        li {
+            margin-bottom: 3pt;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin: 12pt 0;
+        }
+        th, td {
+            padding: 8pt;
+            border: 1px solid #000;
+            text-align: left;
+        }
+        th {
+            background-color: #f0f0f0;
+            font-weight: bold;
+        }
+        code {
+            font-family: 'Courier New', monospace;
+            font-size: 10pt;
+            background-color: #f5f5f5;
+            padding: 2pt 4pt;
+        }
+        pre {
+            font-family: 'Courier New', monospace;
+            font-size: 10pt;
+            background-color: #f5f5f5;
+            padding: 6pt;
+            border: 1px solid #ddd;
+            margin: 6pt 0;
+            overflow-x: auto;
+        }
+        strong {
+            font-weight: bold;
+        }
+        .center {
+            text-align: center;
+        }
+        .footer {
+            margin-top: 24pt;
+            text-align: center;
+            font-style: italic;
+        }
+        hr {
+            border: none;
+            border-top: 1px solid #000;
+            margin: 12pt 0;
+        }
+        .placeholder {
+            color: #666;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <h1>MANIFESTO DE PROVA — SHA-256 E TXID</h1>
+    
+    <p class="center"><strong>Versão</strong>: v1.0<br>
+    <strong>Data</strong>: 2026-01-22<br>
+    <strong>Local</strong>: Goiânia, Goiás - Brasil</p>
+    
+    <hr>
+    
+    <h2>TABELA DE HASHES SHA-256</h2>
+    
+    <p>Esta tabela contém os hashes SHA-256 de cada arquivo do Pacote de Registro v1.0 do projeto NΞØ SMART TOKEN FACTORY.</p>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>Arquivo</th>
+                <th>SHA-256 Hash</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>00_INDEX_NEO_Smart_Token_Factory_v1.0_2026-01-22</td>
+                <td class="placeholder">[A SER PREENCHIDO APÓS GERAÇÃO]</td>
+            </tr>
+            <tr>
+                <td>01_CORE_Authorship_and_Prior_Art_v1.0_2026-01-22</td>
+                <td class="placeholder">[A SER PREENCHIDO APÓS GERAÇÃO]</td>
+            </tr>
+            <tr>
+                <td>02_SYSTEM_Executable_Concept_Overview_v1.0_2026-01-22</td>
+                <td class="placeholder">[A SER PREENCHIDO APÓS GERAÇÃO]</td>
+            </tr>
+            <tr>
+                <td>03_PROOF_Blockchain_Timestamp_Statement_v1.0_2026-01-22.txt</td>
+                <td class="placeholder">[A SER PREENCHIDO APÓS GERAÇÃO]</td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <hr>
+    
+    <h2>INFORMAÇÕES DE REGISTRO BLOCKCHAIN</h2>
+    
+    <h3>Rede Blockchain</h3>
+    
+    <p><strong>Rede</strong>: <span class="placeholder">[BLOCKCHAIN_NETWORK]</span><br>
+    <em>Exemplo: Ethereum Mainnet, Base Mainnet, Arweave, OpenTimestamps</em></p>
+    
+    <h3>Transação Blockchain</h3>
+    
+    <p><strong>TXID (Transaction ID)</strong>: <span class="placeholder">[TXID]</span><br>
+    <em>Hash da transação que registra este pacote na blockchain</em></p>
+    
+    <p><strong>Timestamp UTC</strong>: <span class="placeholder">[UTC_TIMESTAMP]</span><br>
+    <em>Formato: YYYY-MM-DDTHH:MM:SSZ</em><br>
+    <em>Exemplo: 2026-01-22T14:30:00Z</em></p>
+    
+    <hr>
+    
+    <h2>INSTRUÇÕES PARA GERAR HASHES</h2>
+    
+    <h3>Método 1: Linha de Comando (Linux/Mac)</h3>
+    
+    <pre># Gerar SHA-256 de um arquivo
+sha256sum arquivo.md
+
+# Ou usando shasum (Mac)
+shasum -a 256 arquivo.md</pre>
+    
+    <h3>Método 2: Linha de Comando (Windows)</h3>
+    
+    <pre># Usando PowerShell
+Get-FileHash arquivo.md -Algorithm SHA256</pre>
+    
+    <h3>Método 3: Online</h3>
+    
+    <p>Use ferramentas online como:</p>
+    <ul>
+        <li>https://emn178.github.io/online-tools/sha256_checksum.html</li>
+        <li>https://www.fileformat.info/tool/hash.htm</li>
+    </ul>
+    
+    <hr>
+    
+    <h2>INSTRUÇÕES PARA VALIDAÇÃO</h2>
+    
+    <h3>Passo 1: Gerar Hash de Cada Arquivo</h3>
+    
+    <p>Use um dos métodos acima para gerar o SHA-256 de cada arquivo do pacote:</p>
+    <ul>
+        <li>00_INDEX</li>
+        <li>01_CORE</li>
+        <li>02_SYSTEM</li>
+        <li>03_PROOF (arquivo TXT)</li>
+    </ul>
+    
+    <h3>Passo 2: Comparar com Hashes Documentados</h3>
+    
+    <p>Compare os hashes gerados com os hashes documentados nesta tabela. Os hashes devem ser <strong>idênticos</strong>.</p>
+    
+    <h3>Passo 3: Validar Statement (03_PROOF)</h3>
+    
+    <p>O arquivo <code>03_PROOF_Blockchain_Timestamp_Statement_v1.0_2026-01-22.txt</code> deve ser <strong>idêntico</strong> ao texto usado para gerar o hash que foi registrado na blockchain.</p>
+    
+    <p><strong>Importante</strong>: Qualquer alteração no arquivo 03_PROOF resultará em um hash diferente e invalidará a prova blockchain.</p>
+    
+    <h3>Passo 4: Verificar TXID</h3>
+    
+    <p>Após o registro na blockchain:</p>
+    <ol>
+        <li>Acesse o explorador da rede utilizada</li>
+        <li>Cole o TXID na busca</li>
+        <li>Verifique que a transação contém o hash do arquivo 03_PROOF</li>
+        <li>Confirme o timestamp da transação</li>
+    </ol>
+    
+    <hr>
+    
+    <h2>OBSERVAÇÕES IMPORTANTES</h2>
+    
+    <ul>
+        <li>Os hashes SHA-256 são gerados a partir do conteúdo exato dos arquivos</li>
+        <li>Qualquer alteração nos arquivos resultará em hashes diferentes</li>
+        <li>O arquivo 03_PROOF deve ser idêntico ao usado para registro blockchain</li>
+        <li>Este documento deve ser atualizado após a geração dos hashes e registro blockchain</li>
+        <li>Esta é a versão PRIVATE com dados completos</li>
+    </ul>
+    
+    <hr>
+    
+    <h2>STATUS</h2>
+    
+    <ul>
+        <li>[ ] Hashes SHA-256 gerados e preenchidos</li>
+        <li>[ ] Transação blockchain criada</li>
+        <li>[ ] TXID obtido e preenchido</li>
+        <li>[ ] Timestamp UTC registrado</li>
+        <li>[ ] Validação realizada</li>
+    </ul>
+    
+    <div class="footer">
+        <p><strong>NΞØ SMART TOKEN FACTORY — Manifesto de Prova SHA-256 e TXID v1.0</strong><br>
+        <em>Goiânia, Goiás - Brasil, 2026-01-22</em></p>
+    </div>
+</body>
+</html>

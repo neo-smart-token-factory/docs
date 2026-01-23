@@ -1,0 +1,45 @@
+DECLARACAO DE AUTORIA E PROVA DE ANTERIORIDADE - NEO SMART TOKEN FACTORY
+
+Versao: v1.0
+Data: 2026-01-22
+Local: Goiania, Goias - Brasil
+
+AUTOR: Eurycles Ramos Neto
+NACIONALIDADE: Brasileiro
+ESTADO_CIVIL: Divorciado
+PROFISSAO: Empresario
+CPF: 693.799.711-68
+RG: 4143743
+CIDADE: Goiania, GO, Brasil
+EMAIL: nettomello@hotmail.com
+
+DECLARACAO:
+Declaro sob as penas da lei que sou o autor intelectual e desenvolvedor do projeto denominado NΞØ SMART TOKEN FACTORY (tambem referido como NEO SMART FACTORY ou NEO SMART TOKEN FACTORY).
+
+PROVA DE ANTERIORIDADE:
+O desenvolvimento do projeto teve inicio em 16 de novembro de 2025, conforme comprovado pelo primeiro commit no repositorio GitHub: https://github.com/neomello/neo_smart_factory
+
+A partir de 17 de novembro de 2025, o projeto foi migrado para a organizacao GitHub: https://github.com/neo-smart-token-factory
+
+O projeto consiste em uma infraestrutura de criacao automatizada de protocolos tokenizados em blockchain, utilizando um padrao Factory Modular onde componentes podem ser criados independentemente ou como parte de um protocolo completo.
+
+COMPONENTES PRINCIPAIS:
+- FORGE-CORE: Contratos inteligentes (NeoTokenBase, NeoTokenV2, NeoSmartFactory, NeoERC20, NeoERC721, NeoVesting, NeoRewards)
+- FORGE-CLI: Interface de linha de comando para criacao e deploy
+- FORGE-UI: Interface web e PWA para criacao e gestao
+- DOCS: Documentacao tecnica completa (45+ documentos)
+- INTERNAL-OPS: Scripts operacionais e simulacao
+
+TECNOLOGIAS:
+- Solidity ^0.8.20
+- Hardhat
+- OpenZeppelin Contracts v5.0
+- Redes: Polygon, Base, Arbitrum
+- Padroes: ERC20, ERC721, EIP-2612 (Account Abstraction)
+
+ESTADO ATUAL:
+Versao v0.5.3 - MULTICHAIN FOUNDATION
+Componentes principais implementados e funcionais
+Documentacao tecnica disponivel publicamente no repositorio neo-smart-token-factory/docs
+
+Este documento faz parte do Pacote de Registro v1.0 do projeto NEO SMART TOKEN FACTORY, gerado em 2026-01-22 em Goiania, Goias - Brasil.

@@ -5,3 +5,8 @@ temp_repos/
 node_modules/
 dist/
 .env
+
+# Author personal data - NEVER commit
+registro/AUTHOR_DATA_TEMPLATE.md
+registro/private/
+release/private/
