@@ -7,8 +7,9 @@ Local: Goiania, Goias - Brasil
 AUTOR: Eurycles Ramos Neto
 NACIONALIDADE: Brasileiro
 CPF: 693.***.***-** (mascarado na versao publica)
+RG: 4143*** (mascarado na versao publica)
 CIDADE: Goiania, GO, Brasil
-EMAIL: nettomello@hotmail.com
+EMAIL: ***@hotmail.com (mascarado na versao publica)
 
 DECLARACAO:
 Declaro sob as penas da lei que sou o autor intelectual e desenvolvedor do projeto denominado NEO SMART TOKEN FACTORY (tambem referido como NEO SMART FACTORY ou NEO SMART TOKEN FACTORY).

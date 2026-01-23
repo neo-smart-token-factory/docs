@@ -19,9 +19,9 @@ Eu, abaixo identificado, declaro sob as penas da lei que sou o autor intelectual
 **Estado Civil**: Divorciado  
 **Profissão**: Empresário  
 **CPF**: 693.***.***-** (mascarado na versão pública)  
-**RG**: 4143743  
+**RG**: 4143*** (mascarado na versão pública)  
 **Cidade/UF/País**: Goiânia, GO, Brasil  
-**E-mail**: nettomello@hotmail.com
+**E-mail**: ***@hotmail.com (mascarado na versão pública)
 
 ---
 
