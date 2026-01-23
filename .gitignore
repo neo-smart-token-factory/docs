@@ -9,4 +9,5 @@ dist/
 # Author personal data - NEVER commit
 registro/AUTHOR_DATA_TEMPLATE.md
 registro/private/
+registro/release/private/
 release/private/
