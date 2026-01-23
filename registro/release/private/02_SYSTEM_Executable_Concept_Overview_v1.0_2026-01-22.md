@@ -13,6 +13,7 @@ A **NΞØ SMART TOKEN FACTORY** é uma infraestrutura de criação automatizada 
 ### Função Principal
 
 O sistema permite a criação automatizada de:
+
 - Tokens ERC20 customizáveis
 - Coleções NFT (ERC721)
 - Protocolos completos (token + vesting + recompensas)

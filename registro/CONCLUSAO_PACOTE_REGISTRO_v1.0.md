@@ -100,11 +100,11 @@ Informações de cada assinatura estão nos respectivos PDFs.
 ### Informações do Autor:
 
 - **Nome**: Eurycles Ramos Neto
-- **CPF**: 693.799.711-68
-- **RG**: 4143743
+- **CPF**: 693.***.***-** (mascarado)
+- **RG**: 4143*** (mascarado)
 - **Nacionalidade**: Brasileiro
 - **Local**: Goiânia, GO, Brasil
-- **E-mail**: nettomello@hotmail.com
+- **E-mail**: ***@hotmail.com (mascarado)
 
 ### Informações do Projeto:
 

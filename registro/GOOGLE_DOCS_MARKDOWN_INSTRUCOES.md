@@ -66,7 +66,7 @@ Todos os documentos têm uma seção **"ASSINATURA"** no final, contendo:
 
 - Espaço reservado para assinatura digital
 - Seu nome: Eurycles Ramos Neto
-- CPF: 693.799.711-68
+- CPF: 693.***.***-** (mascarado)
 - Local: Goiânia, GO, Brasil
 - Data: 2026-01-22
 

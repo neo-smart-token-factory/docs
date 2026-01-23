@@ -38,11 +38,13 @@ Você precisa gerar o hash SHA-256 de cada arquivo PDF assinado:
 #### Como gerar hash SHA-256:
 
 **Método 1: Linha de Comando (Mac/Linux)**
+
 ```bash
 shasum -a 256 arquivo.pdf
 ```
 
 **Método 2: Online**
+
 - Acesse: https://emn178.github.io/online-tools/sha256_checksum.html
 - Faça upload do arquivo PDF
 - Copie o hash gerado

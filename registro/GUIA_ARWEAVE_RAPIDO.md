@@ -9,9 +9,10 @@
 ## 🦔 OPÇÃO 1: ArConnect (Recomendado - Mais Fácil)
 
 ### O que é:
+
 Extensão de browser (Chrome/Firefox) similar ao MetaMask, mas para Arweave.
 
-### Como usar:
+### Como usar
 
 1. **Instalar ArConnect**:
    - Chrome: <https://chrome.google.com/webstore/detail/arconnect/einnioafmpimabjcddiinlhmijaionap>
