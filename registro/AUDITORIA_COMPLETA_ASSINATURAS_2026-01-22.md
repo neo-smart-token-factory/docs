@@ -69,10 +69,10 @@
 | Nacionalidade | ✅ | Brasileiro |
 | Estado Civil | ✅ | Divorciado |
 | Profissão | ✅ | Empresário |
-| CPF | ✅ | 693.799.711-68 |
-| RG | ✅ | 4143743 |
+| CPF | ✅ | 693.***.***-** (mascarado) |
+| RG | ✅ | 4143*** (mascarado) |
 | Cidade/UF/País | ✅ | Goiânia, GO, Brasil |
-| E-mail | ✅ | nettomello@hotmail.com |
+| E-mail | ✅ | ***@hotmail.com (mascarado) |
 
 ### Dados Faltantes (NÃO obrigatórios para maior de idade):
 - ❌ Nome da mãe (NÃO necessário - só para menores)
