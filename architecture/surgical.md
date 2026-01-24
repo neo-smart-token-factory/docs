@@ -8,13 +8,13 @@ A NΞØ SMART FACTORY é dividida em **5 blocos cirúrgicos**, cada um com funç
 
 ---
 
-## 1. `forge-core/` — O Motor Interno
+## 1. `smart-core/` — O Motor Interno
 
-**Função**: Motor interno da fábrica
+**Função**: Motor interno da fábrica (autoridade de protocolo — ADR 0002)
 
 **Conteúdo**:
 ```
-forge-core/
+smart-core/
 ├── contracts/          # Contratos inteligentes
 │   ├── NeoTokenBase.sol      # Base purificada (v0.5.1)
 │   ├── NeoTokenV2.sol         # Multichain & AA-Ready (v0.5.3) ⭐
@@ -67,7 +67,7 @@ Ao contrário de "Token Generators" genéricos que carregam código morto e flag
 - Solidity ^0.8.20 (Moderno e Seguro)
 - **NeoTokenV2**: Preparado para Account Abstraction e Multichain
 
-## 2. `forge-cli/` — O Ritual de Criação
+## 2. `smart-cli/` — O Ritual de Criação
 
 **Função**: Interface e cérebro operacional
 
@@ -79,7 +79,7 @@ npx neo-smart-factory deploy    # Deploy de token
 
 **Estrutura**:
 ```
-forge-cli/
+smart-cli/
 ├── bin/
 │   └── index.js         # Executável principal
 ├── commands/
@@ -103,9 +103,9 @@ forge-cli/
 
 ---
 
-## 3. `forge-ui/` — Mini dApp Gerado Automaticamente
+## 3. `smart-ui/` — Mini dApp Gerado Automaticamente
 
-**Função**: Interface web gerada para cada token
+**Função**: Interface web gerada para cada token (demo/intent layer — ADR 0002)
 
 **Quando você cria um token, a Forge gera**:
 ```
@@ -118,7 +118,7 @@ tokens/nome-do-token/
 
 **Estrutura Base**:
 ```
-forge-ui/
+smart-ui/
 ├── landing/            # Landing page principal (React + Tailwind)
 ├── nuxt-app/           # PWA App (Nuxt.js)
 │   ├── pages/
@@ -221,7 +221,7 @@ NEO::simulate NOME_DO_TOKEN
 ```bash
 npx neo-smart-factory deploy
 ```
-- Deploy via `forge-core/scripts/deploy.js`
+- Deploy via `smart-core/scripts/deploy.js`
 - Verificação automática
 - Salvamento de informações
 
@@ -236,13 +236,13 @@ npx neo-smart-factory deploy
 ## 🎯 Interdependências
 
 ```
-forge-core/  →  Motor (base técnica)
+smart-core/  →  Motor (base técnica)
      ↓
-forge-cli/   →  Interface (orquestra criação)
+smart-cli/   →  Interface (orquestra criação)
      ↓
 tokens/      →  Resultado (cada token criado)
      ↓
-forge-ui/    →  Interface (UI gerada por token)
+smart-ui/    →  Interface (UI gerada por token)
      ↓
 docs/        →  Inteligência (documenta tudo)
 ```
@@ -253,9 +253,9 @@ docs/        →  Inteligência (documenta tudo)
 
 | Bloco | Função | Input | Output |
 |-------|--------|-------|--------|
-| `forge-core/` | Motor interno | Config | Contratos deployados |
-| `forge-cli/` | Ritual de criação | Comandos | Estrutura de token |
-| `forge-ui/` | Mini dApp | Token config | UI gerada |
+| `smart-core/` | Motor interno | Config | Contratos deployados |
+| `smart-cli/` | Ritual de criação | Comandos | Estrutura de token |
+| `smart-ui/` | Mini dApp | Token config | UI gerada |
 | `docs/` | Inteligência | Conhecimento | Documentação |
 | `tokens/` | Histórico | Token criado | Estrutura completa |
 

@@ -44,7 +44,7 @@ Este inventário mapeia todos os documentos relevantes do repositório `docs` qu
 | Path | Descrição | Relevância |
 |------|-----------|------------|
 | `architecture/architecture.md` | Arquitetura detalhada: Factory Modular, componentes principais (NeoSmartFactory, NeoERC20, NeoERC721, NeoVesting, NeoRewards) | ⭐⭐⭐ CRÍTICO |
-| `architecture/surgical.md` | Arquitetura cirúrgica: descrição detalhada dos 5 blocos (forge-core, forge-cli, forge-ui, docs, internal-ops) | ⭐⭐⭐ CRÍTICO |
+| `architecture/surgical.md` | Arquitetura cirúrgica: descrição detalhada dos 5 blocos (smart-core, smart-cli, smart-ui, docs, internal-ops) | ⭐⭐⭐ CRÍTICO |
 | `architecture/nomenclature.md` | Padrões de nomenclatura e convenções do projeto | ⭐⭐ ALTO |
 | `architecture/adr/decision-log.md` | Registro de decisões arquiteturais (ADRs) | ⭐⭐ ALTO |
 | `architecture/ARCHITECTURAL_ADDENDUMS.md` | Adendos arquiteturais: MCP, automação, MPC, wallets, extensões, KYC, governança | ⭐⭐⭐ CRÍTICO |
@@ -206,7 +206,7 @@ Este inventário mapeia todos os documentos relevantes do repositório `docs` qu
 
 ### Automação
 
-- ✅ **Surgical Architecture** (`architecture/surgical.md`): Descrição dos blocos de automação (forge-core, forge-cli, internal-ops)
+- ✅ **Surgical Architecture** (`architecture/surgical.md`): Descrição dos blocos de automação (smart-core, smart-cli, internal-ops)
 - ✅ **Operational Guide** (`operations/guides/operational-guide.md`): Automações operacionais
 - ✅ **CI Workflows** (`operations/deployment/ci-workflows.md`): Automação de CI/CD
 

@@ -47,7 +47,7 @@ O termo "Tokenizator" refere-se à lógica interna de geração de protocolos.
 O token `$FLW` (Ethereum) demonstra uma prática de segurança interessante: a **trava de lançamento controlada**. 
 
 **Como foi feito:**
-Utilizando o `onlyOwner` na função `launch()`, o contrato impede que pools de liquidez sejam populadas ou que bots de front-run entrem antes da hora. Esta lógica de "trava de portão" deve ser incorporada aos nossos próximos templates no `forge-core`.
+Utilizando o `onlyOwner` na função `launch()`, o contrato impede que pools de liquidez sejam populadas ou que bots de front-run entrem antes da hora. Esta lógica de "trava de portão" deve ser incorporada aos nossos próximos templates no `smart-core`.
 
 ---
 *Documento gerado pela NΞØ SMART FACTORY v0.5.1*

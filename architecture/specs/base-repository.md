@@ -39,7 +39,7 @@
 ## 📁 Estrutura Purificada
 
 ```
-forge-core/
+smart-core/
 ├── contracts/
 │   ├── NeoTokenBase.sol      ← Base purificada (do erc20-token-generator)
 │   ├── IgnitionToken.sol     ← Herda de NeoTokenBase

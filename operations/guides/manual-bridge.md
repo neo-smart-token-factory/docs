@@ -22,7 +22,7 @@ O **Manual Bridge System** é uma solução pragmática e segura para permitir t
 ## 📁 Estrutura
 
 ```
-forge-core/
+smart-core/
 ├── contracts/
 │   └── bridge/
 │       ├── ManualBridge.sol       # Contrato principal de bridge
@@ -126,7 +126,7 @@ await token.setBridgeMinter("0xBridgeAddress");
 
 ```bash
 # Instalar dependências
-cd forge-core/scripts/bridge
+cd smart-core/scripts/bridge
 npm install ethers
 
 # Configurar variáveis de ambiente
@@ -160,7 +160,7 @@ node monitor.js
 node relay.js all
 
 # Ou configurar cron job para relay automático
-*/5 * * * * cd /path/to/scripts/bridge && node relay.js all
+*/5 * * * * cd /path/to/smart-core/scripts/bridge && node relay.js all
 ```
 
 ---

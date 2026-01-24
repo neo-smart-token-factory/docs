@@ -8,7 +8,7 @@
 
 ```
 neo-smart-factory/
-├── forge-core/                    ✅ Núcleo Hardhat + Polygon
+├── smart-core/                    ✅ Núcleo Hardhat + Polygon (ex forge-core)
 │   ├── contracts/
 │   │   ├── IgnitionToken.sol     ✅ Token de ignição v0.5.1
 │   │   ├── NeoSmartFactory.sol  ✅ Factory principal (copiado)
@@ -27,7 +27,7 @@ neo-smart-factory/
 │   ├── package.json             ✅ Dependências
 │   └── .env.example             ✅ Template de env
 │
-├── forge-ui/                     ✅ Interface web
+├── smart-ui/                     ✅ Interface web (ex forge-ui)
 │   ├── pages/
 │   │   └── index.jsx            ✅ Formulário oficial
 │   ├── components/              ✅ (vazio, pronto para componentes)
@@ -35,7 +35,7 @@ neo-smart-factory/
 │   ├── next.config.js           ✅ Config Next.js
 │   └── package.json             ✅ Dependências
 │
-├── forge-cli/                    ✅ CLI oficial
+├── smart-cli/                    ✅ CLI oficial (ex forge-cli)
 │   ├── bin/
 │   │   └── index.js             ✅ Executável principal
 │   ├── commands/
@@ -70,7 +70,7 @@ neo-smart-factory/
 
 ## 📋 Checklist de Validação
 
-### forge-core
+### smart-core (ex forge-core)
 - [x] Estrutura de pastas criada
 - [x] Contrato IgnitionToken.sol criado
 - [x] Scripts de deploy, simulate, verify criados
@@ -80,13 +80,13 @@ neo-smart-factory/
 - [x] package.json configurado
 - [x] .env.example criado
 
-### forge-ui
+### smart-ui (ex forge-ui)
 - [x] Estrutura Next.js criada
 - [x] Formulário básico criado
 - [x] package.json configurado
 - [x] next.config.js configurado
 
-### forge-cli
+### smart-cli (ex forge-cli)
 - [x] Estrutura CLI criada
 - [x] Comando init implementado
 - [x] Comando deploy implementado
@@ -107,25 +107,25 @@ neo-smart-factory/
 
 ## 🚀 Próximos Passos
 
-1. **Testar forge-core:**
+1. **Testar smart-core:**
    ```bash
-   cd forge-core
+   cd smart-core
    npm install
    npm run compile
    npm run test
    ```
 
-2. **Testar forge-cli:**
+2. **Testar smart-cli:**
    ```bash
-   cd forge-cli
+   cd smart-cli
    npm install
    npm link
    neo-smart-factory init
    ```
 
-3. **Testar forge-ui:**
+3. **Testar smart-ui:**
    ```bash
-   cd forge-ui
+   cd smart-ui
    npm install
    npm run dev
    ```

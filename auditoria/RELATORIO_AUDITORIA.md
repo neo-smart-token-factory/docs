@@ -14,9 +14,9 @@ Este relatório compara o **modelo inicial conceitual** (documentado em `modelo_
 
 | Componente | Modelo Inicial | Implementação Atual | Status |
 |------------|----------------|---------------------|--------|
-| **forge-core/** | ✅ Planejado | ✅ Implementado | ✅ Completo |
-| **forge-ui/** | ✅ Planejado | ✅ Implementado | ✅ Completo |
-| **forge-cli/** | ✅ Planejado | ✅ Implementado | ✅ Completo |
+| **smart-core/** | ✅ Planejado | ✅ Implementado | ✅ Completo |
+| **smart-ui/** | ✅ Planejado | ✅ Implementado | ✅ Completo |
+| **smart-cli/** | ✅ Planejado | ✅ Implementado | ✅ Completo |
 | **forge-oracle/** | ✅ Planejado | ❌ Não implementado | ⚠️ Faltando |
 | **forge-cult/** | ✅ Planejado | ⚠️ Parcial | ⚠️ Parcial |
 | **forge-deployer/** | ✅ Planejado | ⚠️ Integrado | ⚠️ Parcial |
@@ -35,9 +35,9 @@ INPUT → REFINAMENTO → GERAÇÃO → NARRATIVA → DEPLOY → EXPANSÃO
 
 ### Implementação Atual
 ```
-INPUT → VALIDAÇÃO → GERAÇÃO → SIMULAÇÃO → DEPLOY → DOCUMENTAÇÃO
+ INPUT → VALIDAÇÃO → GERAÇÃO → SIMULAÇÃO → DEPLOY → DOCUMENTAÇÃO
  |         |            |          |          |          |
- CLI    VALIDATE    FORGE-CORE   SIMULATOR  DEPLOY    DOCS
+ CLI    VALIDATE    SMART-CORE   SIMULATOR  DEPLOY    DOCS
 ```
 
 ### Análise
@@ -45,7 +45,7 @@ INPUT → VALIDAÇÃO → GERAÇÃO → SIMULAÇÃO → DEPLOY → DOCUMENTAÇÃ
 ✅ **Implementado**:
 - INPUT (CLI: `neo-smart-factory init`)
 - VALIDAÇÃO (validação básica no CLI)
-- GERAÇÃO (`forge-core/` com contratos)
+- GERAÇÃO (`smart-core/` com contratos)
 - SIMULAÇÃO (`NEO::simulate` via internal-ops)
 - DEPLOY (`neo-smart-factory deploy`)
 - DOCUMENTAÇÃO (`docs/`)
@@ -63,9 +63,9 @@ INPUT → VALIDAÇÃO → GERAÇÃO → SIMULAÇÃO → DEPLOY → DOCUMENTAÇÃ
 ### Modelo Inicial (Planejado)
 ```bash
 mellø-protocol-factory/
-├── forge-core/                 ✅
-├── forge-ui/                   ✅
-├── forge-cli/                  ✅
+├── smart-core/                 ✅ (ex forge-core)
+├── smart-ui/                   ✅ (ex forge-ui)
+├── smart-cli/                  ✅ (ex forge-cli)
 ├── forge-oracle/               ❌ FALTANDO
 ├── forge-cult/                 ❌ FALTANDO
 ├── forge-deployer/             ⚠️ INTEGRADO
@@ -76,9 +76,9 @@ mellø-protocol-factory/
 ### Implementação Atual
 ```bash
 neo-smart-factory/
-├── forge-core/                 ✅ Implementado
-├── forge-ui/                   ✅ Implementado
-├── forge-cli/                  ✅ Implementado
+├── smart-core/                 ✅ Implementado (ex forge-core)
+├── smart-ui/                   ✅ Implementado (ex forge-ui)
+├── smart-cli/                  ✅ Implementado (ex forge-cli)
 ├── internal-ops/               ⚠️ Equivalente parcial ao oracle
 ├── docs/                       ✅ Implementado
 ├── tokens/                     ✅ Implementado
@@ -87,20 +87,20 @@ neo-smart-factory/
 
 ### Análise Detalhada
 
-#### ✅ **forge-core/** — COMPLETO
+#### ✅ **smart-core/** — COMPLETO (ex forge-core)
 - ✅ Contratos (`NeoTokenBase`, `IgnitionToken`, `NeoSmartFactory`)
 - ✅ Scripts (`deploy.js`, `simulate.js`, `verify.js`)
 - ✅ Testes (`ignition.test.js`)
 - ✅ Templates (`token.sol.template`, `manifest.template.md`)
 - ✅ Configuração Hardhat (Polygon-ready)
 
-#### ✅ **forge-ui/** — COMPLETO
+#### ✅ **smart-ui/** — COMPLETO (ex forge-ui)
 - ✅ Landing page (React + Vite + Tailwind)
 - ✅ PWA App (Nuxt.js)
 - ✅ Formulário de criação
 - ✅ Preview e simulador
 
-#### ✅ **forge-cli/** — COMPLETO
+#### ✅ **smart-cli/** — COMPLETO (ex forge-cli)
 - ✅ Comando `neo-smart-factory init`
 - ✅ Comando `neo-smart-factory deploy`
 - ✅ Criação automática de estrutura em `tokens/`
@@ -124,7 +124,7 @@ neo-smart-factory/
 
 **Implementado**:
 - `internal-ops/scripts/marketing-engine.js` — Geração de conteúdo de marketing
-- `forge-core/templates/manifest.template.md` — Template de manifesto
+- `smart-core/templates/manifest.template.md` — Template de manifesto
 - `internal-ops/scripts/token-simulator.js` — Geração de manifesto básico
 
 **Gap**: Falta geração automática completa de documentos (whitepaper, pitch deck).
@@ -134,11 +134,11 @@ neo-smart-factory/
 - `deploy.ts` — Pipeline de deploy
 
 **Implementado**:
-- `forge-core/scripts/deploy.js` — Script de deploy
-- `forge-cli/commands/deploy.js` — Comando CLI de deploy
-- `forge-core/scripts/postDeploy.js` — Script pós-deploy
+- `smart-core/scripts/deploy.js` — Script de deploy
+- `smart-cli/commands/deploy.js` — Comando CLI de deploy
+- `smart-core/scripts/postDeploy.js` — Script pós-deploy
 
-**Status**: Funcional, mas integrado em `forge-core/` ao invés de módulo separado.
+**Status**: Funcional, mas integrado em `smart-core/` ao invés de módulo separado.
 
 #### ⚠️ **forge-dna/** — PARCIAL
 **Planejado**:
@@ -147,7 +147,7 @@ neo-smart-factory/
 
 **Implementado**:
 - `internal-ops/tokens/template.json` — Template básico
-- Formulário em `forge-ui/nuxt-app/pages/index.vue` — Campos básicos
+- Formulário em `smart-ui/nuxt-app/pages/index.vue` — Campos básicos
 
 **Gap**: Falta schema completo com campos avançados (archetype, energy, ecosystem, infrastructure, extras).
 
@@ -260,10 +260,10 @@ async function runForge() {
 
 ### Implementação Atual (JavaScript/CLI)
 ```js
-// forge-cli/commands/init.js
+// smart-cli/commands/init.js
 // Cria estrutura básica
 
-// forge-cli/commands/deploy.js
+// smart-cli/commands/deploy.js
 // Executa deploy via Hardhat
 
 // Fluxo manual:

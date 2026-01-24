@@ -59,7 +59,7 @@ setPublicMintStatus(false)
 ### Estrutura de Arquivos
 
 ```
-forge-core/scripts/miniapp/
+smart-core/scripts/miniapp/
 ├── distributor.js          # Lógica de distribuição
 ├── rewards-config.js       # Configuração de recompensas
 ├── validator.js            # Validação de tarefas

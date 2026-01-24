@@ -66,6 +66,16 @@ Profissionais com histórico relevante nas áreas:
 
 ## Repositórios Principais
 
+### ⛓️ smart-core
+**Core engine — contratos e protocolo**
+
+- Contratos NeoTokenV2, Manual Bridge, vesting, rewards
+- Scripts de deploy (Base, Polygon, Amoy) e bridge
+- Hardhat, OpenZeppelin, multichain-ready
+- **Autoridade de protocolo** (ADR 0002)
+
+**URL**: [github.com/neo-smart-token-factory/smart-core](https://github.com/neo-smart-token-factory/smart-core)
+
 ### 🎨 smart-ui
 **Interface de usuário e frontend**
 

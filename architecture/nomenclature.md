@@ -21,22 +21,21 @@
 
 ## 📁 Estrutura de Diretórios
 
-### Padrão Atual (Mantido)
+### Padrão Atual (Repositórios)
 ```
 neo-smart-factory/
-├── forge-core/      # Núcleo (contratos + scripts)
-├── forge-ui/        # Interface web
-├── forge-cli/       # CLI tool
+├── smart-core/      # Núcleo (contratos + scripts) — autoridade de protocolo
+├── smart-ui/        # Interface web (demo/intent layer)
+├── smart-cli/       # CLI tool
 ├── docs/            # Documentação
 ├── internal-ops/    # Sistema interno
 └── tokens/          # Tokens criados
 ```
 
 **Justificativa**: 
-- `forge-*` é um prefixo técnico interno
-- Não conflita com o nome do projeto
-- Mantém consistência entre módulos
-- Fácil de entender: "forge" = "forjar/criar"
+- `smart-*` é o prefixo dos repositórios atuais (smart-core, smart-ui, smart-cli)
+- Alinhado com ORGANIZATION e ADR 0002
+- Consistência entre módulos e nome do projeto
 
 ---
 
@@ -91,7 +90,7 @@ neo {comando}  # Alias para neo-smart-factory
 |----------|-------------|
 | Título de documento | **NΞØ SMART FACTORY** |
 | Código/arquivos | `neo-smart-factory` |
-| Pastas de módulos | `forge-core/`, `forge-ui/`, `forge-cli/` |
+| Pastas de módulos | `smart-core/`, `smart-ui/`, `smart-cli/` |
 | Comandos CLI | `neo-smart-factory` |
 | Pacotes npm | `neo-smart-factory-{modulo}` |
 | Variáveis de código | `neoSmartFactory` ou `NeoSmartFactory` |
@@ -119,10 +118,10 @@ neo {comando}  # Alias para neo-smart-factory
 
 ### Estrutura
 ```
-neo-smart-factory/           # Repositório
-├── forge-core/              # Módulo core (mantém nome técnico)
-├── forge-ui/                # Módulo UI (mantém nome técnico)
-├── forge-cli/               # Módulo CLI (mantém nome técnico)
+neo-smart-factory/           # Organização
+├── smart-core/              # Core engine (contratos, bridge, deploy)
+├── smart-ui/                # Interface (demo/intent layer)
+├── smart-cli/               # CLI operacional
 └── ...
 ```
 
@@ -147,19 +146,19 @@ neo-smart-factory deploy
 
 - Títulos: **NΞØ SMART FACTORY**
 - Código: `neo-smart-factory`
-- Módulos: `forge-core/`, `forge-ui/`, `forge-cli/` (mantém)
+- Módulos: `smart-core/`, `smart-ui/`, `smart-cli/`
 
 ---
 
 ## 🔄 Status de Correção
 
-1. ✅ Manter `forge-*` nas pastas (mantido)
+1. ✅ Repositórios: `smart-core/`, `smart-ui/`, `smart-cli/` (nomenclatura atual)
 2. ✅ Corrigir comandos CLI: `mello-forge` → `neo-smart-factory` (CORRIGIDO)
 3. ✅ Corrigir package.json: `neo-forge-*` → `neo-smart-factory-*` (CORRIGIDO)
 4. ✅ Atualizar documentação com referências corretas (CORRIGIDO)
 
 ---
 
-**Última atualização**: v0.5.1 — IGNIÇÃO  
+**Última atualização**: v0.5.3 — MULTICHAIN FOUNDATION (nomenclatura smart-core, smart-ui, smart-cli)  
 **Status**: ✅ Todas as correções aplicadas
 

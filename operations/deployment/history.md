@@ -34,9 +34,9 @@
 - **Deploy Cost:** ~0.0015 ETH
 
 #### Documentation
-- [Full Deployment Guide](../forge-core/deployments/NEOFLW_BASE_MAINNET.md)
-- [Deployment Metadata](../forge-core/deployments/neotokenv2-base.json)
-- [Contract Source](../forge-core/contracts/NeoTokenV2.sol)
+- [Full Deployment Guide](https://github.com/neo-smart-token-factory/smart-core/blob/main/deployments/NEOFLW_BASE_MAINNET.md)
+- [Deployment Metadata](https://github.com/neo-smart-token-factory/smart-core/blob/main/deployments/neotokenv2-base.json)
+- [Contract Source](https://github.com/neo-smart-token-factory/smart-core/blob/main/contracts/NeoTokenV2.sol)
 
 ---
 

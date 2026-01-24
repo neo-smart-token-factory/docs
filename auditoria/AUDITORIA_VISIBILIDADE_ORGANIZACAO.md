@@ -44,8 +44,8 @@ Repos privados **não** devem ser: linkados, citados em UI, em landing, em pitch
 
 | Onde | O quê | Severidade (política) |
 |------|--------|------------------------|
-| **`public/ecosystem-graph.html`** | Nomes explícitos: `neo-smart-factory`, `internal-ops`, `forge-core`, `forge-cli`, `state.json`. Arquivo servido em **produção** (`/ecosystem-graph.html`), sem auth. Comentário diz "visualização interna", mas está em `public/` e é acessível. | **MEDIUM** — Exposição de nomes/existência de repos e componentes privados. |
-| **Makefile** | `CORE_DIR`, `CLI_DIR`, `OPS_DIR` expõem caminhos para `../smart-cli`, `../../neo_smart_factory/forge-core`, `../../neo_smart_factory/internal-ops`. Repo é público. | **MEDIUM** — Exposição de existência e estrutura de componentes privados. |
+| **`public/ecosystem-graph.html`** | Nomes explícitos: `neo-smart-factory`, `internal-ops`, `smart-core`, `smart-cli`, `state.json`. Arquivo servido em **produção** (`/ecosystem-graph.html`), sem auth. Comentário diz "visualização interna", mas está em `public/` e é acessível. | **MEDIUM** — Exposição de nomes/existência de repos e componentes privados. |
+| **Makefile** | `CORE_DIR`, `CLI_DIR`, `OPS_DIR` expõem caminhos para `../smart-cli`, `../../neo_smart_factory/smart-core`, `../../neo_smart_factory/internal-ops`. Repo é público. | **MEDIUM** — Exposição de existência e estrutura de componentes privados. |
 
 ### 3.3 ⚠️ Exceções aceitas (documentadas)
 
@@ -70,7 +70,7 @@ Estes arquivos **citam** repos/componentes privados em **contexto de governança
 
 A política lista **smart-core**, **smart-cli**, **internal-ops** como privados. **neo-smart-factory** não está listado, mas:
 
-- Contém `internal-ops`, `forge-core`, etc.
+- Contém `internal-ops`, `smart-core`, etc.
 - É usado em `protocol-health` e em vários docs.
 
 **Recomendação:** Incluir **neo-smart-factory** explicitamente na lista de repos **privados/restritos** (ou equivalente) na política, para alinhar com a prática e evitar ambiguidade.

@@ -8,7 +8,7 @@
 
 **O que está funcionando AGORA**:
 
-- ✅ **forge-core/** — Motor interno completo
+- ✅ **smart-core/** — Motor interno completo
   - Contratos deployados (`IgnitionToken`, `NeoTokenBase`)
   - Scripts de deploy automatizados
   - Verificação no Polygonscan
