@@ -20,6 +20,9 @@ Welcome to the official documentation repository of the NΞØ SMART FACTORY. Thi
 - **[MiniApp Integration](./MINIAPP_INTEGRATION.md)** — Building on Telegram with NEØ Protocol.
 - **[Base Agent Kit](./BASE_AGENTKIT_GUIDE.md)** — AI-driven automation guide.
 
+## 📚 Documentation
+- [TON Implementation Registry](/docs/registro/release/technical/NEO_TON_V1_IMPLEMENTATION.md)
+
 ## 🛠️ Contribution
 The documentation is versioned alongside the code. To contribute, please see our **[CONTRIBUTING.md](./CONTRIBUTING.md)**.
 
