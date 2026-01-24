@@ -8,6 +8,7 @@
 Fundamentos, valores e regras de contribuição da organização.
 
 - **[Manifesto](core/manifesto.md)** — Visão, valores e missão do projeto.
+- **[Organização Técnica](ORGANIZATION.md)** — neo-smart-token-factory, repos, governança.
 - **[Governança](core/governance.md)** — Resumo de governança e tomada de decisão.
 - **[Guia de Contribuição](core/contributing.md)** — Como contribuir e padrões de commit.
 - **[Licença](core/LICENSE)** — Termos de uso MIT.
@@ -33,8 +34,10 @@ Especificações técnicas e registros de decisões estruturais.
 
 - **[Arquitetura Detalhada](architecture/architecture.md)** — Visão técnica dos contratos.
 - **[Arquitetura Cirúrgica](architecture/surgical.md)** — Análise modular dos blocos do sistema.
+- **[Adendos Arquiteturais](architecture/ARCHITECTURAL_ADDENDUMS.md)** — MCP, MPC, KYC, governança.
 - **[Nomenclatura](architecture/nomenclature.md)** — Padrões e convenções.
 - **[Decision Log (ADRs)](architecture/adr/decision-log.md)** — Registro de decisões técnicas.
+- **ADRs numerados:** [0001](architecture/adr/0001-smart-ui-backend-boundary.md) · [0002](architecture/adr/0002-ui-as-demo-and-intent-layer.md) · [0003](architecture/adr/0003-wallet-extensions-mpc-automation-posture.md) · [0004](architecture/adr/0004-kyc-governance-strategy.md)
 - **Especificações (Specs):**
     - [NeoTokenV2](architecture/specs/neotoken-v2.md) ⭐ — Multichain & AA-Ready.
     - [Doctor CLI Deep Dive](architecture/specs/doctor-cli-deep-dive.md) 🩺 — Detalhamento do Produto Fase A.
@@ -53,7 +56,11 @@ Guias práticos, padrões de repositório e infraestrutura de CI.
 - **Deployment & CI:**
     - [Histórico de Deployments](operations/deployment/history.md)
     - [Especificação de Workflows CI](operations/deployment/ci-workflows.md)
+- **Ecosystem:** [Análise smart-ui ↔ docs](ecosystem/ANALISE_CONEXAO_DOCS_REPO.md)
 - **Padrões de Repositório (Standards):**
+    - **Políticas e conformidade:**
+        - [Repository Visibility Policy](operations/standards/REPOSITORY_VISIBILITY_POLICY.md) — Público vs privado, compliance.
+        - [Security Enforcement Report](operations/standards/SECURITY_ENFORCEMENT_REPORT.md) — Enforcement e checklist.
     - [Workflow Baseline](operations/standards/workflow-baseline.md)
     - [Bootstrap Checklist](operations/standards/bootstrap-checklist.md)
     - [GitHub Apps & Integrações](operations/standards/github-apps.md)
@@ -65,6 +72,7 @@ Arquivo e verificações de segurança.
 
 - **[Changelog](archive/changelog.md)** — Histórico de versões.
 - **[Relatório de Auditoria](auditoria/RELATORIO_AUDITORIA.md)** — Comparação e segurança.
+- **[Auditoria de Visibilidade](auditoria/AUDITORIA_VISIBILIDADE_ORGANIZACAO.md)** — Conformidade org, violações e sugestões.
 - **[Patch v0.5.1](archive/patch-v0.5.1.md)** — Notas da versão de ignição.
 
 ---
