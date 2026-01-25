@@ -1,80 +1,15 @@
-# Índice — Documentação TON Factory
+# Documentação TON — NEØ Smart Factory
 
-**Criado**: 2026-01-24  
-**Escopo**: Revisão completa e plano de implementação TON  
-**Status**: ✅ Revisão completa | ⏸️ Aguardando aprovação
+**Status:** Implementação ativa  
+**Última Atualização:** 2026-01-25
 
 ---
 
 ## 📚 Documentos Disponíveis
 
-### 🎯 Início Rápido
+### 🎯 Padrões e Mapeamentos
 
-**1. [TON_SUMARIO_EXECUTIVO.md](./TON_SUMARIO_EXECUTIVO.md)** ⭐  
-*Leia este primeiro!*
-
-- Overview executivo
-- Score card (7.5/10)
-- O que está completo vs faltando
-- Recomendação e decisão
-- **Tempo de leitura**: 5-7 minutos
-
----
-
-### 📋 Planejamento
-
-**2. [TON_CHECKLIST_EXECUCAO.md](./TON_CHECKLIST_EXECUCAO.md)**  
-*Checklist dia-a-dia para execução*
-
-- 60 dias de atividades (4 fases)
-- Validation criteria por etapa
-- Go/No-Go checkpoints
-- Blocker tracking
-- **Uso**: Acompanhamento diário do progresso
-
-**3. [TON_PLANO_IMPLEMENTACAO.md](./TON_PLANO_IMPLEMENTACAO.md)**  
-
-*Roadmap estratégico completo
-
-- 4 fases detalhadas (Testing, Testnet, Audit, Mainnet)
-- Casos de teste especificados
-- Deployment procedures
-- Success metrics
-- Budget breakdown ($30k-$45k)
-- **Uso**: Planejamento estratégico
-
----
-
-### 🔍 Técnico Detalhado
-
-**4. [TON_FACTORY_REVISAO_TECNICA.md](./TON_FACTORY_REVISAO_TECNICA.md)**  
-
-*Análise técnica profunda dos contratos
-
-- Arquitetura (Factory, Minter, Wallet)
-- Storage layout completo
-- Op-codes registry (12 operações)
-- Security analysis
-- Gas costs estimados
-- Comparação EVM vs TON
-- Limitações conhecidas
-- Recomendações técnicas
-- **Uso**: Referência técnica, code review
-
----
-
-### 📜 Registros e Padrões
-
-**5. [NOMENCLATURA_OFICIAL.md](./NOMENCLATURA_OFICIAL.md)** ⭐  
-*Padrão oficial de nomenclatura (SSOT)*
-
-- `smart-*` (correto) vs `forge-*` (obsoleto)
-- CLI: `nxf` (correto) vs `neo-smart-factory` (obsoleto)
-- NPM organization: `@neosmart`
-- Checklist de conformidade
-- **Uso**: Referência obrigatória para novos documentos/código
-
-**6. [EVM_TON_MAPPING.md](./EVM_TON_MAPPING.md)** ⭐⭐⭐  
+**[EVM_TON_MAPPING.md](./EVM_TON_MAPPING.md)** ⭐⭐⭐  
 *Mapeamento de paridade EVM ↔ TON*
 
 - Comparação funcionalidade por funcionalidade
@@ -82,188 +17,80 @@
 - Storage equivalente
 - Limitações conhecidas
 - Checklist de conformidade
-- **Uso**: Garantir paridade completa entre chains
+- **Uso:** Garantir paridade completa entre chains
 
-**7. [TON_DEPLOY_MAINNET_REPORT.md](./TON_DEPLOY_MAINNET_REPORT.md)** ⭐⭐⭐  
-*Relatório oficial de deploy na TON Mainnet*
+**[NOMENCLATURA_OFICIAL.md](./NOMENCLATURA_OFICIAL.md)** ⭐  
+*Padrão oficial de nomenclatura (SSOT)*
 
-- Factory deployed e ativa
-- Address: `EQAqoO4t8NKfjXQ1mEeBwqqjEON6zwECv-haaX__pGp_C2ZM`
-- Validações completas
-- Checklist de aprovação
-- **Status: ✅ APROVADO & ATIVO**
+- `smart-*` (correto) vs `forge-*` (obsoleto)
+- CLI: `nxf` (correto) vs `neo-smart-factory` (obsoleto)
+- NPM organization: `@neosmart`
+- Checklist de conformidade
+- **Uso:** Referência obrigatória para novos documentos/código
 
-**8. [factory-status.md](./factory-status.md)**  
+### 📊 Status Atual
+
+**[factory-status.md](./factory-status.md)**  
 *Status geral da NΞØ Factory (EVM + TON)*
 
 - Core funcional multichain
-- Roadmap v0.5.3 → v1.0
+- Roadmap atual
 - Métricas atuais
-- Limitações
-
-**9. [NEO_TON_V1_IMPLEMENTATION.md](../registro/release/technical/NEO_TON_V1_IMPLEMENTATION.md)**  
-*Registry oficial da implementação TON V1*
-
-- Prior art documentation
-- Commit: `69bfe6cc`
-- Standards compliance (TEP-74/64/89)
-- License: CC BY-NC-ND 4.0
-- Build artifacts
-
+- Limitações conhecidas
 
 ---
 
-## 🗺️ Fluxo de Leitura Recomendado
+## 🗂️ Código e Implementação
 
-### Para Mellø (Decisão Estratégica)
+### Repositório smart-core
 
-```text
-1. NOMENCLATURA_OFICIAL.md (2 min - validar padrão)
-   ↓
-2. TON_SUMARIO_EXECUTIVO.md (5 min)
-   ↓
-3. Decisão: Opção A, B, ou C?
-   ↓
-4. Se aprovado: Review TON_CHECKLIST_EXECUCAO.md (10 min)
+Todo o código TON está no repositório oficial:
+
+**URL:** [github.com/neo-smart-token-factory/smart-core](https://github.com/neo-smart-token-factory/smart-core)
+
+**Estrutura:**
+```
+smart-core/
+├── contracts/ton/
+│   ├── NeoJettonFactory.fc
+│   ├── NeoJettonFactoryV2.fc
+│   ├── NeoJettonMinter.fc
+│   ├── NeoJettonWallet.fc
+│   └── README.md (documentação técnica)
+└── scripts/
+    ├── compile-ton-v2.js
+    ├── deploy-ton-factory-v2.js
+    └── debug/ (ferramentas de debug)
 ```
 
-### Para Dev Lead (Implementação)
-
-```text
-1. NOMENCLATURA_OFICIAL.md (padrão obrigatório)
-   ↓
-2. TON_SUMARIO_EXECUTIVO.md (overview)
-   ↓
-3. TON_FACTORY_REVISAO_TECNICA.md (deep dive)
-   ↓
-4. TON_PLANO_IMPLEMENTACAO.md (roadmap)
-   ↓
-5. TON_CHECKLIST_EXECUCAO.md (execution)
-```
-
-### Para QA/Security (Validação)
-
-```text
-1. TON_FACTORY_REVISAO_TECNICA.md (security section)
-   ↓
-2. TON_PLANO_IMPLEMENTACAO.md (test cases)
-   ↓
-3. TON_CHECKLIST_EXECUCAO.md (validation steps)
-```
+**Branch ativa:** `feat/ton-factory-v2`
 
 ---
 
-## 📊 Status por Documento
+## 🔗 Links Úteis
 
-```text
-================================================================
-DOCUMENTO                           STATUS  DATA
-================================================================
-TON_SUMARIO_EXECUTIVO.md            ✅ OK   2026-01-24
-TON_CHECKLIST_EXECUCAO.md           ✅ OK   2026-01-24
-TON_PLANO_IMPLEMENTACAO.md          ✅ OK   2026-01-24
-TON_FACTORY_REVISAO_TECNICA.md      ✅ OK   2026-01-24
-TON_DEPLOY_MAINNET_REPORT.md        ✅ OK   2026-01-24
-NOMENCLATURA_OFICIAL.md             ✅ OK   2026-01-24
-EVM_TON_MAPPING.md                  ✅ OK   2026-01-24
-factory-status.md                   ✅ ATU  2026-01-24
-TON_INDEX.md                        ✅ ATU  2026-01-25
-================================================================
-Owner: AI Agent
-Last Update: 2026-01-25 (Cleanup)
-================================================================
-```
-
----
-
-## 🎯 Próximos Passos
-
-### Implementação TON
-
-- [ ] Resolver issues conhecidos na Factory V2
-- [ ] Validar testes completos no testnet
-- [ ] Auditoria de segurança
-- [ ] Deploy em mainnet (quando aprovado)
-
-### Aguardando Decisão Estratégica
-
-- [ ] Mellø review do sumário executivo
-- [ ] Aprovar roadmap TON (Opção A/B/C)
-- [ ] Aprovar budget (se Opção A)
-
-### Manutenção de Documentação
-
-- [ ] Manter paridade EVM ↔ TON atualizada
-- [ ] Atualizar factory-status.md com métricas
-- [ ] Documentar novos deployments
-
----
-
-## 📁 Estrutura de Diretórios
-
-```text
-docs/
-└── auditoria/
-    ├── TON_INDEX.md ← VOCÊ ESTÁ AQUI
-    ├── TON_SUMARIO_EXECUTIVO.md
-    ├── TON_CHECKLIST_EXECUCAO.md
-    ├── TON_PLANO_IMPLEMENTACAO.md
-    ├── TON_FACTORY_REVISAO_TECNICA.md
-    ├── NOMENCLATURA_OFICIAL.md ← Padrão obrigatório
-    └── factory-status.md
-
-docs/registro/release/technical/
-└── NEO_TON_V1_IMPLEMENTATION.md
-
-(assumindo) smart-core/contracts/ton/
-├── NeoJettonFactory.fc
-├── NeoJettonMinter.fc
-└── NeoJettonWallet.fc
-```
-
----
-
-## 🔗 Links Relacionados
-
-### Internal
-
-- [Architecture](../architecture/architecture.md)
-- [Roadmap Tech](../strategy/roadmap-tech.md)
-- [Prior Art Index](../registro/release/public/00_INDEX_NEO_Smart_Token_Factory_v1.0_2026-01-22.md)
-
-### External
-
+### Documentação Oficial TON
 - [TON Documentation](https://docs.ton.org)
 - [TEP-74 (Jetton Standard)](https://github.com/ton-blockchain/TEPs/blob/master/text/0074-jettons-standard.md)
 - [TEP-64 (Token Metadata)](https://github.com/ton-blockchain/TEPs/blob/master/text/0064-token-data-standard.md)
 - [TonScan Testnet](https://testnet.tonscan.org)
 
----
-
-## 📝 Changelog
-
-| Data | Versão | Mudança | Autor |
-|------|--------|---------|-------|
-| 2026-01-24 | 1.0 | Criação inicial | AI Agent |
-| 2026-01-25 | 1.1 | Adicionados docs de debug session + checkpoint + plano reorganização | AI Agent |
-| 2026-01-25 | 1.2 | Limpeza: removidos docs temporários de debug, código migrado para smart-core | AI Agent |
+### Repositórios NEØ
+- [docs](https://github.com/neo-smart-token-factory/docs) - Este repositório
+- [smart-core](https://github.com/neo-smart-token-factory/smart-core) - Contratos e scripts
+- [smart-ui](https://github.com/neo-smart-token-factory/smart-ui) - Interface
+- [landing](https://github.com/neo-smart-token-factory/landing) - Landing page
 
 ---
 
-## 📞 Suporte
+## 📝 Notas
 
-**Questões sobre documentação**:
-
-- GitHub Issues: [neo-smart-token-factory/docs](https://github.com/neo-smart-token-factory/docs/issues)
-- Discord: #ton-implementation
-
-**Questões técnicas**:
-
-- Dev Team: [contact]
-- Architecture: Mellø
+- **Documentação técnica detalhada:** Ver `smart-core/contracts/ton/README.md`
+- **Scripts e ferramentas:** Ver `smart-core/scripts/` e `smart-core/scripts/debug/`
+- **Issues e bugs:** GitHub Issues em [smart-core](https://github.com/neo-smart-token-factory/smart-core/issues)
+- **Roadmap e planejamento:** Ver `docs/strategy/`
 
 ---
 
-**Última Atualização**: 2026-01-25  
-**Versão do Índice**: 1.2  
-**Status**: ✅ Completo e pronto para uso | 🧹 Documentação limpa
+**Versão:** 2.0 (Simplificada)  
+**Princípio:** Menos é mais — apenas o essencial
