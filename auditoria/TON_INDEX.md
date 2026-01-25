@@ -110,39 +110,6 @@
 - License: CC BY-NC-ND 4.0
 - Build artifacts
 
----
-
-### 🔍 Debug e Análise Técnica
-
-**10. [SESSAO_APRENDIZADO_TON_FACTORY.md](./SESSAO_APRENDIZADO_TON_FACTORY.md)** ⭐⭐⭐ **IMPORTANTE!**  
-*Sessão de aprendizado sobre bug na Factory*
-
-- Análise do código oficial TON (109 bits)
-- Diferença Factory vs Minter direto
-- Hipóteses de root cause
-- Próximos passos detalhados
-- Recursos de aprendizado
-- **Status: 🔍 Bug identificado, solução em andamento**
-
-**11. [CHECKPOINT_TON_FACTORY_2026-01-25.md](./CHECKPOINT_TON_FACTORY_2026-01-25.md)** ⭐⭐⭐ **NOVO!**  
-*Checkpoint para retomar trabalho*
-
-- Descoberta crucial (109 bits confirmado)
-- Hipóteses ativas
-- 3 opções de próximos passos (A, B, C)
-- Checklist completo para próxima sessão
-- Mapeamento de migração código → repos oficiais
-- **Uso: Retomar trabalho exatamente do ponto atual**
-
-**12. [PLANO_REORGANIZACAO.md](./PLANO_REORGANIZACAO.md)** ⭐⭐ **NOVO!**  
-*Plano de migração e limpeza do repositório*
-
-- Mapeamento: temp_repos/ → repositórios oficiais
-- Consolidação da documentação
-- Checklist de migração
-- Cronograma sugerido
-- Regras de segurança
-- **Uso: Guia para reorganização após validação**
 
 ---
 
@@ -200,14 +167,10 @@ TON_DEPLOY_MAINNET_REPORT.md        ✅ OK   2026-01-24
 NOMENCLATURA_OFICIAL.md             ✅ OK   2026-01-24
 EVM_TON_MAPPING.md                  ✅ OK   2026-01-24
 factory-status.md                   ✅ ATU  2026-01-24
-----------------------------------------------------------------
-SESSAO_APRENDIZADO_TON_FACTORY.md   ✅ OK   2026-01-25
-CHECKPOINT_TON_FACTORY_2026-01-25.md ✅ OK   2026-01-25
-PLANO_REORGANIZACAO.md              ✅ OK   2026-01-25
 TON_INDEX.md                        ✅ ATU  2026-01-25
 ================================================================
 Owner: AI Agent
-Last Update: 2026-01-25 (Debug Session)
+Last Update: 2026-01-25 (Cleanup)
 ================================================================
 ```
 
@@ -215,35 +178,24 @@ Last Update: 2026-01-25 (Debug Session)
 
 ## 🎯 Próximos Passos
 
-### 🔥 URGENTE: Resolver Bug Factory (2026-01-26)
+### Implementação TON
 
-**Status:** 🔍 Bug identificado, solução em andamento
-
-**Ver:** [CHECKPOINT_TON_FACTORY_2026-01-25.md](./CHECKPOINT_TON_FACTORY_2026-01-25.md)
-
-- [ ] Escolher estratégia (A, B ou C):
-  - **A** 🏆 Usar TON Minter oficial primeiro (recomendado)
-  - **B** ⚡ Factory minimalista (teste rápido)
-  - **C** 🔍 Debug profundo (adicionar get methods)
-- [ ] Validar solução no testnet
-- [ ] Testar criação de Jetton Minter
-- [ ] Documentar solução final
-
-### Após Resolver Bug
-
-**Ver:** [PLANO_REORGANIZACAO.md](./PLANO_REORGANIZACAO.md)
-
-- [ ] Migrar código de `temp_repos/` → `smart-core` oficial
-- [ ] Consolidar documentação de debug
-- [ ] Limpar repositório `docs`
-- [ ] Remover `temp_repos/` (após validação)
-- [ ] Atualizar README dos repositórios oficiais
+- [ ] Resolver issues conhecidos na Factory V2
+- [ ] Validar testes completos no testnet
+- [ ] Auditoria de segurança
+- [ ] Deploy em mainnet (quando aprovado)
 
 ### Aguardando Decisão Estratégica
 
 - [ ] Mellø review do sumário executivo
 - [ ] Aprovar roadmap TON (Opção A/B/C)
 - [ ] Aprovar budget (se Opção A)
+
+### Manutenção de Documentação
+
+- [ ] Manter paridade EVM ↔ TON atualizada
+- [ ] Atualizar factory-status.md com métricas
+- [ ] Documentar novos deployments
 
 ---
 
@@ -294,6 +246,7 @@ docs/registro/release/technical/
 |------|--------|---------|-------|
 | 2026-01-24 | 1.0 | Criação inicial | AI Agent |
 | 2026-01-25 | 1.1 | Adicionados docs de debug session + checkpoint + plano reorganização | AI Agent |
+| 2026-01-25 | 1.2 | Limpeza: removidos docs temporários de debug, código migrado para smart-core | AI Agent |
 
 ---
 
@@ -312,5 +265,5 @@ docs/registro/release/technical/
 ---
 
 **Última Atualização**: 2026-01-25  
-**Versão do Índice**: 1.1  
-**Status**: ✅ Completo e pronto para uso | 🔍 Debug session ativa
+**Versão do Índice**: 1.2  
+**Status**: ✅ Completo e pronto para uso | 🧹 Documentação limpa

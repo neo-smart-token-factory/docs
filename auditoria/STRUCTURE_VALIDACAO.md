@@ -81,12 +81,14 @@ neo-smart-factory/
 - [x] .env.example criado
 
 ### smart-ui (ex forge-ui)
+
 - [x] Estrutura Next.js criada
 - [x] Formulário básico criado
 - [x] package.json configurado
 - [x] next.config.js configurado
 
 ### smart-cli (ex forge-cli)
+
 - [x] Estrutura CLI criada
 - [x] Comando init implementado
 - [x] Comando deploy implementado
@@ -94,12 +96,14 @@ neo-smart-factory/
 - [x] Executável com permissão
 
 ### docs
+
 - [x] Manifesto criado
 - [x] Arquitetura movida
 - [x] Patch notes criado
 - [x] Changelog criado
 
 ### Geral
+
 - [x] README principal atualizado
 - [x] LICENSE criado
 - [x] .gitignore atualizado
