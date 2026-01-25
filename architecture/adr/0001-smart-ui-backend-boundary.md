@@ -12,6 +12,7 @@
 The NΞØ Smart Token Factory is composed of multiple repositories with clearly separated responsibilities.
 
 As the system evolves, there is a high risk of:
+
 - frontend-driven architectural decisions
 - implicit API contracts
 - UI logic leaking into protocol logic
@@ -36,11 +37,13 @@ Direct communication between Smart UI and Smart Core is **explicitly forbidden**
 ### Smart UI
 
 The Smart UI:
+
 - renders state
 - visualizes outputs
 - triggers predefined intents
 
 The Smart UI MUST NOT:
+
 - deploy contracts
 - construct transactions
 - infer protocol state
@@ -52,12 +55,14 @@ The Smart UI MUST NOT:
 ### Smart CLI
 
 The Smart CLI:
+
 - is the sole gateway to smart-core
 - validates intent
 - enforces safety
 - abstracts execution, not rules
 
 The Smart CLI MAY:
+
 - expose read-only status endpoints
 - execute documented commands
 - provide deterministic outputs for UI consumption
@@ -67,11 +72,13 @@ The Smart CLI MAY:
 ### Smart Core
 
 The Smart Core:
+
 - owns on-chain logic
 - enforces protocol rules
 - exposes no UI-oriented interfaces
 
 Smart Core MUST NOT:
+
 - adapt logic for UI convenience
 - expose direct endpoints to UI
 - contain presentation concerns
@@ -81,6 +88,7 @@ Smart Core MUST NOT:
 ## Rationale
 
 This boundary ensures:
+
 - security invariants are preserved
 - upgrades remain controlled
 - UI changes do not force protocol changes
@@ -93,12 +101,14 @@ Operational integrity is prioritized over UX convenience.
 ## Consequences
 
 ### Positive
+
 - clear separation of concerns
 - auditable interaction paths
 - predictable upgrade flows
 - safer AI-assisted development
 
 ### Negative
+
 - increased integration discipline
 - UI development requires coordination
 - no direct shortcuts for rapid prototyping
@@ -110,6 +120,7 @@ These trade-offs are intentional.
 ## Enforcement
 
 This ADR is enforced by:
+
 - `integration-map.md`
 - `workflow.md`
 - CI boundary checks
@@ -124,6 +135,7 @@ Violations result in PR rejection.
 ### Direct UI → Core Integration
 
 Rejected due to:
+
 - security risks
 - hidden coupling
 - unbounded UX-driven logic
@@ -131,6 +143,7 @@ Rejected due to:
 ### Backend-for-Frontend (BFF)
 
 Rejected due to:
+
 - duplication of logic
 - increased maintenance surface
 - unclear ownership
@@ -140,6 +153,7 @@ Rejected due to:
 ## Notes for AI Assistants
 
 AI agents must:
+
 - treat this boundary as non-negotiable
 - stop when an integration violates this ADR
 - propose documentation changes before any exception

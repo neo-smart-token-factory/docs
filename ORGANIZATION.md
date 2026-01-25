@@ -19,12 +19,14 @@ A **neo-smart-token-factory** é uma organização técnica **ativa e pública**
 Profissionais com histórico relevante nas áreas:
 
 #### ⚖️ Jurídica
+
 - Segurança cibernética
 - Integridade digital
 - Aplicação do direito em ambientes tecnológicos complexos
 - Compliance e regulação de ativos digitais
 
 #### 💻 Engenharia de Software
+
 - Arquitetura de sistemas distribuídos
 - Desenvolvimento blockchain
 - Segurança de aplicações
@@ -67,6 +69,7 @@ Profissionais com histórico relevante nas áreas:
 ## Repositórios Principais
 
 ### ⛓️ smart-core
+
 **Core engine — contratos e protocolo**
 
 - Contratos NeoTokenV2, Manual Bridge, vesting, rewards
@@ -77,6 +80,7 @@ Profissionais com histórico relevante nas áreas:
 **URL**: [github.com/neo-smart-token-factory/smart-core](https://github.com/neo-smart-token-factory/smart-core)
 
 ### 🎨 smart-ui
+
 **Interface de usuário e frontend**
 
 - React + Vite + Tailwind CSS
@@ -87,6 +91,7 @@ Profissionais com histórico relevante nas áreas:
 **URL**: [github.com/neo-smart-token-factory/smart-ui](https://github.com/neo-smart-token-factory/smart-ui)
 
 ### 📄 landing
+
 **Landing page e materiais de marketing**
 
 - Design moderno e responsivo
@@ -96,6 +101,7 @@ Profissionais com histórico relevante nas áreas:
 **URL**: [github.com/neo-smart-token-factory/landing](https://github.com/neo-smart-token-factory/landing)
 
 ### 📚 docs
+
 **Documentação central**
 
 - Arquitetura de sistemas
@@ -230,6 +236,7 @@ Familiarize-se com:
 ## Contato
 
 ### GitHub
+
 - **Organização**: [github.com/neo-smart-token-factory](https://github.com/neo-smart-token-factory)
 - **Issues**: Use os repositórios específicos
 - **Discussions**: Disponível nos repositórios principais

@@ -32,7 +32,8 @@ neo-smart-factory/
 └── tokens/          # Tokens criados
 ```
 
-**Justificativa**: 
+**Justificativa**:
+
 - `smart-*` é o prefixo dos repositórios atuais (smart-core, smart-ui, smart-cli)
 - Alinhado com ORGANIZATION e ADR 0002
 - Consistência entre módulos e nome do projeto
@@ -42,16 +43,19 @@ neo-smart-factory/
 ## 📦 Nomes de Pacotes NPM
 
 ### Padrão
+
 ```
 neo-smart-factory-{modulo}
 ```
 
 **Exemplos**:
+
 - `neo-smart-factory-core` (não `neo-forge-core`)
 - `neo-smart-factory-ui` (não `neo-forge-ui`)
 - `neo-smart-factory-cli` (não `neo-forge-cli`)
 
 **Status Atual**: ❌ Inconsistente
+
 - `neo-forge-core` → Deve ser `neo-smart-factory-core`
 - `neo-forge-ui` → Deve ser `neo-smart-factory-ui`
 - `neo-forge-cli` → Deve ser `neo-smart-factory-cli`
@@ -61,11 +65,13 @@ neo-smart-factory-{modulo}
 ## 🔧 Comando CLI
 
 ### Padrão Oficial
+
 ```bash
 neo-smart-factory {comando}
 ```
 
 **Exemplos**:
+
 ```bash
 neo-smart-factory init
 neo-smart-factory deploy
@@ -73,6 +79,7 @@ neo-smart-factory simulate
 ```
 
 **Status Atual**: ✅ Corrigido
+
 - ✅ `neo-smart-factory` (padrão aplicado)
 
 **Alternativa Curta** (opcional):
@@ -100,15 +107,18 @@ neo {comando}  # Alias para neo-smart-factory
 ## ✅ Status de Nomenclatura
 
 ### 1. Comando CLI
+
 - ✅ **Corrigido**: `neo-smart-factory` (padrão aplicado)
 - ✅ Todos os arquivos atualizados
 
 ### 2. Nomes de Pacotes
+
 - ✅ **Corrigido**: `neo-smart-factory-core`
 - ✅ **Corrigido**: `neo-smart-factory-ui`
 - ✅ **Corrigido**: `neo-smart-factory-cli`
 
 ### 3. Referências em Documentação
+
 - ✅ Todas as referências principais corrigidas
 - ℹ️ Arquivos históricos em `docs/auditoria/` mantêm referências antigas (documentação histórica)
 
