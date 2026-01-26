@@ -503,7 +503,7 @@ Para sugestões de melhorias ou bugs, abra uma issue no repositório.
 ---
 
 **Versão**: v0.5.3 — MULTICHAIN FOUNDATION  
-**Licença**: MIT
+**License**: MIT
 
 ---
 

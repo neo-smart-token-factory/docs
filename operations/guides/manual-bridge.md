@@ -365,7 +365,7 @@ cast send $BRIDGE_ADDRESS "addSupportedToken(address)" $TOKEN_ADDRESS --private-
 ---
 
 **Versão**: v0.5.3 — MULTICHAIN FOUNDATION  
-**Licença**: MIT
+**License**: MIT
 
 ---
 

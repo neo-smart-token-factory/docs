@@ -252,11 +252,11 @@ Para questões relacionadas a:
 
 ---
 
-## Licença
+## License
 
-Os projetos da organização utilizam licenças open source apropriadas, especificadas em cada repositório.
+Projects within the organization utilize appropriate open source licenses, as specified in each repository.
 
-Consulte o arquivo `LICENSE` em cada projeto para detalhes.
+Please refer to the `LICENSE` file in each project for details.
 
 ---
 

@@ -11,7 +11,9 @@ Fundamentos, valores e regras de contribuição da organização.
 - **[Organização Técnica](ORGANIZATION.md)** — neo-smart-token-factory, repos, governança.
 - **[Governança](core/governance.md)** — Resumo de governança e tomada de decisão.
 - **[Guia de Contribuição](core/contributing.md)** — Como contribuir e padrões de commit.
-- **[Licença](core/LICENSE)** — Termos de uso MIT.
+- **[Status Jurídico & FAQ](core/LEGAL_STATUS.md)** — IP, prova de autoria e licenciamento.
+- **[Code License](core/LICENSE)** — MIT Usage Terms.
+- **[Documentation License](LICENSE-DOCS.md)** — CC BY 4.0.
 
 ---
 

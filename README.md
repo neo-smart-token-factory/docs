@@ -28,8 +28,8 @@ Welcome to the official documentation repository of the NΞØ SMART FACTORY. Thi
 The documentation is versioned alongside the code. To contribute, please see our **[CONTRIBUTING.md](./CONTRIBUTING.md)**.
 
 ## ⚖️ License
-Documentation is licensed under **CC BY 4.0** (Creative Commons).
-Smart contract code referenced here is licensed under **MIT**.
+Documentation is licensed under **[CC BY 4.0](./LICENSE-DOCS.md)** (Creative Commons).
+Smart contract code referenced here is licensed under **[MIT](./core/LICENSE)**.
 
 ---
 **v0.5.3 — MULTICHAIN FOUNDATION**  
