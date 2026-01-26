@@ -196,25 +196,25 @@ Este inventário mapeia todos os documentos relevantes do repositório `docs` qu
 
 ### Wallet Abstraction & Account Abstraction
 
-- ✅ **NeoTokenV2** (`architecture/specs/neotoken-v2.md`): Suporte nativo para Account Abstraction via EIP-2612 (ERC20Permit)
-- ✅ **Integração MiniApp** (`operations/guides/miniapp-integration.md`): Sistema de distribuição via bridgeMinter
+-✅ **NeoTokenV2** (`architecture/specs/neotoken-v2.md`): Suporte nativo para Account Abstraction via EIP-2612 (ERC20Permit)
+-✅ **Integração MiniApp** (`operations/guides/miniapp-integration.md`): Sistema de distribuição via bridgeMinter
 
 ### MPC & MCP
 
-- ✅ **Adendos Arquiteturais** (`architecture/ARCHITECTURAL_ADDENDUMS.md`): Postura técnica sobre MCP, MPC, wallet extensions
-- ✅ **AgentKit Guide** (`architecture/specs/base-agentkit-guide.md`): Integração com Coinbase AI Agent Kit
+-✅ **Adendos Arquiteturais** (`architecture/ARCHITECTURAL_ADDENDUMS.md`): Postura técnica sobre MCP, MPC, wallet extensions
+-✅ **AgentKit Guide** (`architecture/specs/base-agentkit-guide.md`): Integração com Coinbase AI Agent Kit
 
 ### Automação
 
-- ✅ **Surgical Architecture** (`architecture/surgical.md`): Descrição dos blocos de automação (smart-core, smart-cli, internal-ops)
-- ✅ **Operational Guide** (`operations/guides/operational-guide.md`): Automações operacionais
-- ✅ **CI Workflows** (`operations/deployment/ci-workflows.md`): Automação de CI/CD
+-✅ **Surgical Architecture** (`architecture/surgical.md`): Descrição dos blocos de automação (smart-core, smart-cli, internal-ops)
+-✅ **Operational Guide** (`operations/guides/operational-guide.md`): Automações operacionais
+-✅ **CI Workflows** (`operations/deployment/ci-workflows.md`): Automação de CI/CD
 
 ### Governança
 
-- ✅ **Governance** (`core/governance.md`): Protocolo completo de governança
-- ✅ **Repository Visibility Policy** (`operations/standards/REPOSITORY_VISIBILITY_POLICY.md`): Política de exposição
-- ✅ **Workflow Baseline** (`operations/standards/workflow-baseline.md`): Padrões de workflow
+-✅ **Governance** (`core/governance.md`): Protocolo completo de governança
+-✅ **Repository Visibility Policy** (`operations/standards/REPOSITORY_VISIBILITY_POLICY.md`): Política de exposição
+-✅ **Workflow Baseline** (`operations/standards/workflow-baseline.md`): Padrões de workflow
 
 ---
 
@@ -260,18 +260,18 @@ Este inventário mapeia todos os documentos relevantes do repositório `docs` qu
 
 #### ✅ Informações Disponíveis
 
-- ✅ Arquitetura completa do sistema
-- ✅ Especificações técnicas detalhadas
-- ✅ Políticas de segurança e visibilidade
-- ✅ Histórico de desenvolvimento
-- ✅ Prova histórica (repositório antigo identificado)
-- ✅ Dados do autor (preenchidos no template)
+-✅ Arquitetura completa do sistema
+-✅ Especificações técnicas detalhadas
+-✅ Políticas de segurança e visibilidade
+-✅ Histórico de desenvolvimento
+-✅ Prova histórica (repositório antigo identificado)
+-✅ Dados do autor (preenchidos no template)
 
 #### ⚠️ Informações que Precisam ser Extraídas/Sintetizadas
 
-- ⚠️ **Diagrama do sistema**: Precisa ser criado baseado em `architecture/surgical.md` e `architecture/architecture.md`
-- ⚠️ **Estado atual do projeto**: Precisa ser sintetizado de múltiplos documentos
-- ⚠️ **Diferenciais estruturais**: Precisa ser extraído e explicado tecnicamente (sem adjetivos)
+-⚠️ **Diagrama do sistema**: Precisa ser criado baseado em `architecture/surgical.md` e `architecture/architecture.md`
+-⚠️ **Estado atual do projeto**: Precisa ser sintetizado de múltiplos documentos
+-⚠️ **Diferenciais estruturais**: Precisa ser extraído e explicado tecnicamente (sem adjetivos)
 
 ---
 
@@ -307,17 +307,17 @@ NΞØ SMART FACTORY Ecosystem
 
 ### Versões Identificadas
 
-- **v0.5.1** - IGNIÇÃO (primeira versão funcional)
-- **v0.5.3** - MULTICHAIN FOUNDATION (atual)
-- **v1.0** - Pacote de registro (a ser criado)
+-**v0.5.1** - IGNIÇÃO (primeira versão funcional)
+-**v0.5.3** - MULTICHAIN FOUNDATION (atual)
+-**v1.0** - Pacote de registro (a ser criado)
 
 ### Tecnologias Principais
 
-- **Blockchain**: Solidity ^0.8.20, Hardhat, OpenZeppelin Contracts v5.0
-- **Redes**: Polygon, Base, Arbitrum (multichain)
-- **Frontend**: Next.js 14, Tailwind CSS, Nuxt.js
-- **CLI**: Node.js, Commander.js
-- **Padrões**: ERC20, ERC721, EIP-2612 (Account Abstraction)
+-**Blockchain**: Solidity ^0.8.20, Hardhat, OpenZeppelin Contracts v5.0
+-**Redes**: Polygon, Base, Arbitrum (multichain)
+-**Frontend**: Next.js 14, Tailwind CSS, Nuxt.js
+-**CLI**: Node.js, Commander.js
+-**Padrões**: ERC20, ERC721, EIP-2612 (Account Abstraction)
 
 ---
 
@@ -326,13 +326,13 @@ NΞØ SMART FACTORY Ecosystem
 ### Documentos Relevantes Encontrados: 45+
 
 ### Categorias Cobertas:
-- ✅ Arquitetura e especificações técnicas
-- ✅ Governança e políticas
-- ✅ Operações e padrões
-- ✅ Estratégia e produto
-- ✅ Histórico e auditoria
-- ✅ Segurança e visibilidade
-- ✅ Prova histórica
+-✅ Arquitetura e especificações técnicas
+-✅ Governança e políticas
+-✅ Operações e padrões
+-✅ Estratégia e produto
+-✅ Histórico e auditoria
+-✅ Segurança e visibilidade
+-✅ Prova histórica
 
 ### Próximos Passos:
 1. ✅ Inventário completo

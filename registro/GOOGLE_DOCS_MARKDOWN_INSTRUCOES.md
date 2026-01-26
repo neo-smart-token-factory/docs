@@ -42,7 +42,7 @@ Na pasta `registro/release/private/`:
 
 ### Arquivo TXT (para hash):
 
-- ✅ `03_PROOF_Blockchain_Timestamp_Statement_v1.0_2026-01-22.txt`
+-✅ `03_PROOF_Blockchain_Timestamp_Statement_v1.0_2026-01-22.txt`
 
 ---
 
@@ -64,11 +64,11 @@ Na pasta `registro/release/private/`:
 
 Todos os documentos têm uma seção **"ASSINATURA"** no final, contendo:
 
-- Espaço reservado para assinatura digital
-- Seu nome: Eurycles Ramos Neto
-- CPF: 693.***.***-** (mascarado)
-- Local: Goiânia, GO, Brasil
-- Data: 2026-01-22
+-Espaço reservado para assinatura digital
+-Seu nome: Eurycles Ramos Neto
+-CPF: 693.***.***-** (mascarado)
+-Local: Goiânia, GO, Brasil
+-Data: 2026-01-22
 
 ### Processo de Assinatura:
 
@@ -82,11 +82,11 @@ Todos os documentos têm uma seção **"ASSINATURA"** no final, contendo:
 ## 🔄 Formatação no Google Docs
 
 O Google Docs reconhece automaticamente:
-- ✅ Títulos (# ## ###)
-- ✅ Negrito (**texto**)
-- ✅ Listas (- e 1.)
-- ✅ Código (`código`)
-- ✅ Links
+-✅ Títulos (# ## ###)
+-✅ Negrito (**texto**)
+-✅ Listas (- e 1.)
+-✅ Código (`código`)
+-✅ Links
 
 Se alguma formatação não aparecer correta, você pode ajustar manualmente no Google Docs antes de converter para PDF.
 
@@ -94,27 +94,27 @@ Se alguma formatação não aparecer correta, você pode ajustar manualmente no 
 
 ## ✅ Vantagens dos Arquivos .md
 
-- ✅ Google Docs importa diretamente
-- ✅ Formatação preservada automaticamente
-- ✅ Fácil edição antes de assinar
-- ✅ Conversão direta para PDF
-- ✅ Funciona perfeitamente com Gov.br
+-✅ Google Docs importa diretamente
+-✅ Formatação preservada automaticamente
+-✅ Fácil edição antes de assinar
+-✅ Conversão direta para PDF
+-✅ Funciona perfeitamente com Gov.br
 
 ---
 
 ## 🔒 Segurança
 
-- Os arquivos `.md` contêm dados pessoais completos
-- **NÃO compartilhe** os arquivos antes de assinar
-- Após assinar, mantenha os PDFs em local seguro
-- Os arquivos `.md` podem ser deletados após conversão para PDF
+-Os arquivos `.md` contêm dados pessoais completos
+-**NÃO compartilhe** os arquivos antes de assinar
+-Após assinar, mantenha os PDFs em local seguro
+-Os arquivos `.md` podem ser deletados após conversão para PDF
 
 ---
 
 ## 📋 Checklist
 
-- [ ] Importar arquivo `.md` no Google Docs
-- [ ] Revisar formatação
-- [ ] Converter para PDF
-- [ ] Assinar digitalmente via Gov.br
-- [ ] Salvar PDF assinado em local seguro
+-[ ] Importar arquivo `.md` no Google Docs
+-[ ] Revisar formatação
+-[ ] Converter para PDF
+-[ ] Assinar digitalmente via Gov.br
+-[ ] Salvar PDF assinado em local seguro

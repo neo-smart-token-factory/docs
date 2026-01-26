@@ -55,8 +55,8 @@ WALLET_DATA=./wallet_data.json
 
 ⚠️ **IMPORTANTE**: Salve as credenciais imediatamente! Elas só serão mostradas uma vez.
 
-- `CDP_API_KEY_NAME`: Nome da API Key
-- `CDP_API_KEY_PRIVATE_KEY`: Chave privada (formato JSON ou string)
+-`CDP_API_KEY_NAME`: Nome da API Key
+-`CDP_API_KEY_PRIVATE_KEY`: Chave privada (formato JSON ou string)
 
 ## 💸 Enviar 0,003 ETH
 
@@ -237,9 +237,9 @@ main();
 ## 🔐 Segurança
 
 ### ⚠️ NUNCA faça commit de:
-- `.env` (adicione ao `.gitignore`)
-- `wallet_data.json` (adicione ao `.gitignore`)
-- Chaves privadas ou API keys
+-`.env` (adicione ao `.gitignore`)
+-`wallet_data.json` (adicione ao `.gitignore`)
+-Chaves privadas ou API keys
 
 ### ✅ Boas Práticas:
 1. Use `.env.example` como template
@@ -249,9 +249,9 @@ main();
 
 ## 📚 Recursos Adicionais
 
-- [Coinbase SDK Docs](https://docs.cdp.coinbase.com/)
-- [Base Network Docs](https://docs.base.org/)
-- [Agent Kit GitHub](https://github.com/coinbase/agentkit)
+-[Coinbase SDK Docs](<https://docs.cdp.coinbase.com/>)
+-[Base Network Docs](<https://docs.base.org/>)
+-[Agent Kit GitHub](<https://github.com/coinbase/agentkit>)
 
 ## 🎯 Próximos Passos
 

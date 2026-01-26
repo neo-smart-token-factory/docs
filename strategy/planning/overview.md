@@ -7,16 +7,16 @@ O objetivo é fornecer "Prontidão para Produção como Serviço" (PRaaS) atrav�
 
 ## Fase Atual: Cash-First (Fase 1)
 Estamos atualmente em uma fase de execução **Cash-First** (Caixa Primeiro).
-- **Prioridade:** Geração de receita acima de excesso de funcionalidades.
-- **Foco:** Validar a disposição de pagar oferecendo serviços de alto valor "Done-for-You" (DFY) e ferramentas especializadas.
-- **Métrica de Sucesso:** Primeiros clientes pagos e uso ativo da CLI em ambientes de produção.
+-**Prioridade:** Geração de receita acima de excesso de funcionalidades.
+-**Foco:** Validar a disposição de pagar oferecendo serviços de alto valor "Done-for-You" (DFY) e ferramentas especializadas.
+-**Métrica de Sucesso:** Primeiros clientes pagos e uso ativo da CLI em ambientes de produção.
 
 ## Intencionalmente FORA DE ESCOPO (Por enquanto)
 Para manter o foco e a velocidade, os seguintes itens estão estritamente excluídos da fase atual:
-- **Governança Descentralizada:** Sem estruturas de DAO ou implantação de tokens de governança nesta fase.
-- **Expansão Multi-Chain (Secundária):** Embora o protocolo seja capaz de operar em múltiplas redes, os esforços de marketing focarão em Base/Ethereum para maximizar a liquidez e densidade de usuários.
-- **Aplicativos Nativos Mobile:** O foco é em Web (Mini-Apps) e CLI. Sem desenvolvimento nativo para iOS/Android.
-- **Marketing Focado em Varejo:** Não estamos visando o público em geral; nosso alvo são *Fundadores* e *Operadores*.
+-**Governança Descentralizada:** Sem estruturas de DAO ou implantação de tokens de governança nesta fase.
+-**Expansão Multi-Chain (Secundária):** Embora o protocolo seja capaz de operar em múltiplas redes, os esforços de marketing focarão em Base/Ethereum para maximizar a liquidez e densidade de usuários.
+-**Aplicativos Nativos Mobile:** O foco é em Web (Mini-Apps) e CLI. Sem desenvolvimento nativo para iOS/Android.
+-**Marketing Focado em Varejo:** Não estamos visando o público em geral; nosso alvo são *Fundadores* e *Operadores*.
 
 ## Pilares Estratégicos
 1. **A Landing Page:** A vitrine digital focada em conversão.

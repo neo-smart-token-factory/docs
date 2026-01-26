@@ -23,10 +23,10 @@
 
 A NΞØ SMART FACTORY e seus satélites operam na fronteira tecnológica da Uniswap:
 
-- **Uniswap V4 Migration**: Liquidez migrada da V3 para **Uniswap V4**.
-- **TX de Referência**: `0xf23893d4bc0c83747f58e1d7274e0f3923528179a498ed1326c76b3755cf2d0a`
-- **Pares**: MKS (`...e962`) / ETH
-- **Infra**: Uso do `Universal Router` e `Position Manager` V4.
+-**Uniswap V4 Migration**: Liquidez migrada da V3 para **Uniswap V4**.
+-**TX de Referência**: `0xf23893d4bc0c83747f58e1d7274e0f3923528179a498ed1326c76b3755cf2d0a`
+-**Pares**: MKS (`...e962`) / ETH
+-**Infra**: Uso do `Universal Router` e `Position Manager` V4.
 
 ---
 

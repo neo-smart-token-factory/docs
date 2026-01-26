@@ -4,9 +4,9 @@
 
 O NEOFLW opera em **modo bridgeMinter** para distribuição automatizada no Telegram MiniApp:
 
-- ❌ Mint público desabilitado (sem barreiras de wallet/gas)
-- ✅ Distribuição via backend controlado
-- ✅ Recompensas por engajamento (tarefas, referrals, streaks)
+-❌ Mint público desabilitado (sem barreiras de wallet/gas)
+-✅ Distribuição via backend controlado
+-✅ Recompensas por engajamento (tarefas, referrals, streaks)
 
 ---
 
@@ -500,13 +500,13 @@ ALERT_WEBHOOK=...
 ```
 
 ### Checklist de Segurança
-- [ ] Private key em secrets manager (nunca em código)
-- [ ] Rate limiting implementado
-- [ ] Validação server-side de todas as tarefas
-- [ ] Wallet ownership verificado (assinatura)
-- [ ] Monitoramento de supply ativo
-- [ ] Logs de todas as distribuições
-- [ ] Backup da wallet distribuidor
+-[ ] Private key em secrets manager (nunca em código)
+-[ ] Rate limiting implementado
+-[ ] Validação server-side de todas as tarefas
+-[ ] Wallet ownership verificado (assinatura)
+-[ ] Monitoramento de supply ativo
+-[ ] Logs de todas as distribuições
+-[ ] Backup da wallet distribuidor
 
 ---
 

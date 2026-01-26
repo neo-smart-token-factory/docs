@@ -3,9 +3,9 @@
 ## 📦 Repositório Base
 
 **Repositório Original:**
-- **URL**: https://github.com/Smart-Contracts-Solutions/erc20-token-generator
-- **Descrição**: SmartContracts.Tools em formato open-source
-- **Características**:
+-**URL**: https://github.com/Smart-Contracts-Solutions/erc20-token-generator
+-**Descrição**: SmartContracts.Tools em formato open-source
+-**Características**:
   - Código simples, modular, extensível
   - Estrutura mínima: `/contracts`, `/scripts`, `/test`
   - Base Hardhat (perfeita para FORGE)
@@ -57,36 +57,36 @@ smart-core/
 ## 🎯 Diferenças da Base Original
 
 ### Removido (Purificação)
-- ❌ Código demo
-- ❌ Scripts redundantes
-- ❌ Configurações genéricas
-- ❌ Bloat desnecessário
+-❌ Código demo
+-❌ Scripts redundantes
+-❌ Configurações genéricas
+-❌ Bloat desnecessário
 
 ### Adicionado (NΞØ)
-- ✅ `NeoTokenBase.sol` (base purificada)
-- ✅ Padronização Polygon
-- ✅ Templates reutilizáveis
-- ✅ Documentação NΞØ
-- ✅ Estrutura modular expandida
+-✅ `NeoTokenBase.sol` (base purificada)
+-✅ Padronização Polygon
+-✅ Templates reutilizáveis
+-✅ Documentação NΞØ
+-✅ Estrutura modular expandida
 
 ### Mantido (Do Original)
-- ✅ Estrutura mínima e limpa
-- ✅ Base Hardhat
-- ✅ Modularidade
-- ✅ Simplicidade
-- ✅ Extensibilidade
+-✅ Estrutura mínima e limpa
+-✅ Base Hardhat
+-✅ Modularidade
+-✅ Simplicidade
+-✅ Extensibilidade
 
 ## 📝 Créditos
 
 **Base Original:**
-- Repositório: https://github.com/Smart-Contracts-Solutions/erc20-token-generator
-- Projeto: SmartContracts.Tools
-- Licença: Open Source
+-Repositório: https://github.com/Smart-Contracts-Solutions/erc20-token-generator
+-Projeto: SmartContracts.Tools
+-Licença: Open Source
 
 **Transformação:**
-- Purificado e adaptado para NΞØ SMART FACTORY
-- Versão: v0.5.3 — MULTICHAIN FOUNDATION
-- Padronizado para Polygon
+-Purificado e adaptado para NΞØ SMART FACTORY
+-Versão: v0.5.3 — MULTICHAIN FOUNDATION
+-Padronizado para Polygon
 
 ---
 
@@ -100,7 +100,7 @@ smart-core/
 **Email**: neo@neoprotocol.space  
 **Web3 Identity**: neoprotocol.eth  
 **NEØ PROTOCOL**: https://neoprotocol.space  
-[![GitHub](https://img.shields.io/badge/GitHub-neo--smart--token--factory-181717?style=flat&logo=github)](https://github.com/neo-smart-token-factory)
+[![GitHub](<https://img.shields.io/badge/GitHub-neo--smart--token--factory-181717?style=flat&logo=github>)](https://github.com/neo-smart-token-factory)
 
 > *Expand until silence becomes structure.*
 

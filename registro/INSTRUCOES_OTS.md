@@ -21,16 +21,16 @@ Com o arquivo .ots gerado, você precisa de:
 
 ### TXID / Identificador:
 O arquivo .ots É a prova do timestamp. Você pode usar:
-- O nome do arquivo .ots
-- Ou o hash SHA-256 do arquivo original: `c8cc3f4bd08b7244031510ca17468f14fb02bddf32d4104f000c83d1cf33e141`
+-O nome do arquivo .ots
+-Ou o hash SHA-256 do arquivo original: `c8cc3f4bd08b7244031510ca17468f14fb02bddf32d4104f000c83d1cf33e141`
 
 ### Timestamp UTC:
 **2026-01-22T23:XX:XXZ** (use a hora atual em UTC)
 
 **Para converter hora local para UTC**:
-- Se você está em Goiânia (UTC-3), adicione 3 horas
-- Exemplo: Se são 23:00 em Goiânia → 02:00 UTC (do dia seguinte)
-- Mas como queremos registrar hoje (22/01), use: **2026-01-22T23:00:00Z** ou a hora que você gerou o timestamp
+-Se você está em Goiânia (UTC-3), adicione 3 horas
+-Exemplo: Se são 23:00 em Goiânia → 02:00 UTC (do dia seguinte)
+-Mas como queremos registrar hoje (22/01), use: **2026-01-22T23:00:00Z** ou a hora que você gerou o timestamp
 
 ---
 

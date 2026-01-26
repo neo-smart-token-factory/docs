@@ -18,24 +18,24 @@ No mundo Web3, um erro de configuração (ex: owner errado, proxy mal inicializa
 
 ### 1. Smart Scan (Validação de Contratos)
 O Doctor analisa o bytecode e o estado on-chain para verificar inconsistências.
-- **Verificação de Inicialização:** Garante que o contrato `Initializable` não foi deixado aberto.
-- **Proxy Integrity:** Valida se a implementação do Proxy (UUPS ou Transparent) coincide com os artefatos locais.
-- **Supply Match:** Cruza o `MAX_SUPPLY` definido no código com o estado atual do contrato.
+-**Verificação de Inicialização:** Garante que o contrato `Initializable` não foi deixado aberto.
+-**Proxy Integrity:** Valida se a implementação do Proxy (UUPS ou Transparent) coincide com os artefatos locais.
+-**Supply Match:** Cruza o `MAX_SUPPLY` definido no código com o estado atual do contrato.
 
 ### 2. Security Pulse (Auditoria de Permissões)
 Gera um mapa visual do poder dentro do contrato.
-- **Rolestack:** Lista quem tem `DEFAULT_ADMIN_ROLE`, `MINTER_ROLE`, etc.
-- **Ownership Trail:** Verifica se o `owner` atual é uma EOA, uma Multisig (Safe) ou se o contrato foi renunciado acidentalmente.
-- **Blacklist/Pause Status:** Verifica se funções de emergência estão ativas ou configuradas corretamente.
+-**Rolestack:** Lista quem tem `DEFAULT_ADMIN_ROLE`, `MINTER_ROLE`, etc.
+-**Ownership Trail:** Verifica se o `owner` atual é uma EOA, uma Multisig (Safe) ou se o contrato foi renunciado acidentalmente.
+-**Blacklist/Pause Status:** Verifica se funções de emergência estão ativas ou configuradas corretamente.
 
 ### 3. Engine de Otimização de Gas
 Analisa os custos operacionais em tempo real.
-- **Benchmark de Mint:** Quanto custa o mint nas condições atuais de Gwei?
-- **Sugeridor de Janela:** Baseado no histórico da rede (Base/Ethereum), sugere o melhor horário para operações de alto consumo (ex: bridge de liquidez).
+-**Benchmark de Mint:** Quanto custa o mint nas condições atuais de Gwei?
+-**Sugeridor de Janela:** Baseado no histórico da rede (Base/Ethereum), sugere o melhor horário para operações de alto consumo (ex: bridge de liquidez).
 
 ### 4. Relatórios Exportáveis (Recurso PRO)
 A CLI gera um arquivo `health-report-[timestamp].pdf` ou `Markdown` com branding da NΞØ.
-- **Uso:** Fundadores podem anexar este relatório em seus decks de investidores ou canais da comunidade para provar a saúde técnica do projeto.
+-**Uso:** Fundadores podem anexar este relatório em seus decks de investidores ou canais da comunidade para provar a saúde técnica do projeto.
 
 ---
 
@@ -51,9 +51,9 @@ A CLI gera um arquivo `health-report-[timestamp].pdf` ou `Markdown` com branding
 
 ## 🎨 Experiência do Usuário (CLI UX)
 A interface deve ser "Premium Obsidian":
-- **Spinners customizados:** Durante o scan.
-- **Tabelas ANSI:** Para exibir a matriz de permissões.
-- **Relatórios Visuais:** Uso de cores (Verde, Amarelo, Vermelho Crítico) para indicar a urgência.
+-**Spinners customizados:** Durante o scan.
+-**Tabelas ANSI:** Para exibir a matriz de permissões.
+-**Relatórios Visuais:** Uso de cores (Verde, Amarelo, Vermelho Crítico) para indicar a urgência.
 
 ```bash
 # Exemplo de Comando
@@ -63,10 +63,10 @@ $ nsf doctor --deep --contract 0x... --output report.pdf
 ---
 
 ## 🛠️ TODO Lista Técnica (Prioridade)
-- [ ] Implementar conector `ethers` robusto com fallback de múltiplos RPCs.
-- [ ] Criar parser de ABI para identificar funções de governança automaticamente.
-- [ ] Desenvolver gerador de relatórios em Markdown purificado.
-- [ ] Gate de licença inicial (verificação de posse de token/NFT na carteira do operador).
+-[ ] Implementar conector `ethers` robusto com fallback de múltiplos RPCs.
+-[ ] Criar parser de ABI para identificar funções de governança automaticamente.
+-[ ] Desenvolver gerador de relatórios em Markdown purificado.
+-[ ] Gate de licença inicial (verificação de posse de token/NFT na carteira do operador).
 
 ---
 

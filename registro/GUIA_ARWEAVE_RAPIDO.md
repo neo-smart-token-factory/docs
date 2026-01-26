@@ -88,10 +88,10 @@ Wallet web open-source da Arweave.
 
 Após publicar na Arweave, você terá:
 
-- **Rede**: Arweave
-- **TXID**: [hash da transação Arweave - começa com letras/números]
-- **Data**: [data do upload]
-- **Link**: `https://arweave.net/[TXID]`
+-**Rede**: Arweave
+-**TXID**: [hash da transação Arweave - começa com letras/números]
+-**Data**: [data do upload]
+-**Link**: `https://arweave.net/[TXID]`
 
 ---
 

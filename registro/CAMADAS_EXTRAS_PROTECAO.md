@@ -21,8 +21,8 @@
 
 **Onde fazer**:
 
-- **Arweave**: <https://www.arweave.org/> (upload do hash como metadata)
-- **Ethereum/Base**: Enviar transação com hash nos dados (calldata)
+-**Arweave**: <https://www.arweave.org/> (upload do hash como metadata)
+-**Ethereum/Base**: Enviar transação com hash nos dados (calldata)
 
 **Tempo estimado**: 5 minutos
 
@@ -36,10 +36,10 @@
 
 **Conteúdo**:
 
-- Nome do projeto
-- Data
-- Hash SHA-256 do pacote
-- Frase clara sobre descrição completa assinada
+-Nome do projeto
+-Data
+-Hash SHA-256 do pacote
+-Frase clara sobre descrição completa assinada
 
 **Onde publicar**:
 
@@ -67,20 +67,20 @@ Contextualização temporal explicando que o pacote consolida documentação pro
 
 ### Camada 1 (Espelhamento):
 
-- [x] Estrutura preparada no 04_PROOF
-- [ ] Publicar hash em Arweave/Ethereum/Base
-- [ ] Preencher TXID e data no 04_PROOF
+-[x] Estrutura preparada no 04_PROOF
+-[ ] Publicar hash em Arweave/Ethereum/Base
+-[ ] Preencher TXID e data no 04_PROOF
 
 ### Camada 2 (Publicação Pública):
 
-- [x] Arquivo PUBLIC_NOTICE criado
-- [ ] Publicar no GitHub (commit no repo público)
-- [ ] (Opcional) Publicar no IPFS
+-[x] Arquivo PUBLIC_NOTICE criado
+-[ ] Publicar no GitHub (commit no repo público)
+-[ ] (Opcional) Publicar no IPFS
 
 ### Camada 3 (Encadeamento Temporal):
 
-- [x] Contextualização adicionada ao 00_INDEX
-- [x] Documento atualizado
+-[x] Contextualização adicionada ao 00_INDEX
+-[x] Documento atualizado
 
 ---
 
@@ -97,9 +97,9 @@ Contextualização temporal explicando que o pacote consolida documentação pro
 
 ## 💡 BENEFÍCIOS DAS CAMADAS
 
-- **Camada 1**: Redundância temporal inter-chain (proteção contra falha de uma rede)
-- **Camada 2**: Evidência pública legível por humanos (não apenas técnicos)
-- **Camada 3**: Contextualização clara do desenvolvimento contínuo (anti-"feito tudo junto")
+-**Camada 1**: Redundância temporal inter-chain (proteção contra falha de uma rede)
+-**Camada 2**: Evidência pública legível por humanos (não apenas técnicos)
+-**Camada 3**: Contextualização clara do desenvolvimento contínuo (anti-"feito tudo junto")
 
 ---
 

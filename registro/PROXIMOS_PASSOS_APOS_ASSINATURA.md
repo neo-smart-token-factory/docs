@@ -6,9 +6,9 @@
 
 ## ✅ O QUE JÁ FOI FEITO
 
-- [x] Documento 00_INDEX assinado
-- [x] Documento 01_CORE assinado  
-- [x] Documento 02_SYSTEM assinado
+-[x] Documento 00_INDEX assinado
+-[x] Documento 01_CORE assinado  
+-[x] Documento 02_SYSTEM assinado
 
 ---
 
@@ -45,9 +45,9 @@ shasum -a 256 arquivo.pdf
 
 **Método 2: Online**
 
-- Acesse: https://emn178.github.io/online-tools/sha256_checksum.html
-- Faça upload do arquivo PDF
-- Copie o hash gerado
+-Acesse: https://emn178.github.io/online-tools/sha256_checksum.html
+-Faça upload do arquivo PDF
+-Copie o hash gerado
 
 **Método 3: Windows PowerShell**
 ```powershell
@@ -63,17 +63,17 @@ Use o arquivo `03_PROOF_Blockchain_Timestamp_Statement_v1.0_2026-01-22.txt` para
 #### Opções de registro:
 
 **Opção A: Ethereum/Base/Arbitrum**
-- Use o hash SHA-256 do arquivo 03_PROOF
-- Crie uma transação na blockchain escolhida
-- Anote o TXID e timestamp
+-Use o hash SHA-256 do arquivo 03_PROOF
+-Crie uma transação na blockchain escolhida
+-Anote o TXID e timestamp
 
 **Opção B: Arweave**
-- Faça upload do arquivo 03_PROOF
-- Anote o TXID e timestamp
+-Faça upload do arquivo 03_PROOF
+-Anote o TXID e timestamp
 
 **Opção C: OpenTimestamps**
-- Use o serviço OpenTimestamps
-- Anote o timestamp e comprovante
+-Use o serviço OpenTimestamps
+-Anote o timestamp e comprovante
 
 ---
 
@@ -110,20 +110,20 @@ Após preencher todas as informações no documento 04_PROOF:
 ## 📝 CHECKLIST COMPLETO
 
 ### Fase Atual (Concluída):
-- [x] Assinar documento 00_INDEX
-- [x] Assinar documento 01_CORE
-- [x] Assinar documento 02_SYSTEM
+-[x] Assinar documento 00_INDEX
+-[x] Assinar documento 01_CORE
+-[x] Assinar documento 02_SYSTEM
 
 ### Próxima Fase:
-- [ ] Gerar hash SHA-256 do arquivo 00_INDEX.pdf
-- [ ] Gerar hash SHA-256 do arquivo 01_CORE.pdf
-- [ ] Gerar hash SHA-256 do arquivo 02_SYSTEM.pdf
-- [ ] Gerar hash SHA-256 do arquivo 03_PROOF.txt
-- [ ] Registrar hash do 03_PROOF na blockchain
-- [ ] Obter TXID da transação blockchain
-- [ ] Obter timestamp UTC da transação
-- [ ] Preencher documento 04_PROOF com todos os dados
-- [ ] Assinar documento 04_PROOF
+-[ ] Gerar hash SHA-256 do arquivo 00_INDEX.pdf
+-[ ] Gerar hash SHA-256 do arquivo 01_CORE.pdf
+-[ ] Gerar hash SHA-256 do arquivo 02_SYSTEM.pdf
+-[ ] Gerar hash SHA-256 do arquivo 03_PROOF.txt
+-[ ] Registrar hash do 03_PROOF na blockchain
+-[ ] Obter TXID da transação blockchain
+-[ ] Obter timestamp UTC da transação
+-[ ] Preencher documento 04_PROOF com todos os dados
+-[ ] Assinar documento 04_PROOF
 
 ---
 

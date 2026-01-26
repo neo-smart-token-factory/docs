@@ -35,12 +35,12 @@ O repositório `neomello/neo_smart_factory` é um **repositório histórico** ma
 
 ### Repositórios Ativos
 
-- `neo-smart-token-factory/docs` - Documentação
-- `neo-smart-token-factory/smart-core` - Contratos inteligentes
-- `neo-smart-token-factory/smart-ui` - Interface visual
-- `neo-smart-token-factory/smart-cli` - CLI universal
-- `neo-smart-token-factory/internal-ops` - Scripts operacionais
-- `neo-smart-token-factory/landing` - Landing page
+-`neo-smart-token-factory/docs` - Documentação
+-`neo-smart-token-factory/smart-core` - Contratos inteligentes
+-`neo-smart-token-factory/smart-ui` - Interface visual
+-`neo-smart-token-factory/smart-cli` - CLI universal
+-`neo-smart-token-factory/internal-ops` - Scripts operacionais
+-`neo-smart-token-factory/landing` - Landing page
 
 ---
 
@@ -62,9 +62,9 @@ O repositório `neomello/neo_smart_factory` é um **repositório histórico** ma
 
 ## Histórico
 
-- **2026-01-22**: Criação da política após identificação de commit acidental no repositório antigo
-- **2025-11-16**: Primeiro commit no repositório histórico (`neomello/neo_smart_factory`)
-- **2025-11-17**: Migração para organização (`neo-smart-token-factory`)
+-**2026-01-22**: Criação da política após identificação de commit acidental no repositório antigo
+-**2025-11-16**: Primeiro commit no repositório histórico (`neomello/neo_smart_factory`)
+-**2025-11-17**: Migração para organização (`neo-smart-token-factory`)
 
 ---
 

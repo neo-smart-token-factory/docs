@@ -57,14 +57,14 @@
 
 ### Versão Private (completa - para assinar):
 
-- `00_INDEX_NEO_Smart_Token_Factory_v1.0_2026-01-22.html`
-- `01_CORE_Authorship_and_Prior_Art_v1.0_2026-01-22.html`
-- `02_SYSTEM_Executable_Concept_Overview_v1.0_2026-01-22.html` (a ser criado)
-- `04_PROOF_SHA256_and_TXID_v1.0_2026-01-22.html` (a ser criado)
+-`00_INDEX_NEO_Smart_Token_Factory_v1.0_2026-01-22.html`
+-`01_CORE_Authorship_and_Prior_Art_v1.0_2026-01-22.html`
+-`02_SYSTEM_Executable_Concept_Overview_v1.0_2026-01-22.html` (a ser criado)
+-`04_PROOF_SHA256_and_TXID_v1.0_2026-01-22.html` (a ser criado)
 
 ### Arquivo TXT (para hash):
 
-- `03_PROOF_Blockchain_Timestamp_Statement_v1.0_2026-01-22.txt`
+-`03_PROOF_Blockchain_Timestamp_Statement_v1.0_2026-01-22.txt`
 
 **Nota**: O arquivo 03_PROOF permanece em TXT (texto puro) para geração de hash SHA-256.
 
@@ -72,18 +72,18 @@
 
 ## ✅ Vantagens do Google Docs
 
-- ✅ Acesso online de qualquer lugar
-- ✅ Conversão direta para PDF
-- ✅ Formatação preservada
-- ✅ Fácil edição antes de assinar
-- ✅ Compartilhamento seguro
-- ✅ Histórico de versões automático
+-✅ Acesso online de qualquer lugar
+-✅ Conversão direta para PDF
+-✅ Formatação preservada
+-✅ Fácil edição antes de assinar
+-✅ Compartilhamento seguro
+-✅ Histórico de versões automático
 
 ---
 
 ## 🔒 Segurança
 
-- Os arquivos HTML contêm dados pessoais completos
-- **NÃO compartilhe** os arquivos antes de assinar
-- Após assinar, mantenha os PDFs em local seguro
-- Os arquivos HTML podem ser deletados após conversão para PDF
+-Os arquivos HTML contêm dados pessoais completos
+-**NÃO compartilhe** os arquivos antes de assinar
+-Após assinar, mantenha os PDFs em local seguro
+-Os arquivos HTML podem ser deletados após conversão para PDF

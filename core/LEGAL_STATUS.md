@@ -5,14 +5,14 @@ The **NΞØ Smart Token Factory** project, its architecture, documentation, and 
 
 ## 🛡️ Proof of Authorship & Prior Art
 Authorship and technical concepts were formally sealed and timestamped to establish prior art:
-- **Method**: Digital signatures via **ICP-Brasil (Gov.br)** and blockchain timestamping via **OpenTimestamps**.
-- **Official Sealing Date**: 2026-01-22.
-- **Verification**: SHA-256 hashes for all core documents are registered in the global blockchain ledger (refer to `docs/registro/release/public/04_PROOF_SHA256_and_TXID_v1.0_2026-01-22.md`).
+-**Method**: Digital signatures via **ICP-Brasil (Gov.br)** and blockchain timestamping via **OpenTimestamps**.
+-**Official Sealing Date**: 2026-01-22.
+-**Verification**: SHA-256 hashes for all core documents are registered in the global blockchain ledger (refer to `docs/registro/release/public/04_PROOF_SHA256_and_TXID_v1.0_2026-01-22.md`).
 
 ## 📜 Licensing Strategy (Open Source)
 The project adopts a hybrid open-source model:
-- **Source Code**: Licensed under the **[MIT License](./LICENSE)**. 
-- **Documentation & Specs**: Licensed under **[CC BY 4.0](../LICENSE-DOCS.md)**.
+-**Source Code**: Licensed under the **[MIT License](<./LICENSE>)**. 
+-**Documentation & Specs**: Licensed under **[CC BY 4.0](<../LICENSE-DOCS.md>)**.
 
 ## ❓ Frequently Asked Questions (FAQ)
 

@@ -18,11 +18,11 @@ O que antes levava semanas de esforço manual, agora é forjado como um impulso 
 
 ## Valores
 
-- **Eficiência**: Transformar semanas em minutos
-- **Autonomia**: Não depender de Big Tech
-- **Segurança**: Contratos auditáveis e seguros
-- **Modularidade**: Componentes independentes e reutilizáveis
-- **Narrativa**: Engenharia cultural integrada
+-**Eficiência**: Transformar semanas em minutos
+-**Autonomia**: Não depender de Big Tech
+-**Segurança**: Contratos auditáveis e seguros
+-**Modularidade**: Componentes independentes e reutilizáveis
+-**Narrativa**: Engenharia cultural integrada
 
 ## Missão
 
@@ -46,7 +46,7 @@ E quer ativar uma geração de criadores que desejam exatamente isso.
 **Email**: neo@neoprotocol.space  
 **Web3 Identity**: neoprotocol.eth  
 **NEØ PROTOCOL**: https://neoprotocol.space  
-[![GitHub](https://img.shields.io/badge/GitHub-neo--smart--token--factory-181717?style=flat&logo=github)](https://github.com/neo-smart-token-factory)
+[![GitHub](<https://img.shields.io/badge/GitHub-neo--smart--token--factory-181717?style=flat&logo=github>)](https://github.com/neo-smart-token-factory)
 
 > *Expand until silence becomes structure.*
 

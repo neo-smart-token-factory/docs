@@ -34,9 +34,9 @@ Este aviso público serve como evidência não técnica e legível por humanos d
 
 ## INFORMAÇÕES ADICIONAIS
 
-- **Repositório Histórico**: <https://github.com/neomello/neo_smart_factory> (primeiro commit: 2025-11-16)
-- **Organização Atual**: <https://github.com/neo-smart-token-factory> (desde 2025-11-17)
-- **Documentação Técnica**: Disponível publicamente em `neo-smart-token-factory/docs`
+-**Repositório Histórico**: <https://github.com/neomello/neo_smart_factory> (primeiro commit: 2025-11-16)
+-**Organização Atual**: <https://github.com/neo-smart-token-factory> (desde 2025-11-17)
+-**Documentação Técnica**: Disponível publicamente em `neo-smart-token-factory/docs`
 
 ---
 

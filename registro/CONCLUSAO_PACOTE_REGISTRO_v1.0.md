@@ -53,11 +53,11 @@ Todos os documentos do Pacote de Registro v1.0 do projeto **NΞØ SMART TOKEN FA
 
 ### Registro Blockchain:
 
-- **Rede**: OpenTimestamps
-- **TXID/Identificador**: `c8cc3f4bd08b7244031510ca17468f14fb02bddf32d4104f000c83d1cf33e141`
-- **Timestamp UTC**: 2026-01-23T02:20:00Z
-- **Arquivo de Prova**: `03_PROOF_Blockchain_Timestamp_Statement_v1.0_2026-01-22.txt.ots`
-- **Verificação**: <https://opentimestamps.org/verify>
+-**Rede**: OpenTimestamps
+-**TXID/Identificador**: `c8cc3f4bd08b7244031510ca17468f14fb02bddf32d4104f000c83d1cf33e141`
+-**Timestamp UTC**: 2026-01-23T02:20:00Z
+-**Arquivo de Prova**: `03_PROOF_Blockchain_Timestamp_Statement_v1.0_2026-01-22.txt.ots`
+-**Verificação**: <https://opentimestamps.org/verify>
 
 ---
 
@@ -65,24 +65,24 @@ Todos os documentos do Pacote de Registro v1.0 do projeto **NΞØ SMART TOKEN FA
 
 ### Arquivos de Suporte (na pasta `registro/release/private/`):
 
-- `03_PROOF_Blockchain_Timestamp_Statement_v1.0_2026-01-22.txt` (texto para hash)
-- `03_PROOF_Blockchain_Timestamp_Statement_v1.0_2026-01-22.txt.ots` (prova OpenTimestamps)
-- Versões `.md` dos documentos (para referência)
+-`03_PROOF_Blockchain_Timestamp_Statement_v1.0_2026-01-22.txt` (texto para hash)
+-`03_PROOF_Blockchain_Timestamp_Statement_v1.0_2026-01-22.txt.ots` (prova OpenTimestamps)
+-Versões `.md` dos documentos (para referência)
 
 ---
 
 ## ✅ CHECKLIST FINAL
 
-- [x] Documento 00_INDEX gerado e assinado
-- [x] Documento 01_CORE gerado e assinado
-- [x] Documento 02_SYSTEM gerado e assinado
-- [x] Documento 03_PROOF gerado (TXT para hash)
-- [x] Documento 04_PROOF gerado e assinado
-- [x] Hashes SHA-256 gerados e documentados
-- [x] Registro blockchain realizado (OpenTimestamps)
-- [x] Arquivo .ots gerado e armazenado
-- [x] Todos os PDFs assinados digitalmente ICP-Brasil
-- [x] Documentos organizados na pasta de destino
+-[x] Documento 00_INDEX gerado e assinado
+-[x] Documento 01_CORE gerado e assinado
+-[x] Documento 02_SYSTEM gerado e assinado
+-[x] Documento 03_PROOF gerado (TXT para hash)
+-[x] Documento 04_PROOF gerado e assinado
+-[x] Hashes SHA-256 gerados e documentados
+-[x] Registro blockchain realizado (OpenTimestamps)
+-[x] Arquivo .ots gerado e armazenado
+-[x] Todos os PDFs assinados digitalmente ICP-Brasil
+-[x] Documentos organizados na pasta de destino
 
 ---
 
@@ -99,20 +99,20 @@ Informações de cada assinatura estão nos respectivos PDFs.
 
 ### Informações do Autor:
 
-- **Nome**: Eurycles Ramos Neto
-- **CPF**: 693.***.***-** (mascarado)
-- **RG**: 4143*** (mascarado)
-- **Nacionalidade**: Brasileiro
-- **Local**: Goiânia, GO, Brasil
-- **E-mail**: ***@hotmail.com (mascarado)
+-**Nome**: Eurycles Ramos Neto
+-**CPF**: 693.***.***-** (mascarado)
+-**RG**: 4143*** (mascarado)
+-**Nacionalidade**: Brasileiro
+-**Local**: Goiânia, GO, Brasil
+-**E-mail**: ***@hotmail.com (mascarado)
 
 ### Informações do Projeto:
 
-- **Nome**: NΞØ SMART TOKEN FACTORY
-- **Versão do Pacote**: v1.0
-- **Data Oficial**: 2026-01-22
-- **Primeiro Commit**: 2025-11-16 (repositório histórico)
-- **Organização Atual**: <https://github.com/neo-smart-token-factory>
+-**Nome**: NΞØ SMART TOKEN FACTORY
+-**Versão do Pacote**: v1.0
+-**Data Oficial**: 2026-01-22
+-**Primeiro Commit**: 2025-11-16 (repositório histórico)
+-**Organização Atual**: <https://github.com/neo-smart-token-factory>
 
 ---
 
@@ -127,8 +127,8 @@ Informações de cada assinatura estão nos respectivos PDFs.
 
 ### Fases Restantes do Plano Original:
 
-- **Fase 3**: Política de exposição do repositório (já existe em `operations/standards/`)
-- **Fase 4**: Checklist de validação (já criado em `registro/AUDITORIA_COMPLETA_ASSINATURAS_2026-01-22.md`)
+-**Fase 3**: Política de exposição do repositório (já existe em `operations/standards/`)
+-**Fase 4**: Checklist de validação (já criado em `registro/AUDITORIA_COMPLETA_ASSINATURAS_2026-01-22.md`)
 
 ---
 
@@ -138,11 +138,11 @@ O **Pacote de Registro v1.0** do projeto **NΞØ SMART TOKEN FACTORY** está **1
 
 Todos os documentos foram:
 
-- ✅ Gerados conforme especificações
-- ✅ Preenchidos com dados completos
-- ✅ Assinados digitalmente ICP-Brasil
-- ✅ Registrados na blockchain (OpenTimestamps)
-- ✅ Documentados com hashes SHA-256
+-✅ Gerados conforme especificações
+-✅ Preenchidos com dados completos
+-✅ Assinados digitalmente ICP-Brasil
+-✅ Registrados na blockchain (OpenTimestamps)
+-✅ Documentados com hashes SHA-256
 
 **Parabéns pela conclusão bem-sucedida!** 🎉
 

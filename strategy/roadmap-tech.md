@@ -3,12 +3,12 @@
 ## 🎯 Integração com Base Network
 
 ### ✅ Concluído
-- [x] Deploy NEOFLW Token na Base Mainnet
-- [x] Verificação on-chain no BaseScan
-- [x] Manual Bridge System (v0.5.3)
+-[x] Deploy NEOFLW Token na Base Mainnet
+-[x] Verificação on-chain no BaseScan
+-[x] Manual Bridge System (v0.5.3)
 
 ### 🔄 Em Progresso
-- [ ] **Coinbase AI Agent Kit Integration** (Backlog)
+-[ ] **Coinbase AI Agent Kit Integration** (Backlog)
   - Motivo: Processo mais complexo que alternativas diretas
   - Alternativa atual: Scripts com ethers.js (mais rápido e direto)
   - Benefícios futuros: Automação com IA, agentes autônomos
@@ -18,28 +18,28 @@
 ### 📋 Próximas Funcionalidades
 
 #### 🚀 Fase 1: Operações Básicas (Atual)
-- [x] Envio de ETH via ethers.js
-- [ ] Swap de tokens (DEX integration)
-- [ ] Consulta de saldos multi-token
-- [ ] Histórico de transações
+-[x] Envio de ETH via ethers.js
+-[ ] Swap de tokens (DEX integration)
+-[ ] Consulta de saldos multi-token
+-[ ] Histórico de transações
 
 #### 🤖 Fase 2: Automação (Q1 2026)
-- [ ] Scripts automatizados de distribuição
-- [ ] Bot de monitoramento de bridge
-- [ ] Alertas de transações
-- [ ] Dashboard de métricas
+-[ ] Scripts automatizados de distribuição
+-[ ] Bot de monitoramento de bridge
+-[ ] Alertas de transações
+-[ ] Dashboard de métricas
 
 #### 🧠 Fase 3: AI Agent Kit (Q2 2026)
-- [ ] Integração completa do Coinbase Agent Kit
-- [ ] Agentes autônomos para operações
-- [ ] Natural language para transações
-- [ ] Integração com LLMs (GPT-4, Claude)
+-[ ] Integração completa do Coinbase Agent Kit
+-[ ] Agentes autônomos para operações
+-[ ] Natural language para transações
+-[ ] Integração com LLMs (GPT-4, Claude)
 
 #### 🌐 Fase 4: Multichain Expansion (Q3 2026)
-- [ ] Suporte a Arbitrum
-- [ ] Suporte a Optimism
-- [ ] Suporte a Polygon PoS
-- [ ] Bridge automatizado entre chains
+-[ ] Suporte a Arbitrum
+-[ ] Suporte a Optimism
+-[ ] Suporte a Polygon PoS
+-[ ] Bridge automatizado entre chains
 
 ## 📚 Recursos e Documentação
 
@@ -52,10 +52,10 @@ node scripts/send-eth-quick.js
 ```
 
 **Vantagens:**
-- ✅ Usa infraestrutura já existente (hardhat + ethers)
-- ✅ Sem dependências extras
-- ✅ Execução instantânea
-- ✅ Usa sua chave privada já configurada
+-✅ Usa infraestrutura já existente (hardhat + ethers)
+-✅ Sem dependências extras
+-✅ Execução instantânea
+-✅ Usa sua chave privada já configurada
 
 #### 🤖 Envio via Agent Kit (Futuro)
 ```bash
@@ -64,19 +64,19 @@ node scripts/send-eth.js
 ```
 
 **Vantagens:**
-- 🔮 Integração com IA
-- 🔮 Agentes autônomos
-- 🔮 Abstração de complexidade
-- 🔮 Recursos avançados de automação
+-🔮 Integração com IA
+-🔮 Agentes autônomos
+-🔮 Abstração de complexidade
+-🔮 Recursos avançados de automação
 
 **Desvantagens:**
-- ⏱️ Setup mais complexo
-- 🔑 Requer credenciais CDP adicionais
-- 📦 Dependências extras
+-⏱️ Setup mais complexo
+-🔑 Requer credenciais CDP adicionais
+-📦 Dependências extras
 
 ### Guias de Referência
-- [BASE_AGENTKIT_GUIDE.md](./BASE_AGENTKIT_GUIDE.md) - Guia completo do Agent Kit
-- [MANUAL_BRIDGE.md](./MANUAL_BRIDGE.md) - Sistema de bridge manual
+-[BASE_AGENTKIT_GUIDE.md](<./BASE_AGENTKIT_GUIDE.md>) - Guia completo do Agent Kit
+-[MANUAL_BRIDGE.md](<./MANUAL_BRIDGE.md>) - Sistema de bridge manual
 
 ## 🎓 Aprendizados
 

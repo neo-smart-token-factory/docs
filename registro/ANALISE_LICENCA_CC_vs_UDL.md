@@ -8,9 +8,9 @@
 
 ### Licenças Existentes
 
-- **Código (Smart Contracts)**: MIT License
-- **Documentação Técnica**: CC BY 4.0 (Creative Commons Attribution 4.0)
-- **Documentos de Registro**: Não especificado explicitamente
+-**Código (Smart Contracts)**: MIT License
+-**Documentação Técnica**: CC BY 4.0 (Creative Commons Attribution 4.0)
+-**Documentos de Registro**: Não especificado explicitamente
 
 ---
 
@@ -22,25 +22,25 @@
 
 **Características**:
 
-- ✅ Amplamente reconhecida e aceita
-- ✅ Permite uso comercial e modificações
-- ✅ Requer atribuição (BY)
-- ✅ Compatível com padrões web e documentação
-- ✅ Já usada no projeto (README menciona CC BY 4.0)
+-✅ Amplamente reconhecida e aceita
+-✅ Permite uso comercial e modificações
+-✅ Requer atribuição (BY)
+-✅ Compatível com padrões web e documentação
+-✅ Já usada no projeto (README menciona CC BY 4.0)
 
 **Ideal para**:
 
-- Documentação técnica
-- Conteúdo criativo
-- Textos e artigos
-- **Documentos de registro** (prova de anterioridade)
+-Documentação técnica
+-Conteúdo criativo
+-Textos e artigos
+-**Documentos de registro** (prova de anterioridade)
 
 **Vantagens**:
 
-- Simples e clara
-- Reconhecida globalmente
-- Não requer registro especial
-- Funciona bem para documentos jurídicos de autoria
+-Simples e clara
+-Reconhecida globalmente
+-Não requer registro especial
+-Funciona bem para documentos jurídicos de autoria
 
 ---
 
@@ -50,22 +50,22 @@
 
 **Características**:
 
-- ⚠️ Menos conhecida e estabelecida
-- ⚠️ Pode ter requisitos específicos de registro
-- ⚠️ Menos precedentes jurídicos
-- ⚠️ Pode não ser reconhecida em todos os contextos
+-⚠️ Menos conhecida e estabelecida
+-⚠️ Pode ter requisitos específicos de registro
+-⚠️ Menos precedentes jurídicos
+-⚠️ Pode não ser reconhecida em todos os contextos
 
 **Ideal para**:
 
-- Dados estruturados
-- Datasets
-- Conteúdo blockchain-específico
+-Dados estruturados
+-Datasets
+-Conteúdo blockchain-específico
 
 **Desvantagens**:
 
-- Menos precedentes jurídicos
-- Pode não ser reconhecida em disputas de propriedade intelectual
-- Menos documentação disponível
+-Menos precedentes jurídicos
+-Pode não ser reconhecida em disputas de propriedade intelectual
+-Menos documentação disponível
 
 ---
 
@@ -95,11 +95,11 @@
 Este pacote de documentos de registro está licenciado sob **Creative Commons Attribution 4.0 International (CC BY 4.0)**.
 
 Você é livre para:
-- Compartilhar — copiar e redistribuir o material em qualquer meio ou formato
-- Adaptar — remixar, transformar e construir sobre o material para qualquer propósito, mesmo comercialmente
+-Compartilhar — copiar e redistribuir o material em qualquer meio ou formato
+-Adaptar — remixar, transformar e construir sobre o material para qualquer propósito, mesmo comercialmente
 
 Sob os seguintes termos:
-- **Atribuição** — Você deve dar crédito apropriado, fornecer um link para a licença e indicar se alterações foram feitas
+-**Atribuição** — Você deve dar crédito apropriado, fornecer um link para a licença e indicar se alterações foram feitas
 
 **Código e Smart Contracts**: Licenciados sob MIT License (ver `core/LICENSE`)
 
@@ -111,15 +111,15 @@ Sob os seguintes termos:
 ## ⚖️ CONSIDERAÇÕES JURÍDICAS
 
 ### CC BY 4.0:
-- ✅ Reconhecida em tribunais
-- ✅ Amplamente usada em projetos open source
-- ✅ Compatível com MIT (código) e CC (documentação)
-- ✅ Não conflita com prova de autoria
+-✅ Reconhecida em tribunais
+-✅ Amplamente usada em projetos open source
+-✅ Compatível com MIT (código) e CC (documentação)
+-✅ Não conflita com prova de autoria
 
 ### UDL:
-- ⚠️ Menos precedentes jurídicos
-- ⚠️ Pode gerar confusão em contextos legais
-- ⚠️ Menos documentação disponível
+-⚠️ Menos precedentes jurídicos
+-⚠️ Pode gerar confusão em contextos legais
+-⚠️ Menos documentação disponível
 
 ---
 
@@ -128,16 +128,16 @@ Sob os seguintes termos:
 **Recomendação Final**: **CC BY 4.0** (Creative Commons Attribution 4.0)
 
 **Por quê**:
-- Alinhado com o projeto atual
-- Reconhecido juridicamente
-- Simples e claro
-- Protege autoria com atribuição obrigatória
-- Permite uso comercial (importante para blockchain)
+-Alinhado com o projeto atual
+-Reconhecido juridicamente
+-Simples e claro
+-Protege autoria com atribuição obrigatória
+-Permite uso comercial (importante para blockchain)
 
 **UDL não é recomendado** porque:
-- Menos estabelecido
-- Pode criar confusão jurídica
-- Não há benefício claro sobre CC BY 4.0 para documentos de registro
+-Menos estabelecido
+-Pode criar confusão jurídica
+-Não há benefício claro sobre CC BY 4.0 para documentos de registro
 
 ---
 

@@ -59,8 +59,8 @@ Get-FileHash arquivo.md -Algorithm SHA256
 ### Método 3: Online
 
 Use ferramentas online como:
-- https://emn178.github.io/online-tools/sha256_checksum.html
-- https://www.fileformat.info/tool/hash.htm
+-https://emn178.github.io/online-tools/sha256_checksum.html
+-https://www.fileformat.info/tool/hash.htm
 
 ---
 
@@ -69,10 +69,10 @@ Use ferramentas online como:
 ### Passo 1: Gerar Hash de Cada Arquivo
 
 Use um dos métodos acima para gerar o SHA-256 de cada arquivo do pacote:
-- 00_INDEX
-- 01_CORE
-- 02_SYSTEM
-- 03_PROOF (arquivo TXT)
+-00_INDEX
+-01_CORE
+-02_SYSTEM
+-03_PROOF (arquivo TXT)
 
 ### Passo 2: Comparar com Hashes Documentados
 
@@ -96,20 +96,20 @@ Após o registro na blockchain:
 
 ## OBSERVAÇÕES IMPORTANTES
 
-- Os hashes SHA-256 são gerados a partir do conteúdo exato dos arquivos
-- Qualquer alteração nos arquivos resultará em hashes diferentes
-- O arquivo 03_PROOF deve ser idêntico ao usado para registro blockchain
-- Este documento deve ser atualizado após a geração dos hashes e registro blockchain
+-Os hashes SHA-256 são gerados a partir do conteúdo exato dos arquivos
+-Qualquer alteração nos arquivos resultará em hashes diferentes
+-O arquivo 03_PROOF deve ser idêntico ao usado para registro blockchain
+-Este documento deve ser atualizado após a geração dos hashes e registro blockchain
 
 ---
 
 ## STATUS
 
-- [ ] Hashes SHA-256 gerados e preenchidos
-- [ ] Transação blockchain criada
-- [ ] TXID obtido e preenchido
-- [ ] Timestamp UTC registrado
-- [ ] Validação realizada
+-[ ] Hashes SHA-256 gerados e preenchidos
+-[ ] Transação blockchain criada
+-[ ] TXID obtido e preenchido
+-[ ] Timestamp UTC registrado
+-[ ] Validação realizada
 
 ---
 

@@ -8,26 +8,26 @@
 
 **O que está funcionando AGORA**:
 
-- ✅ **smart-core/** — Motor interno completo
+-✅ **smart-core/** — Motor interno completo
   - **EVM (Polygon)**: NeoTokenV2, Bridge Manual, Multichain ready (Base, Polygon, Arbitrum)
   - **TON**: Contratos compilados (`NeoJettonFactory`, `NeoJettonMinter`, `NeoJettonWallet`)
   - Scripts de deploy automatizados e verificação
   - Templates reutilizáveis
   - Testes automatizados (EVM) / Em desenvolvimento (TON)
 
-- ✅ **smart-cli/** — CLI Universal (nsf)
+-✅ **smart-cli/** — CLI Universal (nsf)
   - `nsf init` — Scaffold de projetos
   - `nsf deploy` — Orquestração de deploy
   - `nsf simulate` — Simulação de ecossistema
   - Validação pré-deploy
 
-- ✅ **smart-ui/** — Interface Premium Neural
+-✅ **smart-ui/** — Interface Premium Neural
   - Design System Obsidian/Neon
   - Asset Pack Generator (Marketing)
   - Landing Page otimizada
   - PWA App (Next.js 14 + Tailwind)
 
-- ✅ **internal-ops/** — Inteligência Operacional
+-✅ **internal-ops/** — Inteligência Operacional
   - Simulador de ecossistemas
   - Validação de segurança e tokenômica
   - Análise de narrativa e marketing
@@ -42,13 +42,13 @@
 
 **O que está sendo desenvolvido**:
 
-- 🔨 **smart-oracle/** — Sistema de questionamento inteligente
+-🔨 **smart-oracle/** — Sistema de questionamento inteligente
   - Integração com LLM (GPT-4/Claude)
   - Heurísticas de antifragilidade
   - Árvore de decisão para refinamento
   - Questionamento interativo pré-deploy
 
-- 🔨 **smart-dna/** — Schema avançado completo
+-🔨 **smart-dna/** — Schema avançado completo
   - Campos `archetype`, `energy`, `ecosystem`
   - Configuração de `infrastructure`
   - Flags `extras` (marketplace, landing, etc.)
@@ -84,7 +84,7 @@
 ==============================================
 ```
 
-**Veja o [Changelog completo](../changelog.md) para detalhes do roadmap.**
+**Veja o [Changelog completo](<../changelog.md>) para detalhes do roadmap.**
 
 ---
 
@@ -92,13 +92,13 @@
 
 **Alpha Stage** — Sistema funcional, mas em construção:
 
-- ⚠️ Oracle não implementado (v0.6.0)
-- ⚠️ DNA incompleto (campos básicos apenas)
-- ⚠️ CULT parcial (marketing engine básico)
-- ⚠️ Kernel não automatizado (comandos separados)
-- ⚠️ Teste em testnet primeiro antes de mainnet
-- ⚠️ **TON**: Testes automatizados pendentes (ver `TON_CHECKLIST_EXECUCAO.md`)
-- ⚠️ **TON**: Auditoria externa recomendada antes de mainnet
+-⚠️ Oracle não implementado (v0.6.0)
+-⚠️ DNA incompleto (campos básicos apenas)
+-⚠️ CULT parcial (marketing engine básico)
+-⚠️ Kernel não automatizado (comandos separados)
+-⚠️ Teste em testnet primeiro antes de mainnet
+-⚠️ **TON**: Testes automatizados pendentes (ver `TON_CHECKLIST_EXECUCAO.md`)
+-⚠️ **TON**: Auditoria externa recomendada antes de mainnet
 
 ---
 
@@ -123,13 +123,13 @@
 
 ## 📊 Métricas Atuais
 
-- ✅ **4 repositórios ativos** (smart-core, smart-ui, smart-cli, internal-ops)
-- ✅ **Deploy em <10 minutos** (EVM multichain: Base, Polygon, Arbitrum)
-- ✅ **Multichain ready** (Base, Polygon, Arbitrum + TON compilado)
-- ✅ **TON contracts compilados** (TEP-74/64/89 compliant)
-- ✅ **Documentação completa** (docs repo público)
-- 🔨 **TON testnet deployment** (pending tests)
-- 📋 **3 módulos planejados** (smart-oracle, smart-cult, smart-kernel)
+-✅ **4 repositórios ativos** (smart-core, smart-ui, smart-cli, internal-ops)
+-✅ **Deploy em <10 minutos** (EVM multichain: Base, Polygon, Arbitrum)
+-✅ **Multichain ready** (Base, Polygon, Arbitrum + TON compilado)
+-✅ **TON contracts compilados** (TEP-74/64/89 compliant)
+-✅ **Documentação completa** (docs repo público)
+-🔨 **TON testnet deployment** (pending tests)
+-📋 **3 módulos planejados** (smart-oracle, smart-cult, smart-kernel)
 
 ---
 
@@ -137,12 +137,12 @@
 
 Este é um projeto em **construção ativa**. Contribuições são bem-vindas:
 
-- Reportar bugs
-- Sugerir melhorias
-- Contribuir código
-- Melhorar documentação
+-Reportar bugs
+-Sugerir melhorias
+-Contribuir código
+-Melhorar documentação
 
-**Veja**: [Relatório de Auditoria](RELATORIO_AUDITORIA.md) para entender o que falta.
+**Veja**: [Relatório de Auditoria](<RELATORIO_AUDITORIA.md>) para entender o que falta.
 
 ---
 
