@@ -22,7 +22,7 @@ Planejamento de mercado, monetização e roadmaps.
 
 - **[Roadmap: Product & Cash](strategy/roadmap-cash.md)** ⭐ — Estratégia de monetização e fluxos de caixa.
 - **[Roadmap Técnico](strategy/roadmap-tech.md)** — Evolução da stack tecnológica.
-- **[CLI Product Roadmap](strategy/cli-product-roadmap.md)** — Evolução do `smart-cli` como produto.
+- **[CLI Product Roadmap](strategy/cli-product-roadmap.md)** — Evolução do `nsf` como produto.
 - **Planejamento de Execução:**
     - [Visão Geral de Planejamento](strategy/planning/overview.md)
     - [Plano de Landing Page](strategy/planning/landing-plan.md)
@@ -38,7 +38,8 @@ Especificações técnicas e registros de decisões estruturais.
 - **[Arquitetura Detalhada](architecture/architecture.md)** — Visão técnica dos contratos.
 - **[Arquitetura Cirúrgica](architecture/surgical.md)** — Análise modular dos blocos do sistema.
 - **[Adendos Arquiteturais](architecture/ARCHITECTURAL_ADDENDUMS.md)** — MCP, MPC, KYC, governança.
-- **[Nomenclatura](architecture/nomenclature.md)** — Padrões e convenções.
+- **[Nomenclatura Oficial](auditoria/NOMENCLATURA_OFICIAL.md)** ⭐ — Padrões, convenções e SSOT.
+- **[EVM ↔ TON Mapping](auditoria/EVM_TON_MAPPING.md)** — Equivalências técnicas entre ecossistemas.
 - **[Decision Log (ADRs)](architecture/adr/decision-log.md)** — Registro de decisões técnicas.
 - **ADRs numerados:** [0001](architecture/adr/0001-smart-ui-backend-boundary.md) · [0002](architecture/adr/0002-ui-as-demo-and-intent-layer.md) · [0003](architecture/adr/0003-wallet-extensions-mpc-automation-posture.md) · [0004](architecture/adr/0004-kyc-governance-strategy.md)
 - **Especificações (Specs):**
@@ -74,14 +75,14 @@ Guias práticos, padrões de repositório e infraestrutura de CI.
 Arquivo e verificações de segurança.
 
 - **[Changelog](archive/changelog.md)** — Histórico de versões.
-- **[Relatório de Auditoria](auditoria/RELATORIO_AUDITORIA.md)** — Comparação e segurança.
-- **[Auditoria de Visibilidade](auditoria/AUDITORIA_VISIBILIDADE_ORGANIZACAO.md)** — Conformidade org, violações e sugestões.
+- **[Factory Status](auditoria/factory-status.md)** — Resumo do estado dos componentes.
+- **[TON Index](auditoria/TON_INDEX.md)** — Documentação específica para o ecossistema TON.
 - **[Patch v0.5.1](archive/patch-v0.5.1.md)** — Notas da versão de ignição.
 
 ---
 
-**Última reorganização estrutural**: v0.5.3 — MULTICHAIN FOUNDATION
-**Status**: 🟢 Estrutura Refatorada
+**Última reorganização estrutural**: v0.5.4 — STANDARDIZATION & SECURITY (v0.5.4-std)
+**Status**: 🔵 Padronização Concluída / 🟢 Estrutura Refatorada
 
 ---
 

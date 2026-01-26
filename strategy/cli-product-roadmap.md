@@ -1,7 +1,7 @@
 # Plano Estratégico: Roadmap da CLI como Produto
 
 ## Posicionamento
-O CLI NΞØ não é apenas uma ferramenta; é o **Centro de Comando para Operadores Web3**. Ele está posicionado entre a simplicidade de uma UI e o poder de scripts puros, oferecendo "Operações Cirúrgicas" para gerenciamento de tokens.
+O CLI `nsf` (NΞØ Smart Factory) não é apenas uma ferramenta; é o **Centro de Comando para Operadores Web3**. Ele está posicionado entre a simplicidade de uma UI e o poder de scripts puros, oferecendo "Operações Cirúrgicas" para gerenciamento de tokens.
 
 ## Proposta de Valor Principal
 - **A Mentalidade "Doctor":** Em vez de adivinhar por que uma implantação falhou ou por que o gas está alto, a CLI diagnostica e corrige.

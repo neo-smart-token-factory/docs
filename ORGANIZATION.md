@@ -89,6 +89,18 @@ Profissionais com histórico relevante nas áreas:
 - PWA-ready
 
 **URL**: [github.com/neo-smart-token-factory/smart-ui](https://github.com/neo-smart-token-factory/smart-ui)
+ 
+ ### 🛠️ smart-cli
+ 
+ **CLI operacional — nsf**
+ 
+ - Scaffold de projetos, deploy multichain e simulação
+ - Comandos de diagnóstico (Doctor CLI)
+ - Automação de tarefas e integração de ferramentas
+ - Canal principal de interação do desenvolvedor
+ 
+ **URL**: [github.com/neo-smart-token-factory/smart-cli](https://github.com/neo-smart-token-factory/smart-cli)
+
 
 ### 📄 landing
 
