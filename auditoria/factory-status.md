@@ -15,10 +15,10 @@
   - Templates reutilizáveis
   - Testes automatizados (EVM) / Em desenvolvimento (TON)
 
-- ✅ **smart-cli/** — CLI Universal (nxf)
-  - `nxf init` — Scaffold de projetos
-  - `nxf deploy` — Orquestração de deploy
-  - `nxf simulate` — Simulação de ecossistema
+- ✅ **smart-cli/** — CLI Universal (nsf)
+  - `nsf init` — Scaffold de projetos
+  - `nsf deploy` — Orquestração de deploy
+  - `nsf simulate` — Simulação de ecossistema
   - Validação pré-deploy
 
 - ✅ **smart-ui/** — Interface Premium Neural
