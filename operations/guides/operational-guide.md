@@ -62,7 +62,7 @@ node smart-cli/ops-handler.js "NEO::token audit NOME_DO_TOKEN"
 Executa o deploy real na rede configurada (Requer aprovação do simulador).
 
 ```bash
-node smart-cli/ops-handler.js "NEO::token forge NOME_DO_TOKEN"
+node smart-cli/ops-handler.js "NEO::token deploy NOME_DO_TOKEN"
 ```
 
 ### 6. Verificar Status do Projeto
@@ -93,4 +93,4 @@ Certifique-se de que você executou o `draft` **antes** de tentar simular ou aud
 1. Use o `draft` para visualizar sua ideia.
 2. Refine o arquivo JSON gerado em `smart-cli/tokens/` manualmente se precisar de ajustes finos.
 3. Use o `simulate` repetidamente até obter um veredito **APPROVED**.
-4. Use o `forge` para executar o deploy real via CLI (Phase 2).
+4. Use o `deploy` para executar o lançamento real via CLI (Phase 2).

@@ -24,6 +24,7 @@
 **Não use**: `registro/release/public/03_PROOF_Blockchain_Timestamp_Statement_v1.0_2026-01-22.txt`
 
 **Motivo**: 
+
 - Tem CPF mascarado
 - Hash diferente: `adcbdf718e4bc1e8a8cc68f40c91d5fde78ad8c08def1c83ecea3c97a202cb0e`
 - Não corresponde ao hash já registrado

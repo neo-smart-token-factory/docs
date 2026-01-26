@@ -285,11 +285,27 @@ grep "forge-" auditoria/factory-status.md
 
 ---
 
-**Status**: ✅ **OFICIAL E OBRIGATÓRIO**  
+**Status**: ✅ **OFICIAL E OBRIGATÓRIO (NORMATIVA GLOBAL)**  
 **Enforcement**: **IMEDIATO**  
-**Última Atualização**: 2026-01-24  
-**Versão do Documento**: 1.0
+**Última Atualização**: 2026-01-25  
+**Versão do Documento**: 1.1
 
 ---
 
-*NΞØ Smart Token Factory — Nomenclatura Oficial v1.0*
+## 🚨 ORDEM DE EXECUÇÃO: RETIFICAÇÃO GLOBAL
+
+**Atenção mantenedores**: A confusão entre "Forge" e "Smart" encerrou-se. A única nomenclatura aceita é **SMART**.
+
+Qualquer menção a `Forge` em código novo, documentação ativa ou comunicações é considerada um **erro crítico** e deve ser corrigida imediatamente.
+
+### Procedimento para Repositórios Externos
+
+Para garantir o alinhamento em todos os repositórios da organização `neo-smart-token-factory`, deve-se abrir uma **Issue de Verificação** em cada repositório contendo o checklist padrão.
+
+1. **Copie o Template**: Utilize o arquivo [`operations/issue_templates/RELEASE_TASK_NOMENCLATURE_CLEANUP.md`](../operations/issue_templates/RELEASE_TASK_NOMENCLATURE_CLEANUP.md)
+2. **Abra a Issue**: Crie uma issue com label `chore` e `high-priority`
+3. **Execute o Cleanup**: Siga o checklist rigorosamente
+
+---
+
+*NΞØ Smart Token Factory — Nomenclatura Oficial v1.1*

@@ -7,7 +7,7 @@ Perfeito. Aqui vai a **versão final pronta para GitHub**, sem emojis, com Markd
 # NΞØ SMART FACTORY — Protocol Evolution & Security Architecture (2026)
 
 > **Status:** Draft (Audit-Ready)
-> **Version:** v0.5.3 — THE NEURAL CORE
+> **Version:** v0.5.3 — THE NEURAL SMART CORE
 > **Audience:** Protocol Engineers, Security Reviewers, Partners
 > **Scope:** TON (Tact) contract layer + cross-chain security posture
 > **Out of scope:** UI/UX, Telegram distribution, marketing APIs, token pricing/trading logic

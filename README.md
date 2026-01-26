@@ -1,13 +1,13 @@
 # 📚 NΞØ SMART FACTORY Documentation
 
-> **Centralized Knowledge Base for the Neural Forge Ecosystem**
+> **Centralized Knowledge Base for the NΞØ Smart Ecosystem**
 
 Welcome to the official documentation repository of the NΞØ SMART FACTORY. This repository contains all technical specifications, architectural designs, operational guides, and cultural manifests of the project.
 
 ## 🗺️ Navigation
 
 ### 🏎️ Quick Start
-- **[Manifesto](./manifesto.md)** — The vision and core values of the Neural Forge.
+- **[Manifesto](./manifesto.md)** — The vision and core values of the NΞØ Protocol.
 - **[INDEX](./INDEX.md)** — The complete table of contents for the entire ecosystem.
 - **[Guia Operacional](./GUIA_OPERACIONAL.md)** — How to use the internal tools via terminal.
 
