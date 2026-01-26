@@ -1,6 +1,6 @@
 # NΞØ Doctor CLI — Detalhamento da Fase A
 
-> **Produto:** NΞØ Doctor (Módulo do `smart-cli`)
+> **Produto:** NΞØ Doctor (Módulo do `nsf` CLI)
 > **Status:** Em desenvolvimento (Prioridade 0)
 > **Mantra:** "Diagnóstico rápido, correção cirúrgica."
 
@@ -57,7 +57,7 @@ A interface deve ser "Premium Obsidian":
 
 ```bash
 # Exemplo de Comando
-$ neo-smart-cli doctor --deep --contract 0x... --output report.pdf
+$ nsf doctor --deep --contract 0x... --output report.pdf
 ```
 
 ---

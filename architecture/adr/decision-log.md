@@ -140,6 +140,31 @@ Adotar **NeoTokenV2** como padrão para novos tokens que requerem:
 
 ---
 
+## ADR-005: Paridade de Stack (EVM ↔ TON)
+
+**Data:** 25 de Janeiro de 2026
+**Status:** ✅ Decidido e Implementado
+
+### Contexto
+Com a expansão para a rede TON, surgiu o desafio de manter a mesma proposta de valor da NΞØ SMART FACTORY em ecossistemas tecnicamente distintos (EVM/Solidity vs. TON/Tact/FunC). A fragmentação de funcionalidades entre redes prejudicaria a experiência do usuário e a integridade do protocolo.
+
+### Decisão
+Estabelecer o princípio de **Paridade de Funcionalidades**:
+1. **Espelhamento de Lógica:** Todo recurso crítico implementado no EVM (como o Protocol Fee de 5%, Anti-bot, e Supply Cap) deve ter uma implementação equivalente em TON.
+2. **Standardization de Comportamento:** Embora a linguagem mude (Solidity para FunC/Tact), o comportamento externo e as garantias de segurança devem ser idênticos.
+3. **Mapeamento Técnico:** Criar e manter um documento de mapeamento (`EVM_TON_MAPPING.md`) que sirva como especificação para implementadores de novas chains.
+
+### Justificativa
+1. **Consistência de Marca:** O usuário recebe a mesma "Operação Cirúrgica" independente da chain.
+2. **Segurança Unificada:** Auditorias e verificações podem seguir o mesmo checklist lógico.
+3. **Multichain Real:** Facilita a criação de bridges e orquestradores que funcionam de forma previsível entre redes.
+
+### Implementação
+- Implementado em: `smart-core/contracts/ton/` (Jetton Factory, Minter, Wallet).
+- Mapeamento detalhado: `docs/auditoria/EVM_TON_MAPPING.md`.
+
+---
+
 ### 👤 Autoria
 
 **Project Lead**: NODE NEØ  
