@@ -28,17 +28,17 @@
 
 ## 📦 NPM Packages
 
-**Organization**: `@neosmart`
+**Organization**: `@neo-smart-token-factory`
 
 | Package | Comando CLI | Descrição |
 |---------|-------------|-----------|
-| `@neosmart/core` | N/A | Contratos e scripts |
-| `@neosmart/ui` | N/A | Componentes UI |
-| `nsf` ou `@neosmart/cli` | `nsf` | CLI universal |
-| `@neosmart/oracle` | N/A | Sistema LLM (futuro) |
-| `@neosmart/dna` | N/A | Schema e validação (futuro) |
-| `@neosmart/cult` | N/A | Narrativa (futuro) |
-| `@neosmart/kernel` | N/A | Orquestrador (futuro) |
+| `@neo-smart-token-factory/core` | N/A | Contratos e scripts |
+| `@neo-smart-token-factory/ui` | N/A | Componentes UI |
+| `nsf` ou `@neo-smart-token-factory/cli` | `nsf` | CLI universal |
+| `@neo-smart-token-factory/oracle` | N/A | Sistema LLM (futuro) |
+| `@neo-smart-token-factory/dna` | N/A | Schema e validação (futuro) |
+| `@neo-smart-token-factory/cult` | N/A | Narrativa (futuro) |
+| `@neo-smart-token-factory/kernel` | N/A | Orquestrador (futuro) |
 
 ---
 
@@ -50,7 +50,7 @@
 Variações aceitas:
 - NΞØ SMART FACTORY
 - neo-smart-token-factory (GitHub, lowercase)
-- @neosmart (NPM, lowercase)
+- @neo-smart-token-factory (NPM, lowercase)
 
 ### Símbolo
 **NΞØ** (com Epsilon grego `Ξ`)
@@ -110,10 +110,10 @@ smart-cli/
 ## 🌐 URLs e Domínios
 
 ### Planejados
-- `neosmart.factory` (principal)
-- `docs.neosmart.factory` (documentação)
-- `app.neosmart.factory` (aplicação web)
-- `api.neosmart.factory` (API, se aplicável)
+- `neo-smart.factory` (principal)
+- `docs.neo-smart.factory` (documentação)
+- `app.neo-smart.factory` (aplicação web)
+- `api.neo-smart.factory` (API, se aplicável)
 
 ### GitHub
 - `github.com/neo-smart-token-factory` (organization)
@@ -151,8 +151,8 @@ contract NeoFactory { }  // Usar NeoJettonFactory para TON
 ### JavaScript/TypeScript
 ```typescript
 // ✅ CORRETO
-import { NeoTokenV2 } from '@neosmart/core';
-import { deployMultichain } from '@neosmart/core/scripts';
+import { NeoTokenV2 } from '@neo-smart-token-factory/core';
+import { deployMultichain } from '@neo-smart-token-factory/core/scripts';
 
 // ❌ ERRADO
 import { ForgeToken } from 'forge-core';
@@ -214,10 +214,10 @@ Ao criar novos documentos, código ou conteúdo:
 
 - [ ] Usar `smart-*` para repositórios (não `forge-*`)
 - [ ] Usar `nsf` para CLI (não `neo-smart-factory`)
-- [ ] Usar `@neosmart` para NPM packages
+- [ ] Usar `@neo-smart-token-factory` para NPM packages
 - [ ] Usar `NΞØ` com Epsilon grego no branding
 - [ ] Verificar links GitHub apontam para `neo-smart-token-factory` org
-- [ ] Verificar imports usam `@neosmart` scoped packages
+- [ ] Verificar imports usam `@neo-smart-token-factory` scoped packages
 - [ ] Verificar documentação não tem referências obsoletas
 
 ---
@@ -255,7 +255,7 @@ grep "forge-" auditoria/factory-status.md
 ### v0.5.3 (atual)
 - ✅ Nomenclatura `smart-*` padronizada
 - ✅ CLI unificada: `nsf`
-- ✅ NPM organization: `@neosmart`
+- ✅ NPM organization: `@neo-smart-token-factory`
 - ✅ Multi-repo ativo e público
 
 ---
