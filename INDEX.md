@@ -41,7 +41,7 @@ Especificações técnicas e registros de decisões estruturais.
 - **[Nomenclatura Oficial](auditoria/NOMENCLATURA_OFICIAL.md)** ⭐ — Padrões, convenções e SSOT.
 - **[EVM ↔ TON Mapping](auditoria/EVM_TON_MAPPING.md)** — Equivalências técnicas entre ecossistemas.
 - **[Decision Log (ADRs)](architecture/adr/decision-log.md)** — Registro de decisões técnicas.
-- **ADRs numerados:** [0001](architecture/adr/0001-smart-ui-backend-boundary.md) · [0002](architecture/adr/0002-ui-as-demo-and-intent-layer.md) · [0003](architecture/adr/0003-wallet-extensions-mpc-automation-posture.md) · [0004](architecture/adr/0004-kyc-governance-strategy.md)
+- **ADRs numerados:** [0001](architecture/adr/0001-smart-ui-backend-boundary.md) · [0002](architecture/adr/0002-ui-as-demo-and-intent-layer.md) · [0003](architecture/adr/0003-wallet-extensions-mpc-automation-posture.md) · [0004](architecture/adr/0004-kyc-governance-strategy.md) · [0005](architecture/adr/0005-multi-stack-parity-evm-ton.md)
 - **Especificações (Specs):**
     - [NeoTokenV2](architecture/specs/neotoken-v2.md) ⭐ — Multichain & AA-Ready.
     - [Doctor CLI Deep Dive](architecture/specs/doctor-cli-deep-dive.md) 🩺 — Detalhamento do Produto Fase A.
