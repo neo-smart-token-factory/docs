@@ -34,7 +34,7 @@
 |---------|-------------|-----------|
 | `@neosmart/core` | N/A | Contratos e scripts |
 | `@neosmart/ui` | N/A | Componentes UI |
-| `nxf` ou `@neosmart/cli` | `nxf` | CLI universal |
+| `nsf` ou `@neosmart/cli` | `nsf` | CLI universal |
 | `@neosmart/oracle` | N/A | Sistema LLM (futuro) |
 | `@neosmart/dna` | N/A | Schema e validação (futuro) |
 | `@neosmart/cult` | N/A | Narrativa (futuro) |
@@ -65,20 +65,20 @@ Não usar:
 ## 🔧 CLI Universal
 
 ### Nome do Executável
-**`nxf`** (NEO eXecution Framework)
+**`nsf`** (NEO Smart Factory)
 
 Comandos principais:
 ```bash
-nxf init          # Scaffold de projeto
-nxf deploy        # Deploy multichain
-nxf simulate      # Simulação de ecossistema
-nxf verify        # Verificação em explorer
+nsf init          # Scaffold de projeto
+nsf deploy        # Deploy multichain
+nsf simulate      # Simulação de ecossistema
+nsf verify        # Verificação em explorer
 ```
 
 Não usar:
 - ❌ `neo-smart-factory` (obsoleto)
 - ❌ `forge` (obsoleto)
-- ❌ `nsf` (nunca foi oficial)
+- ❌ `nxf` (obsoleto)
 
 ---
 
@@ -99,7 +99,7 @@ smart-ui/
 └── styles/         # Design system
 
 smart-cli/
-├── bin/            # Executável nxf
+├── bin/            # Executável nsf
 ├── commands/       # Comandos CLI
 ├── utils/          # Utilidades
 └── templates/      # Templates de scaffold
@@ -177,7 +177,7 @@ perf:     Performance
 ```bash
 # ✅ CORRETO
 git commit -m "feat(smart-core): add TON jetton factory"
-git commit -m "fix(smart-cli): correct nxf deploy command"
+git commit -m "fix(smart-cli): correct nsf deploy command"
 git commit -m "docs: update NOMENCLATURA_OFICIAL"
 
 # ❌ ERRADO
@@ -213,7 +213,7 @@ git commit -m "update stuff"
 Ao criar novos documentos, código ou conteúdo:
 
 - [ ] Usar `smart-*` para repositórios (não `forge-*`)
-- [ ] Usar `nxf` para CLI (não `neo-smart-factory`)
+- [ ] Usar `nsf` para CLI (não `neo-smart-factory`)
 - [ ] Usar `@neosmart` para NPM packages
 - [ ] Usar `NΞØ` com Epsilon grego no branding
 - [ ] Verificar links GitHub apontam para `neo-smart-token-factory` org
@@ -254,7 +254,7 @@ grep "forge-" auditoria/factory-status.md
 
 ### v0.5.3 (atual)
 - ✅ Nomenclatura `smart-*` padronizada
-- ✅ CLI unificada: `nxf`
+- ✅ CLI unificada: `nsf`
 - ✅ NPM organization: `@neosmart`
 - ✅ Multi-repo ativo e público
 
@@ -262,7 +262,7 @@ grep "forge-" auditoria/factory-status.md
 
 ## 📞 Responsabilidade
 
-**Owner**: Mellø (Architecture Lead)
+**Owner**: NODE NEØ (Architecture Lead)
 
 **Enforcement**:
 - Code reviews devem verificar nomenclatura
@@ -271,7 +271,7 @@ grep "forge-" auditoria/factory-status.md
 
 **Atualizações**:
 - Este documento é a fonte única de verdade (SSOT)
-- Mudanças requerem aprovação de Mellø
+- Mudanças requerem aprovação de NODE NEØ
 - Versão deve ser incrementada a cada update
 
 ---
@@ -280,8 +280,8 @@ grep "forge-" auditoria/factory-status.md
 
 | Data | Versão | Mudança | Autor |
 |------|--------|---------|-------|
-| 2026-01-24 | 1.0 | Documento inicial criado | AI Agent + Mellø |
-| 2026-01-24 | 1.0 | Padronização `smart-*` vs `forge-*` | AI Agent + Mellø |
+| 2026-01-24 | 1.0 | Documento inicial criado | AI Agent + NODE NEØ |
+| 2026-01-24 | 1.0 | Padronização `smart-*` vs `forge-*` | AI Agent + NODE NEØ |
 
 ---
 

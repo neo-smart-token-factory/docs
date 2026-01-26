@@ -33,7 +33,7 @@ Consult the normative document: `docs/auditoria/NOMENCLATURA_OFICIAL.md` and `do
 
 ### 4. Branding
 - [ ] Project Name: **NΞØ Smart Token Factory**.
-- [ ] CLI: **`nxf`** (instead of `neo-smart-factory` or `forge`).
+- [ ] CLI: **`nsf`** (instead of `neo-smart-factory` or `forge`).
 
 ---
 

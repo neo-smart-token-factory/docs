@@ -23,7 +23,7 @@
 *Padrão oficial de nomenclatura (SSOT)*
 
 - `smart-*` (correto) vs `forge-*` (obsoleto)
-- CLI: `nxf` (correto) vs `neo-smart-factory` (obsoleto)
+- CLI: `nsf` (correto) vs `neo-smart-factory` (obsoleto)
 - NPM organization: `@neosmart`
 - Checklist de conformidade
 - **Uso:** Referência obrigatória para novos documentos/código

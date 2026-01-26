@@ -28,7 +28,7 @@ Consulte o documento normativo: `docs/auditoria/NOMENCLATURA_OFICIAL.md`
 
 ### 3. Branding
 - [ ] Nome do Projeto: **NΞØ Smart Token Factory**
-- [ ] CLI: **`nxf`** (e não `neo-smart-factory` ou `forge`)
+- [ ] CLI: **`nsf`** (e não `neo-smart-factory` ou `forge`)
 
 ---
 

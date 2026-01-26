@@ -289,7 +289,7 @@ NΞØ SMART FACTORY Ecosystem
 │
 ├─ Interface Layer (User)
 │  ├─ smart-ui/ → PWA, landing, formulário
-│  └─ smart-cli/ → CLI universal (nxf)
+│  └─ smart-cli/ → CLI universal (nsf)
 │
 ├─ Intelligence Layer (AI)
 │  ├─ smart-oracle/ → Refinamento via LLM (planejado)
