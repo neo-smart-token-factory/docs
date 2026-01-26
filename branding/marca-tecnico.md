@@ -100,7 +100,7 @@ Use nomes semânticos para desacoplar cor da função. Forneça também aliases 
 
 * **Wordmark:** `NΞØ SMART FACTORY` em caixa alta, Ø com corte de 16°.
 * **Monograma:** `NΞØ` em contêiner quadrado com cantos 12, proporção 1:1.
-* **Selo dinâmico:** Ø com três pontos orbitais indicando Core, Forge, Workbench.
+* **Selo dinâmico:** Ø com três pontos orbitais indicando Core, Smart, Workbench.
 
 **Margens de proteção:** altura do Ø em todos os lados.
 **Fundo preferencial:** preto carbono.
@@ -113,15 +113,15 @@ Use nomes semânticos para desacoplar cor da função. Forneça também aliases 
 
 Use a árvore de nomes para UI, docs e código.
 
-* `neosmart-factory/Core` mecanismos ERC e segurança
-* `neosmart-factory/Forge` CLI e pipelines de deploy
-* `neosmart-factory/Workbench` PWA de montagem e simulação
-* `neosmart-factory/Oracle` refinamento via LLM
-* `neosmart-factory/DNA` parâmetros, utilidades, gamificação e ciclos de engajamento
-* `neosmart-factory/Scriptorium` manifesto, whitepaper, pitch versionados
-* `neosmart-factory/Kernel` 1-click pipeline e rollback
-* `neosmart-factory/Sensor` telemetria
-* `neosmart-factory/Atlas` blueprints certificados
+* `neo-smart-token-factory/Core` mecanismos ERC e segurança
+* `neo-smart-token-factory/Smart` CLI e pipelines de deploy
+* `neo-smart-token-factory/Workbench` PWA de montagem e simulação
+* `neo-smart-token-factory/Oracle` refinamento via LLM
+* `neo-smart-token-factory/DNA` parâmetros, utilidades, gamificação e ciclos de engajamento
+* `neo-smart-token-factory/Scriptorium` manifesto, whitepaper, pitch versionados
+* `neo-smart-token-factory/Kernel` 1-click pipeline e rollback
+* `neo-smart-token-factory/Sensor` telemetria
+* `neo-smart-token-factory/Atlas` blueprints certificados
 
 ---
 

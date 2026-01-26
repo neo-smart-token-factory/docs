@@ -34,7 +34,7 @@
 |---------|-------------|-----------|
 | `@neo-smart-token-factory/core` | N/A | Contratos e scripts |
 | `@neo-smart-token-factory/ui` | N/A | Componentes UI |
-| `nsf` ou `@neo-smart-token-factory/cli` | `nsf` | CLI universal |
+| `nsf` ou `@neo-smart-token-factory/nsf` | `nsf` | CLI universal |
 | `@neo-smart-token-factory/oracle` | N/A | Sistema LLM (futuro) |
 | `@neo-smart-token-factory/dna` | N/A | Schema e validação (futuro) |
 | `@neo-smart-token-factory/cult` | N/A | Narrativa (futuro) |
