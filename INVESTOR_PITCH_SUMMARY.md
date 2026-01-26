@@ -18,10 +18,10 @@ Transformamos a criação de tokens de blockchain de um processo complexo (seman
 
 Criar um token seguro na blockchain requer:
 
-- ❌ Conhecimento técnico avançado
-- ❌ Semanas de desenvolvimento
-- ❌ Milhares de dólares em custos
-- ❌ Riscos de segurança
+-❌ Conhecimento técnico avançado
+-❌ Semanas de desenvolvimento
+-❌ Milhares de dólares em custos
+-❌ Riscos de segurança
 
 **Resultado:** 90% dos projetos nunca começam por causa da complexidade técnica.
 
@@ -44,36 +44,36 @@ Uma plataforma que permite criar tokens profissionais em minutos:
 
 ### 1. Taxa Automática (Receita Passiva)
 
-- **5% de cada transação** de tokens criados
-- Receita perpétua e escalável
-- Cresce automaticamente com o uso
+-**5% de cada transação** de tokens criados
+-Receita perpétua e escalável
+-Cresce automaticamente com o uso
 
 ### 2. Serviços Premium
 
-- **Implantação Elite:** US$ 1.500 - US$ 3.000 por projeto
-- Configuração completa e personalizada
-- Mercado: Fundadores e startups
+-**Implantação Elite:** US$ 1.500 - US$ 3.000 por projeto
+-Configuração completa e personalizada
+-Mercado: Fundadores e startups
 
 ### 3. Licenças de Software
 
-- **Licença de Produção:** US$ 99/mês ou US$ 950/ano
-- Ferramentas avançadas de diagnóstico
-- Mercado: Desenvolvedores profissionais
+-**Licença de Produção:** US$ 99/mês ou US$ 950/ano
+-Ferramentas avançadas de diagnóstico
+-Mercado: Desenvolvedores profissionais
 
 ### 4. Upsells
 
-- Logos e identidade visual
-- Whitepapers gerados por IA
-- Consultoria estratégica
+-Logos e identidade visual
+-Whitepapers gerados por IA
+-Consultoria estratégica
 
 ---
 
 ## 📊 Números do Mercado
 
-- **Milhares** de novos tokens criados mensalmente
-- **Crescimento exponencial** do setor blockchain
-- **Demanda crescente** por ferramentas simplificadas
-- **Oportunidade:** US$ 50+ milhões no mercado imediato
+-**Milhares** de novos tokens criados mensalmente
+-**Crescimento exponencial** do setor blockchain
+-**Demanda crescente** por ferramentas simplificadas
+-**Oportunidade:** US$ 50+ milhões no mercado imediato
 
 ---
 
@@ -81,18 +81,18 @@ Uma plataforma que permite criar tokens profissionais em minutos:
 
 ### ✅ Já Funciona
 
-- Fábrica de tokens operacional
-- Interface web funcional
-- Suporte multichain
-- Sistema de vesting e recompensas
-- Ferramentas de diagnóstico
+-Fábrica de tokens operacional
+-Interface web funcional
+-Suporte multichain
+-Sistema de vesting e recompensas
+-Ferramentas de diagnóstico
 
 ### 🔄 Próximos 6 Meses
 
-- Evolução do CLI como produto comercial
-- Landing page de alta conversão
-- Pacotes de serviços estruturados
-- Campanhas de marketing direcionadas
+-Evolução do CLI como produto comercial
+-Landing page de alta conversão
+-Pacotes de serviços estruturados
+-Campanhas de marketing direcionadas
 
 ---
 
@@ -100,17 +100,17 @@ Uma plataforma que permite criar tokens profissionais em minutos:
 
 ### Ano 1 (Conservador)
 
-- 50 implantações × US$ 2.000 = **US$ 100.000**
-- 20 licenças × US$ 950 = **US$ 19.000**
-- Taxa de protocolo = **US$ 30.000**
-- **Total: ~US$ 149.000**
+-50 implantações × US$ 2.000 = **US$ 100.000**
+-20 licenças × US$ 950 = **US$ 19.000**
+-Taxa de protocolo = **US$ 30.000**
+-**Total: ~US$ 149.000**
 
 ### Ano 2 (Escala)
 
-- 200 implantações × US$ 2.000 = **US$ 400.000**
-- 100 licenças × US$ 950 = **US$ 95.000**
-- Taxa de protocolo = **US$ 150.000**
-- **Total: ~US$ 645.000**
+-200 implantações × US$ 2.000 = **US$ 400.000**
+-100 licenças × US$ 950 = **US$ 95.000**
+-Taxa de protocolo = **US$ 150.000**
+-**Total: ~US$ 645.000**
 
 ---
 
@@ -118,30 +118,30 @@ Uma plataforma que permite criar tokens profissionais em minutos:
 
 ### 1. Mercado em Crescimento
 
-- Setor blockchain em expansão acelerada
-- Demanda crescente por ferramentas simplificadas
-- Timing perfeito para entrada
+-Setor blockchain em expansão acelerada
+-Demanda crescente por ferramentas simplificadas
+-Timing perfeito para entrada
 
 ### 2. Modelo de Receita Múltipla
 
-- Receita passiva (taxa perpétua)
-- Receita ativa (serviços)
-- Receita recorrente (SaaS)
-- Diversificação de fontes
+-Receita passiva (taxa perpétua)
+-Receita ativa (serviços)
+-Receita recorrente (SaaS)
+-Diversificação de fontes
 
 ### 3. Vantagem Competitiva
 
-- Posicionamento único no mercado
-- Tecnologia superior
-- Primeiro movers advantage
-- Código aberto e auditável
+-Posicionamento único no mercado
+-Tecnologia superior
+-Primeiro movers advantage
+-Código aberto e auditável
 
 ### 4. Escalabilidade
 
-- Receita cresce organicamente
-- Baixo custo marginal
-- Modelo SaaS escalável
-- Expansão automática
+-Receita cresce organicamente
+-Baixo custo marginal
+-Modelo SaaS escalável
+-Expansão automática
 
 ---
 
@@ -149,9 +149,9 @@ Uma plataforma que permite criar tokens profissionais em minutos:
 
 **NODE NEØ** — Fundador e Líder Técnico
 
-- Especialista em Web3 e contratos inteligentes
-- Visão estratégica do ecossistema
-- Experiência em desenvolvimento blockchain
+-Especialista em Web3 e contratos inteligentes
+-Visão estratégica do ecossistema
+-Experiência em desenvolvimento blockchain
 
 **Contato:** <neo@neoprotocol.space>
 
@@ -161,26 +161,26 @@ Uma plataforma que permite criar tokens profissionais em minutos:
 
 ### KPIs Principais
 
-- Tokens criados mensalmente
-- Taxa de conversão (visitantes → usuários)
-- Receita recorrente mensal (MRR)
-- Número de clientes premium
+-Tokens criados mensalmente
+-Taxa de conversão (visitantes → usuários)
+-Receita recorrente mensal (MRR)
+-Número de clientes premium
 
 ### Metas 6 Meses
 
-- ✅ 100 tokens criados
-- ✅ 10 clientes Elite
-- ✅ 25 licenças ativas
-- ✅ US$ 50.000 em receita
+-✅ 100 tokens criados
+-✅ 10 clientes Elite
+-✅ 25 licenças ativas
+-✅ US$ 50.000 em receita
 
 ---
 
 ## 🔒 Segurança e Confiabilidade
 
-- ✅ Contratos baseados em padrões auditados
-- ✅ Código aberto para transparência
-- ✅ Proteções contra vulnerabilidades conhecidas
-- ✅ Validações rigorosas de segurança
+-✅ Contratos baseados em padrões auditados
+-✅ Código aberto para transparência
+-✅ Proteções contra vulnerabilidades conhecidas
+-✅ Validações rigorosas de segurança
 
 ---
 
@@ -188,17 +188,17 @@ Uma plataforma que permite criar tokens profissionais em minutos:
 
 ### Uso dos Recursos
 
-- **40%** — Desenvolvimento de produto
-- **30%** — Marketing e vendas
-- **20%** — Operações e infraestrutura
-- **10%** — Reserva operacional
+-**40%** — Desenvolvimento de produto
+-**30%** — Marketing e vendas
+-**20%** — Operações e infraestrutura
+-**10%** — Reserva operacional
 
 ### Retorno Esperado
 
-- Modelo de receita múltipla e escalável
-- Mercado em crescimento exponencial
-- Posicionamento competitivo único
-- Potencial de alto retorno
+-Modelo de receita múltipla e escalável
+-Mercado em crescimento exponencial
+-Posicionamento competitivo único
+-Potencial de alto retorno
 
 ---
 

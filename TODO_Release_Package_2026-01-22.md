@@ -10,24 +10,24 @@
 
 ### Regras Obrigatórias
 
-- [x] **Não vazar segredos**
+-[x] **Não vazar segredos**
   - Não copiar nem resumir código sensível, chaves, endpoints privados, seeds, credenciais, tokens, links internos, dados de parceiros, ou qualquer informação confidencial fora do necessário
   - Não criar "exemplos" inventados
   - Se algo não estiver nos documentos, marcar como [PENDENTE]
 
-- [x] **Dados pessoais do autor**
+-[x] **Dados pessoais do autor**
   - Dados pessoais (nome, CPF, e-mail) serão fornecidos para inclusão nos PDFs finais
   - Esses dados NÃO podem ficar versionados em arquivo público
   - Solução: gerar duas variantes:
     - **Public**: com redactions (ex: CPF mascarado)
     - **Private**: completo para uso offline
 
-- [x] **Tom de voz e estilo**
+-[x] **Tom de voz e estilo**
   - Tom: técnico-jurídico, direto, sem marketing, sem floreio
   - Proibido: frases vagas tipo "inovador", "disruptivo", "revolucionário" sem explicação técnica
   - Obrigatório: linguagem defendível, reproduzível intelectualmente, com títulos objetivos
 
-- [x] **Data e consistência**
+-[x] **Data e consistência**
   - Data oficial do pacote: 2026-01-22
   - Deve referenciar que há organização/documentação no GitHub desde 2025, sem afirmar detalhes que não conseguir verificar no repo
 
@@ -37,14 +37,14 @@
 
 ### Tarefa Principal
 
-- [x] **Varrer o repo Docs e identificar documentos que descrevem:**
+-[x] **Varrer o repo Docs e identificar documentos que descrevem:**
   - NΞØ SMART TOKEN FACTORY
   - Arquitetura, módulos, governança, automação
   - Wallet abstraction, MPC/MCP
   - Políticas de exposição de repositório
   - Outros documentos relevantes
 
-- [x] **Criar arquivo de inventário:**
+-[x] **Criar arquivo de inventário:**
   - Arquivo: `registro/INVENTORY_Docs_Map_2026-01-22.md` ✅ CRIADO
   - Conteúdo necessário:
     - Lista de arquivos relevantes (path completo) ✅
@@ -62,14 +62,14 @@
 
 **Pasta base**: `release/`
 
-- `release/public/` - versões com redactions
-- `release/private/` - versões completas (não commitar se repo for público)
+-`release/public/` - versões com redactions
+-`release/private/` - versões completas (não commitar se repo for público)
 
 ### Arquivos a Criar
 
 #### 00_INDEX_NEO_Smart_Token_Factory_v1.0_2026-01-22.pdf
 
-- [x] **Conteúdo obrigatório:**
+-[x] **Conteúdo obrigatório:**
   - Identificação do projeto e versão
   - Lista dos arquivos do pacote
   - Instrução de leitura
@@ -78,7 +78,7 @@
 
 #### 01_CORE_Authorship_and_Prior_Art_v1.0_2026-01-22.pdf
 
-- [x] **Conteúdo obrigatório:**
+-[x] **Conteúdo obrigatório:**
   - Bloco jurídico de autoria e anterioridade
   - Dados do autor como placeholders no template:
     - `[AUTHOR_FULL_NAME]` ✅ Preenchido
@@ -91,7 +91,7 @@
 
 #### 02_SYSTEM_Executable_Concept_Overview_v1.0_2026-01-22.pdf
 
-- [x] **Conteúdo obrigatório:**
+-[x] **Conteúdo obrigatório:**
   - Descrição funcional objetiva do sistema
   - Diferenciais estruturais (explicados, não adjetivados)
   - Um diagrama simples (ASCII no mínimo, ou mermaid se permitido) cobrindo:
@@ -104,7 +104,7 @@
 
 #### 03_PROOF_Blockchain_Timestamp_Statement_v1.0_2026-01-22.txt
 
-- [x] **Conteúdo obrigatório:**
+-[x] **Conteúdo obrigatório:**
   - Declaração resumida e hashable (texto exato, sem formatação fancy)
   - Placeholders do autor ✅ Preenchidos
   - Data, local e versão
@@ -113,7 +113,7 @@
 
 #### 04_PROOF_SHA256_and_TXID_v1.0_2026-01-22.pdf
 
-- [x] **Conteúdo obrigatório:**
+-[x] **Conteúdo obrigatório:**
   - Tabela com SHA-256 de cada arquivo 00, 01, 02 e 03
   - Espaço para TXID e rede:
     - `[BLOCKCHAIN_NETWORK]` ✅ OpenTimestamps
@@ -124,9 +124,9 @@
 
 ### Variantes
 
-- [x] Gerar versão **Public** (com redactions) em `registro/release/public/` ✅
-- [x] Gerar versão **Private** (completa) em `registro/release/private/` ✅
-- [x] **Atenção**: versão Private não commitada (mantida apenas localmente) ✅
+-[x] Gerar versão **Public** (com redactions) em `registro/release/public/` ✅
+-[x] Gerar versão **Private** (completa) em `registro/release/private/` ✅
+-[x] **Atenção**: versão Private não commitada (mantida apenas localmente) ✅
 
 ---
 
@@ -134,7 +134,7 @@
 
 ### Tarefa
 
-- [x] **Criar documento de política:**
+-[x] **Criar documento de política:**
   - Arquivo: `registro/SECURITY_REPO_ANTIGO_POLICY.md` ✅
   - Localização: pasta `registro/`
   - **Conteúdo obrigatório:**
@@ -150,7 +150,7 @@
 
 ### Tarefa:
 
-- [x] **Criar checklist de validação:**
+-[x] **Criar checklist de validação:**
 
   - Arquivo: `registro/AUDITORIA_COMPLETA_ASSINATURAS_2026-01-22.md` ✅
   - **Checks objetivos obrigatórios:**
@@ -167,9 +167,9 @@
 
 ### Ao Final do Processo
 
-- [x] **Arquivos gerados** (paths exatos no repo) ✅
-- [x] **Resumo curto** do que foi criado e onde ✅
-- [x] **Lista de placeholders** que precisam ser preenchidos na versão private: ✅
+-[x] **Arquivos gerados** (paths exatos no repo) ✅
+-[x] **Resumo curto** do que foi criado e onde ✅
+-[x] **Lista de placeholders** que precisam ser preenchidos na versão private: ✅
   - `[AUTHOR_FULL_NAME]` ✅ Preenchido
   - `[AUTHOR_ID_DOCUMENT]` ✅ Preenchido
   - `[AUTHOR_EMAIL]` ✅ Preenchido
@@ -181,7 +181,7 @@
 
 ### Regra Importante
 
-- [x] Se qualquer informação necessária não estiver no Docs, marcar como **[PENDENTE]** e sugerir onde inserir manualmente ✅
+-[x] Se qualquer informação necessária não estiver no Docs, marcar como **[PENDENTE]** e sugerir onde inserir manualmente ✅
 
 ---
 
@@ -191,17 +191,17 @@
 
 **Dados do Autor (para preenchimento manual):**
 
-- `[AUTHOR_FULL_NAME]`
-- `[AUTHOR_ID_DOCUMENT]`
-- `[AUTHOR_EMAIL]`
-- `[AUTHOR_CITY_COUNTRY]`
-- `[SIGNATURE]`
+-`[AUTHOR_FULL_NAME]`
+-`[AUTHOR_ID_DOCUMENT]`
+-`[AUTHOR_EMAIL]`
+-`[AUTHOR_CITY_COUNTRY]`
+-`[SIGNATURE]`
 
 **Dados de Blockchain (para preenchimento após geração):**
 
-- `[BLOCKCHAIN_NETWORK]`
-- `[TXID]`
-- `[UTC_TIMESTAMP]`
+-`[BLOCKCHAIN_NETWORK]`
+-`[TXID]`
+-`[UTC_TIMESTAMP]`
 
 ### Estrutura de Pastas Esperada
 
@@ -257,34 +257,34 @@ O **Pacote de Registro v1.0** do projeto **NΞØ SMART TOKEN FACTORY** foi concl
 
 **Localização**: `registro/release/public/` e `registro/release/private/`
 
-- ✅ `00_INDEX_*.pdf` — Assinado ICP-Brasil
-- ✅ `01_CORE_*.pdf` — Assinado ICP-Brasil
-- ✅ `02_SYSTEM_*.pdf` — Assinado ICP-Brasil
-- ✅ `03_PROOF_*.txt` — Registrado blockchain (OpenTimestamps)
-- ✅ `04_PROOF_*.pdf` — Assinado ICP-Brasil (22/01/2026 23:32:21-0300)
+-✅ `00_INDEX_*.pdf` — Assinado ICP-Brasil
+-✅ `01_CORE_*.pdf` — Assinado ICP-Brasil
+-✅ `02_SYSTEM_*.pdf` — Assinado ICP-Brasil
+-✅ `03_PROOF_*.txt` — Registrado blockchain (OpenTimestamps)
+-✅ `04_PROOF_*.pdf` — Assinado ICP-Brasil (22/01/2026 23:32:21-0300)
 
 ### 🔗 Documentação Completa
 
 Para detalhes completos sobre o pacote finalizado, consulte:
 
-**📄 [CONCLUSAO_PACOTE_REGISTRO_v1.0.md](./registro/CONCLUSAO_PACOTE_REGISTRO_v1.0.md)**
+**📄 [CONCLUSAO_PACOTE_REGISTRO_v1.0.md](<./registro/CONCLUSAO_PACOTE_REGISTRO_v1.0.md>)**
 
 Este documento contém:
 
-- Todos os hashes SHA-256
-- Informações de timestamp blockchain
-- Dados de validação das assinaturas
-- Instruções de verificação
-- Resumo completo do pacote
+-Todos os hashes SHA-256
+-Informações de timestamp blockchain
+-Dados de validação das assinaturas
+-Instruções de verificação
+-Resumo completo do pacote
 
 ### 🎯 Resultados Alcançados
 
-- ✅ **4 PDFs assinados** digitalmente com ICP-Brasil
-- ✅ **Registro blockchain** via OpenTimestamps
-- ✅ **Hashes SHA-256** documentados
-- ✅ **Prova de anterioridade** estabelecida
-- ✅ **Autoria protegida** com assinatura digital
-- ✅ **Versões Public/Private** organizadas
+-✅ **4 PDFs assinados** digitalmente com ICP-Brasil
+-✅ **Registro blockchain** via OpenTimestamps
+-✅ **Hashes SHA-256** documentados
+-✅ **Prova de anterioridade** estabelecida
+-✅ **Autoria protegida** com assinatura digital
+-✅ **Versões Public/Private** organizadas
 
 ### 🏆 Status Final
 

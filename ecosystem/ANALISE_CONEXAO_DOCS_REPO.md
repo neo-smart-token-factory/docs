@@ -20,18 +20,18 @@
 
 ### Referências ao repositório docs
 
-- **Links:** `docs/README.md`, `docs/ORGANIZATION.md`, `docs/REPOSITORY_VISIBILITY_POLICY.md` linkam para `https://github.com/neo-smart-token-factory/docs`.
-- **Autoridade:** `docs/ui-status.md` declara `Authority: docs` — smart-ui não é autoridade; decisões vivem em `smart-core`, `smart-cli`, `docs`.
-- **Política:** `REPOSITORY_VISIBILITY_POLICY` trata `docs` como repositório **público** permitido para ADRs, governança e guidelines.
+-**Links:** `docs/README.md`, `docs/ORGANIZATION.md`, `docs/REPOSITORY_VISIBILITY_POLICY.md` linkam para `https://github.com/neo-smart-token-factory/docs`.
+-**Autoridade:** `docs/ui-status.md` declara `Authority: docs` — smart-ui não é autoridade; decisões vivem em `smart-core`, `smart-cli`, `docs`.
+-**Política:** `REPOSITORY_VISIBILITY_POLICY` trata `docs` como repositório **público** permitido para ADRs, governança e guidelines.
 
 ---
 
 ## 2. Por que não conectar (submodule/clone) é aceitável?
 
-- **docs** = documentação **centralizada da organização** (manifesto, INDEX, NEOTOKENV2, architecture, ecosystem, etc.).
-- **smart-ui** = dashboard; tem **documentação própria** em `docs/` (PROJECT_OVERVIEW, ADRs, frontend, infra).
-- A relação pretendida é **referência cruzada** (links) e alinhamento conceitual, não reutilização do mesmo código/docs via git.
-- `docs-guard` garante que **mudanças de código** no smart-ui sejam acompanhadas de **atualização da documentação local** (`docs/*`, `*.md`), em linha com “documentação versionada com código”.
+-**docs** = documentação **centralizada da organização** (manifesto, INDEX, NEOTOKENV2, architecture, ecosystem, etc.).
+-**smart-ui** = dashboard; tem **documentação própria** em `docs/` (PROJECT_OVERVIEW, ADRs, frontend, infra).
+-A relação pretendida é **referência cruzada** (links) e alinhamento conceitual, não reutilização do mesmo código/docs via git.
+-`docs-guard` garante que **mudanças de código** no smart-ui sejam acompanhadas de **atualização da documentação local** (`docs/*`, `*.md`), em linha com “documentação versionada com código”.
 
 Portanto, **não é necessário** conectar ao repo docs via git para o fluxo atual.
 
@@ -41,9 +41,9 @@ Portanto, **não é necessário** conectar ao repo docs via git para o fluxo atu
 
 Com base no conteúdo público do `neo-smart-token-factory/docs`:
 
-- **Estrutura:** `architecture/`, `core/`, `ecosystem/`, `operations/`, `registro/`, `strategy/`, etc.
-- **Conteúdo:** INDEX, manifesto, GUIA_OPERACIONAL, NEOTOKENV2, MANUAL_BRIDGE, MINIAPP_INTEGRATION, BASE_AGENTKIT_GUIDE, CONTRIBUTING.md.
-- **Princípios:** Documentação versionada com o código; contribuições via CONTRIBUTING; licença CC BY 4.0 para docs.
+-**Estrutura:** `architecture/`, `core/`, `ecosystem/`, `operations/`, `registro/`, `strategy/`, etc.
+-**Conteúdo:** INDEX, manifesto, GUIA_OPERACIONAL, NEOTOKENV2, MANUAL_BRIDGE, MINIAPP_INTEGRATION, BASE_AGENTKIT_GUIDE, CONTRIBUTING.md.
+-**Princípios:** Documentação versionada com o código; contribuições via CONTRIBUTING; licença CC BY 4.0 para docs.
 
 ---
 
@@ -76,8 +76,8 @@ O posicionamento da **NΞØ Smart Factory** como **infraestrutura Web3 industria
 
 **Materiais em slides** (posicionamento, Core Engine, industrialização de ativos digitais) estão disponíveis em pasta externa, por exemplo:
 
-- `NEO_Smart_Factory.pdf`
-- `NSF_Digital_Asset_Industrialization.pdf`
+-`NEO_Smart_Factory.pdf`
+-`NSF_Digital_Asset_Industrialization.pdf`
 
 Útil como referência para manter consistência entre documentação, ADRs e narrativa institucional.
 
@@ -85,9 +85,9 @@ O posicionamento da **NΞØ Smart Factory** como **infraestrutura Web3 industria
 
 ## 7. Resumo
 
-- **Conexão git:** smart-ui **não** se conecta ao `neo-smart-token-factory/docs` via submodule ou workflows. Só há links e uso opcional do Makefile em dev local.
-- **Necessidade:** **Não** é necessário conectar ao docs para o fluxo atual; a separação docs (org) vs docs do smart-ui (repo) é intencional.
-- **Padrões:** No geral **sim** — documentação versionada, ADRs, links, autoridade. CONTRIBUTING / contribuição externa **adiado de propósito** para etapa futura do roadmap.
+-**Conexão git:** smart-ui **não** se conecta ao `neo-smart-token-factory/docs` via submodule ou workflows. Só há links e uso opcional do Makefile em dev local.
+-**Necessidade:** **Não** é necessário conectar ao docs para o fluxo atual; a separação docs (org) vs docs do smart-ui (repo) é intencional.
+-**Padrões:** No geral **sim** — documentação versionada, ADRs, links, autoridade. CONTRIBUTING / contribuição externa **adiado de propósito** para etapa futura do roadmap.
 
 ---
 

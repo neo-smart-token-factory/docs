@@ -15,11 +15,11 @@ Todos os documentos foram criados em formato **HTML** que o Microsoft Word abre 
 ### Arquivos Disponíveis:
 
 **Versão Private (completa)**:
-- `registro/release/private/00_INDEX_NEO_Smart_Token_Factory_v1.0_2026-01-22.html`
+-`registro/release/private/00_INDEX_NEO_Smart_Token_Factory_v1.0_2026-01-22.html`
 
-- `registro/release/private/01_CORE_Authorship_and_Prior_Art_v1.0_2026-01-22.html` (a ser criado)
-- `registro/release/private/02_SYSTEM_Executable_Concept_Overview_v1.0_2026-01-22.html` (a ser criado)
-- `registro/release/private/04_PROOF_SHA256_and_TXID_v1.0_2026-01-22.html` (a ser criado)
+-`registro/release/private/01_CORE_Authorship_and_Prior_Art_v1.0_2026-01-22.html` (a ser criado)
+-`registro/release/private/02_SYSTEM_Executable_Concept_Overview_v1.0_2026-01-22.html` (a ser criado)
+-`registro/release/private/04_PROOF_SHA256_and_TXID_v1.0_2026-01-22.html` (a ser criado)
 
 **Nota**: O arquivo 03_PROOF permanece em TXT (texto puro) para hash.
 

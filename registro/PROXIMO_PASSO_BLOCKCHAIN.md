@@ -45,9 +45,9 @@
 
 Você precisará de:
 
-- **Rede utilizada**: (ex: OpenTimestamps, Ethereum Mainnet, Base Mainnet, Arweave)
-- **TXID**: (hash da transação ou ID do timestamp)
-- **Timestamp UTC**: (formato: YYYY-MM-DDTHH:MM:SSZ)
+-**Rede utilizada**: (ex: OpenTimestamps, Ethereum Mainnet, Base Mainnet, Arweave)
+-**TXID**: (hash da transação ou ID do timestamp)
+-**Timestamp UTC**: (formato: YYYY-MM-DDTHH:MM:SSZ)
 
 Depois, preencha no documento 04_PROOF e assine!
 
@@ -59,8 +59,8 @@ Depois, preencha no documento 04_PROOF e assine!
 https://opentimestamps.org/
 
 Depois me envie:
-- Rede: OpenTimestamps
-- TXID/Timestamp: (o que o site gerar)
-- Timestamp UTC: (data/hora atual)
+-Rede: OpenTimestamps
+-TXID/Timestamp: (o que o site gerar)
+-Timestamp UTC: (data/hora atual)
 
 E eu preencho o documento 04_PROOF para você assinar!

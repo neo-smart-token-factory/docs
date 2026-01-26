@@ -366,18 +366,18 @@ minters_dict: Cell        // mutable (anti-bot)
 ## 📝 Limitações Conhecidas
 
 ### Events/Logs
-- **EVM:** Suporta `event` nativamente
-- **TON:** NÃO suporta eventos (limitação da blockchain)
-- **Impacto:** Front-end deve usar polling ou indexers
+-**EVM:** Suporta `event` nativamente
+-**TON:** NÃO suporta eventos (limitação da blockchain)
+-**Impacto:** Front-end deve usar polling ou indexers
 
 ### Ownable2Step
-- **EVM:** Implementa `Ownable2Step` (segurança extra)
-- **TON:** Transferência direta de admin
-- **Impacto:** TON tem menos segurança contra transferência acidental
+-**EVM:** Implementa `Ownable2Step` (segurança extra)
+-**TON:** Transferência direta de admin
+-**Impacto:** TON tem menos segurança contra transferência acidental
 
 ### ERC20Permit (Gasless)
-- **EVM:** Suporta `permit()` para transações gasless
-- **TON:** NÃO aplicável (TON usa modelo diferente de gas)
+-**EVM:** Suporta `permit()` para transações gasless
+-**TON:** NÃO aplicável (TON usa modelo diferente de gas)
 
 ---
 
@@ -405,11 +405,11 @@ minters_dict: Cell        // mutable (anti-bot)
 ## 🔐 Constantes Críticas
 
 ### Protocol Treasury
-- **EVM:** `0x470a8c640fFC2C16aEB6bE803a948420e2aE8456`
-- **TON:** `UQBBVansdaNi_Rc_7fLZ8nZfCbNaDTQtew_pFTYd2eXzD8lg`
+-**EVM:** `0x470a8c640fFC2C16aEB6bE803a948420e2aE8456`
+-**TON:** `UQBBVansdaNi_Rc_7fLZ8nZfCbNaDTQtew_pFTYd2eXzD8lg`
 
 ### Protocol Fee
-- **Ambos:** 5% (500 basis points)
+-**Ambos:** 5% (500 basis points)
 
 ---
 

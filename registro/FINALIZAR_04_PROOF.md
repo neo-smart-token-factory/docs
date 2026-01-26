@@ -6,11 +6,11 @@
 
 ## ✅ O QUE JÁ ESTÁ PRONTO
 
-- [x] Hashes SHA-256 preenchidos (4 arquivos)
-- [x] Rede blockchain: OpenTimestamps
-- [x] TXID/Identificador: hash SHA-256 do 03_PROOF
-- [x] Timestamp UTC: 2026-01-23T02:20:00Z
-- [x] Arquivo .ots copiado para a pasta de registro
+-[x] Hashes SHA-256 preenchidos (4 arquivos)
+-[x] Rede blockchain: OpenTimestamps
+-[x] TXID/Identificador: hash SHA-256 do 03_PROOF
+-[x] Timestamp UTC: 2026-01-23T02:20:00Z
+-[x] Arquivo .ots copiado para a pasta de registro
 
 ---
 
@@ -27,12 +27,12 @@
 
 Na pasta `registro/release/private/` você tem:
 
-- ✅ 00_INDEX.pdf (assinado)
-- ✅ 01_CORE.pdf (assinado)
-- ✅ 02_SYSTEM.pdf (assinado)
-- ✅ 03_PROOF.txt (texto para hash)
-- ✅ 03_PROOF.txt.ots (prova OpenTimestamps)
-- ⏳ 04_PROOF.md (pronto para assinar)
+-✅ 00_INDEX.pdf (assinado)
+-✅ 01_CORE.pdf (assinado)
+-✅ 02_SYSTEM.pdf (assinado)
+-✅ 03_PROOF.txt (texto para hash)
+-✅ 03_PROOF.txt.ots (prova OpenTimestamps)
+-⏳ 04_PROOF.md (pronto para assinar)
 
 ---
 

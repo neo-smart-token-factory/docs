@@ -49,8 +49,8 @@ Manifesto de prova com SHA-256 de cada arquivo do pacote, espaço para TXID da t
 
 Este pacote está disponível em duas variantes:
 
-- **Public**: Versão pública com redactions (dados pessoais mascarados)
-- **Private**: Versão completa para uso offline (não versionada)
+-**Public**: Versão pública com redactions (dados pessoais mascarados)
+-**Private**: Versão completa para uso offline (não versionada)
 
 ---
 
@@ -59,12 +59,12 @@ Este pacote está disponível em duas variantes:
 O projeto NΞØ SMART TOKEN FACTORY possui documentação e código versionado no GitHub desde novembro de 2025.
 
 **Repositório Histórico** (privado, mantido para registro):
-- URL: https://github.com/neomello/neo_smart_factory
-- Primeiro commit: 2025-11-16
+-URL: https://github.com/neomello/neo_smart_factory
+-Primeiro commit: 2025-11-16
 
 **Organização Atual** (desenvolvimento ativo):
-- URL: https://github.com/neo-smart-token-factory
-- Primeiro commit: 2025-11-17
+-URL: https://github.com/neo-smart-token-factory
+-Primeiro commit: 2025-11-17
 
 A documentação técnica completa está disponível no repositório público `neo-smart-token-factory/docs`.
 
@@ -74,17 +74,17 @@ A documentação técnica completa está disponível no repositório público `n
 
 ### Versão Public (Esta versão)
 
-- Dados pessoais mascarados (CPF parcialmente oculto)
-- Informações técnicas completas
-- Prova histórica documentada
-- Hashes e validações disponíveis
+-Dados pessoais mascarados (CPF parcialmente oculto)
+-Informações técnicas completas
+-Prova histórica documentada
+-Hashes e validações disponíveis
 
 ### Versão Private
 
-- Dados pessoais completos
-- Assinatura digital completa
-- Informações adicionais para uso interno
-- **Não versionada** — mantida apenas localmente
+-Dados pessoais completos
+-Assinatura digital completa
+-Informações adicionais para uso interno
+-**Não versionada** — mantida apenas localmente
 
 ---
 
@@ -101,10 +101,10 @@ Para validar a integridade deste pacote:
 
 ## Observações Importantes
 
-- Este pacote foi gerado em 2026-01-22.
-- Todos os documentos são versionados com a mesma data e versão (v1.0).
-- A versão pública não contém informações pessoais completas (PII).
-- A versão private deve ser mantida offline e não versionada.
+-Este pacote foi gerado em 2026-01-22.
+-Todos os documentos são versionados com a mesma data e versão (v1.0).
+-A versão pública não contém informações pessoais completas (PII).
+-A versão private deve ser mantida offline e não versionada.
 
 ---
 

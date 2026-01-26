@@ -5,9 +5,9 @@ A Landing Page é o ponto de entrada para o ecossistema do Protocolo NΞØ. Seu 
 
 ## Público-Alvo: O Perfil do Fundador
 
-- **Características:** Fundadores técnicos ou semi-técnicos, líderes de projeto em Base/Ethereum.
-- **Dores:** Altos custos de gas, fluxos de implantação complexos, falta de observabilidade no desempenho do token e receios com segurança.
-- **Desejo:** Um ambiente de produção "configure e esqueça" que seja ultra-rápido e com estética premium.
+-**Características:** Fundadores técnicos ou semi-técnicos, líderes de projeto em Base/Ethereum.
+-**Dores:** Altos custos de gas, fluxos de implantação complexos, falta de observabilidade no desempenho do token e receios com segurança.
+-**Desejo:** Um ambiente de produção "configure e esqueça" que seja ultra-rápido e com estética premium.
 
 ## Estrutura da Página (O Caminho de Conversão)
 
@@ -20,19 +20,19 @@ A Landing Page é o ponto de entrada para o ecossistema do Protocolo NΞØ. Seu 
 
 ## Objetivo de Conversão
 
-- **CTA Primário:** Garantir uma implantação paga ou uma assinatura do nível premium da CLI.
-- **CTA Secundário:** Inscrição para "Atualizações do Protocolo" (captura de lead).
+-**CTA Primário:** Garantir uma implantação paga ou uma assinatura do nível premium da CLI.
+-**CTA Secundário:** Inscrição para "Atualizações do Protocolo" (captura de lead).
 
 ## O que a Landing NÃO deve fazer
 
-- **NÃO explicar a tecnologia apenas por explicar:** Focar nos *benefícios* (velocidade, segurança, prestígio), não apenas na stack.
-- **NÃO oferecer caminhos demais:** Evitar poluição com links de "Fale Conosco", "Discord", "Documentação" e "Twitter" ao mesmo tempo. Um caminho principal.
-- **NÃO parecer genérica:** Nada de componentes simples de boilerplate. Deve parecer um produto financeiro/tecnológico de alto padrão.
+-**NÃO explicar a tecnologia apenas por explicar:** Focar nos *benefícios* (velocidade, segurança, prestígio), não apenas na stack.
+-**NÃO oferecer caminhos demais:** Evitar poluição com links de "Fale Conosco", "Discord", "Documentação" e "Twitter" ao mesmo tempo. Um caminho principal.
+-**NÃO parecer genérica:** Nada de componentes simples de boilerplate. Deve parecer um produto financeiro/tecnológico de alto padrão.
 
 ## Lista de Tarefas (TODO)
 
-- [ ] Definir o ativo visual principal "Hero" (Gerar com IA ou design).
-- [ ] Escrever o conteúdo de alta conversão (Foco: Velocidade e Segurança).
-- [ ] Mapear a "Jornada do Fundador" da Landing até o Checkout/Onboarding.
-- [ ] Projetar a seção "Demo da CLI" (visualizando a saída do terminal).
-- [ ] Integrar o ponto de conversão (Link Stripe ou Calendly).
+-[ ] Definir o ativo visual principal "Hero" (Gerar com IA ou design).
+-[ ] Escrever o conteúdo de alta conversão (Foco: Velocidade e Segurança).
+-[ ] Mapear a "Jornada do Fundador" da Landing até o Checkout/Onboarding.
+-[ ] Projetar a seção "Demo da CLI" (visualizando a saída do terminal).
+-[ ] Integrar o ponto de conversão (Link Stripe ou Calendly).

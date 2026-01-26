@@ -9,10 +9,10 @@
 ## 🎯 Visão Geral
 
 O **NeoTokenV2** é a evolução do NeoTokenBase, projetado para o ecossistema Web3 moderno com suporte nativo para:
-- **Account Abstraction** (gasless transactions via EIP-2612)
-- **Arquitetura Multichain** (bridge-ready)
-- **Proteção anti-bot** integrada
-- **Supply cap** imutável
+-**Account Abstraction** (gasless transactions via EIP-2612)
+-**Arquitetura Multichain** (bridge-ready)
+-**Proteção anti-bot** integrada
+-**Supply cap** imutável
 
 ## 📊 Características Principais
 
@@ -34,10 +34,10 @@ function permit(
 ```
 
 **Casos de Uso:**
-- ✅ Onboarding sem ETH/POL para gas
-- ✅ Integração com Smart Wallets (Coinbase Smart Wallet, Safe, Argent)
-- ✅ UX simplificada para usuários não-técnicos
-- ✅ Aprovações gasless para DEXs e protocolos DeFi
+-✅ Onboarding sem ETH/POL para gas
+-✅ Integração com Smart Wallets (Coinbase Smart Wallet, Safe, Argent)
+-✅ UX simplificada para usuários não-técnicos
+-✅ Aprovações gasless para DEXs e protocolos DeFi
 
 **Exemplo de Integração:**
 ```javascript
@@ -68,10 +68,10 @@ function bridgeMint(address _to, uint256 _amount) external {
 ```
 
 **Preparado para:**
-- ✅ **LayerZero** (omnichain messaging)
-- ✅ **Wormhole** (cross-chain bridge)
-- ✅ **Axelar** (cross-chain communication)
-- ✅ **Bridges customizadas** (contratos próprios)
+-✅ **LayerZero** (omnichain messaging)
+-✅ **Wormhole** (cross-chain bridge)
+-✅ **Axelar** (cross-chain communication)
+-✅ **Bridges customizadas** (contratos próprios)
 
 **Fluxo Cross-Chain:**
 ```
@@ -107,10 +107,10 @@ mapping(address => bool) public hasPublicMinted;
 ```
 
 **Proteções:**
-- ✅ **Cap rígido**: Limite imutável de 1 bilhão de tokens
-- ✅ **Anti-sybil**: 1 mint público por wallet
-- ✅ **Validações**: Checks em `publicMint()` e `bridgeMint()`
-- ✅ **Emergência**: Função `resetPublicMint()` para casos edge
+-✅ **Cap rígido**: Limite imutável de 1 bilhão de tokens
+-✅ **Anti-sybil**: 1 mint público por wallet
+-✅ **Validações**: Checks em `publicMint()` e `bridgeMint()`
+-✅ **Emergência**: Função `resetPublicMint()` para casos edge
 
 **Mint Público:**
 ```solidity
@@ -139,9 +139,9 @@ event PublicMintStatusChanged(bool enabled);
 ```
 
 **Indexação:**
-- ✅ **The Graph**: Subgraphs para queries GraphQL
-- ✅ **Dune Analytics**: Dashboards e analytics
-- ✅ **Exploradores**: PolygonScan, Basescan, Etherscan
+-✅ **The Graph**: Subgraphs para queries GraphQL
+-✅ **Dune Analytics**: Dashboards e analytics
+-✅ **Exploradores**: PolygonScan, Basescan, Etherscan
 
 **Exemplo de Subgraph (The Graph):**
 ```graphql
@@ -246,9 +246,9 @@ await token.publicMint({ value: ethers.parseEther("0.003") });
 ```
 
 **Cenário:**
-- Lançamento de token com distribuição inicial justa
-- Cada wallet pode mintar apenas 1 vez
-- Preço fixo definido no deploy
+-Lançamento de token com distribuição inicial justa
+-Cada wallet pode mintar apenas 1 vez
+-Preço fixo definido no deploy
 
 ---
 
@@ -260,9 +260,9 @@ await token.bridgeMint(userAddress, amount);
 ```
 
 **Cenário:**
-- Usuário bloqueia tokens na Chain A
-- Bridge verifica e minta na Chain B
-- Supply total permanece constante (burn na origem)
+-Usuário bloqueia tokens na Chain A
+-Bridge verifica e minta na Chain B
+-Supply total permanece constante (burn na origem)
 
 ---
 
@@ -351,27 +351,27 @@ await token.permit(userAddress, protocolAddress, amount, deadline, v, r, s);
 
 ### Padrões Implementados
 
-- ✅ **Ownable2Step**: Transferência segura de ownership (evita erros de digitação)
-- ✅ **Withdraw via `call{}`**: Evita falhas com contratos que rejeitam `transfer()`
-- ✅ **Validações de zero address**: Previne mint/configuração para endereço nulo
-- ✅ **Supply cap imutável**: Não pode ser alterado após deploy
-- ✅ **Reentrancy protection**: Design seguro (checks-effects-interactions)
+-✅ **Ownable2Step**: Transferência segura de ownership (evita erros de digitação)
+-✅ **Withdraw via `call{}`**: Evita falhas com contratos que rejeitam `transfer()`
+-✅ **Validações de zero address**: Previne mint/configuração para endereço nulo
+-✅ **Supply cap imutável**: Não pode ser alterado após deploy
+-✅ **Reentrancy protection**: Design seguro (checks-effects-interactions)
 
 ### Auditoria
 
-- **Base**: OpenZeppelin Contracts v5.0 (auditado por Trail of Bits, Consensys Diligence)
-- **Herança**: ERC20, ERC20Burnable, ERC20Permit (padrões da indústria)
-- **Custom**: Validações adicionais em mint functions
+-**Base**: OpenZeppelin Contracts v5.0 (auditado por Trail of Bits, Consensys Diligence)
+-**Herança**: ERC20, ERC20Burnable, ERC20Permit (padrões da indústria)
+-**Custom**: Validações adicionais em mint functions
 
 ### Checklist de Segurança
 
-- [x] Supply cap imutável
-- [x] Validações de zero address
-- [x] Ownable2Step para ownership
-- [x] Withdraw seguro via call{}
-- [x] Eventos para todas as ações críticas
-- [x] Anti-bot integrado
-- [x] Bridge minter role com validações
+-[x] Supply cap imutável
+-[x] Validações de zero address
+-[x] Ownable2Step para ownership
+-[x] Withdraw seguro via call{}
+-[x] Eventos para todas as ações críticas
+-[x] Anti-bot integrado
+-[x] Bridge minter role com validações
 
 ---
 
@@ -448,51 +448,51 @@ forge create src/NeoTokenV2.sol:NeoTokenV2 \
 ## 🗺️ Roadmap de Integração
 
 ### Fase 1: Base (✅ Implementado)
-- [x] Contrato NeoTokenV2
-- [x] Documentação completa
-- [x] Eventos e view functions
-- [x] Deploy scripts
+-[x] Contrato NeoTokenV2
+-[x] Documentação completa
+-[x] Eventos e view functions
+-[x] Deploy scripts
 
 ### Fase 2: Multichain (🔨 Em Planejamento)
-- [ ] Integração LayerZero OFT (Omnichain Fungible Token)
-- [ ] Deploy em múltiplas chains (Polygon, Base, Arbitrum, Optimism)
-- [ ] Bridge UI para usuários
-- [ ] Subgraph para indexação cross-chain
+-[ ] Integração LayerZero OFT (Omnichain Fungible Token)
+-[ ] Deploy em múltiplas chains (Polygon, Base, Arbitrum, Optimism)
+-[ ] Bridge UI para usuários
+-[ ] Subgraph para indexação cross-chain
 
 ### Fase 3: AA Integration (📋 Futuro)
-- [ ] SDK para Smart Wallets
-- [ ] Gasless mint via relayers
-- [ ] Integração Coinbase Smart Wallet
-- [ ] Paymaster para subsidiar gas
+-[ ] SDK para Smart Wallets
+-[ ] Gasless mint via relayers
+-[ ] Integração Coinbase Smart Wallet
+-[ ] Paymaster para subsidiar gas
 
 ### Fase 4: DeFi Integration (📋 Futuro)
-- [ ] Pools de liquidez (Uniswap V3)
-- [ ] Staking contracts
-- [ ] Governance (snapshot.org)
-- [ ] Vesting schedules
+-[ ] Pools de liquidez (Uniswap V3)
+-[ ] Staking contracts
+-[ ] Governance (snapshot.org)
+-[ ] Vesting schedules
 
 ---
 
 ## 📚 Referências
 
 ### Padrões (EIPs)
-- [EIP-20: ERC20 Token Standard](https://eips.ethereum.org/EIPS/eip-20)
-- [EIP-2612: Permit Extension for ERC20](https://eips.ethereum.org/EIPS/eip-2612)
-- [EIP-4337: Account Abstraction](https://eips.ethereum.org/EIPS/eip-4337)
+-[EIP-20: ERC20 Token Standard](<https://eips.ethereum.org/EIPS/eip-20>)
+-[EIP-2612: Permit Extension for ERC20](<https://eips.ethereum.org/EIPS/eip-2612>)
+-[EIP-4337: Account Abstraction](<https://eips.ethereum.org/EIPS/eip-4337>)
 
 ### OpenZeppelin
-- [ERC20 Documentation](https://docs.openzeppelin.com/contracts/5.x/erc20)
-- [ERC20Permit Documentation](https://docs.openzeppelin.com/contracts/5.x/api/token/erc20#ERC20Permit)
-- [Ownable2Step Documentation](https://docs.openzeppelin.com/contracts/5.x/api/access#Ownable2Step)
+-[ERC20 Documentation](<https://docs.openzeppelin.com/contracts/5.x/erc20>)
+-[ERC20Permit Documentation](<https://docs.openzeppelin.com/contracts/5.x/api/token/erc20#ERC20Permit>)
+-[Ownable2Step Documentation](<https://docs.openzeppelin.com/contracts/5.x/api/access#Ownable2Step>)
 
 ### Bridges
-- [LayerZero Documentation](https://layerzero.network/developers)
-- [Wormhole Documentation](https://docs.wormhole.com/)
-- [Axelar Documentation](https://docs.axelar.dev/)
+-[LayerZero Documentation](<https://layerzero.network/developers>)
+-[Wormhole Documentation](<https://docs.wormhole.com/>)
+-[Axelar Documentation](<https://docs.axelar.dev/>)
 
 ### Indexação
-- [The Graph Documentation](https://thegraph.com/docs/)
-- [Dune Analytics](https://dune.com/docs/)
+-[The Graph Documentation](<https://thegraph.com/docs/>)
+-[Dune Analytics](<https://dune.com/docs/>)
 
 ---
 
@@ -513,7 +513,7 @@ Para sugestões de melhorias ou bugs, abra uma issue no repositório.
 **Email**: neo@neoprotocol.space  
 **Web3 Identity**: neoprotocol.eth  
 **NEØ PROTOCOL**: https://neoprotocol.space  
-[![GitHub](https://img.shields.io/badge/GitHub-neo--smart--token--factory-181717?style=flat&logo=github)](https://github.com/neo-smart-token-factory)
+[![GitHub](<https://img.shields.io/badge/GitHub-neo--smart--token--factory-181717?style=flat&logo=github>)](https://github.com/neo-smart-token-factory)
 
 > *Expand until silence becomes structure.*
 

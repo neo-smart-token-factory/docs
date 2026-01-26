@@ -8,8 +8,8 @@ Este documento explica como utilizar as ferramentas da NΞØ SMART FACTORY no es
 ## 🎯 Visão Geral
 
 O projeto está na versão **v0.5.3**.
-- **O que está pronto:** O cérebro neural da fábrica (simuladores, auditores), contratos multichain (NeoTokenV2), bridge manual e integração MiniApp.
-- **O que falta:** A "face" da fábrica (website, dashboard visual).
+-**O que está pronto:** O cérebro neural da fábrica (simuladores, auditores), contratos multichain (NeoTokenV2), bridge manual e integração MiniApp.
+-**O que falta:** A "face" da fábrica (website, dashboard visual).
 
 Você pode (e deve) usar o terminal para acessar todas as funcionalidades críticas hoje.
 
@@ -39,10 +39,10 @@ node smart-cli/ops-handler.js "NEO::simulate NOME_DO_TOKEN"
 ```
 
 *O que ele verifica:*
-- 🛡️ **Segurança:** Riscos de exploit, travas incorretas.
-- 💰 **Economia:** Se a conta fecha (Supply vs Distribuição).
-- 📜 **Narrativa:** Se existe manifesto e alinhamento com a cultura NΞØ.
-- 📈 **Projeção:** Estima holders e volume para os primeiros 7 dias.
+-🛡️ **Segurança:** Riscos de exploit, travas incorretas.
+-💰 **Economia:** Se a conta fecha (Supply vs Distribuição).
+-📜 **Narrativa:** Se existe manifesto e alinhamento com a cultura NΞØ.
+-📈 **Projeção:** Estima holders e volume para os primeiros 7 dias.
 
 ### 3. Gerar Manifesto
 Se o simulador acusar falta de manifesto, gere um automaticamente:

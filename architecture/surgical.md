@@ -41,12 +41,12 @@ smart-core/
 ```
 
 **Responsabilidades**:
-- ✅ Contratos base (NeoTokenBase, **NeoTokenV2**, IgnitionToken)
-- ✅ Factory modular (NeoSmartFactory)
-- ✅ Scripts de deploy e verificação
-- ✅ Testes automatizados
-- ✅ Templates para geração
-- ✅ Configuração Hardhat (Polygon-ready)
+-✅ Contratos base (NeoTokenBase, **NeoTokenV2**, IgnitionToken)
+-✅ Factory modular (NeoSmartFactory)
+-✅ Scripts de deploy e verificação
+-✅ Testes automatizados
+-✅ Templates para geração
+-✅ Configuração Hardhat (Polygon-ready)
 
 **Este é o bloco que você clona, purifica e padroniza.**
 
@@ -56,16 +56,16 @@ smart-core/
 Ao contrário de "Token Generators" genéricos que carregam código morto e flags desnecessárias, nossos contratos utilizam herança direta de padrões auditados.
 
 **Evolução dos Contratos:**
-- **NeoTokenBase** (v0.5.1): Base purificada original, ideal para tokens simples
-- **NeoTokenV2** (v0.5.3): Evolução com ERC20Permit + Bridge Minter (Multichain & AA-Ready) ⭐
-- **IgnitionToken**: Token de ignição específico do projeto
+-**NeoTokenBase** (v0.5.1): Base purificada original, ideal para tokens simples
+-**NeoTokenV2** (v0.5.3): Evolução com ERC20Permit + Bridge Minter (Multichain & AA-Ready) ⭐
+-**IgnitionToken**: Token de ignição específico do projeto
 
 **Diferenciais da nossa Base:**
-- Sem lógica condicional complexa (menor custo de gas)
-- Sem dependências de terceiros obscuras
-- Compatibilidade nativa EVM (Ethereum, Polygon, BSC, Base)
-- Solidity ^0.8.20 (Moderno e Seguro)
-- **NeoTokenV2**: Preparado para Account Abstraction e Multichain
+-Sem lógica condicional complexa (menor custo de gas)
+-Sem dependências de terceiros obscuras
+-Compatibilidade nativa EVM (Ethereum, Polygon, BSC, Base)
+-Solidity ^0.8.20 (Moderno e Seguro)
+-**NeoTokenV2**: Preparado para Account Abstraction e Multichain
 
 ## 2. `smart-cli/` — O Ritual de Criação
 
@@ -89,11 +89,11 @@ smart-cli/
 ```
 
 **Responsabilidades**:
-- ✅ Interface de linha de comando
-- ✅ Cérebro operacional (orquestra criação)
-- ✅ Pipeline automatizador
-- ✅ Validação de inputs
-- ✅ Geração de configurações
+-✅ Interface de linha de comando
+-✅ Cérebro operacional (orquestra criação)
+-✅ Pipeline automatizador
+-✅ Validação de inputs
+-✅ Geração de configurações
 
 **Fluxo**:
 1. `init` → Cria estrutura do token
@@ -130,11 +130,11 @@ smart-ui/
 ```
 
 **Responsabilidades**:
-- ✅ Landing page principal
-- ✅ Formulário de criação de tokens
-- ✅ Preview de tokens
-- ✅ Simulador de ecossistemas
-- ✅ Geração automática de UI por token
+-✅ Landing page principal
+-✅ Formulário de criação de tokens
+-✅ Preview de tokens
+-✅ Simulador de ecossistemas
+-✅ Geração automática de UI por token
 
 **É simples, MAS fundamental.**
 
@@ -156,11 +156,11 @@ docs/
 ```
 
 **Responsabilidades**:
-- ✅ Arquitetura documentada
-- ✅ Visão e estratégia
-- ✅ Etapas de desenvolvimento
-- ✅ Especificações técnicas
-- ✅ Integração futura com NΞØ Protocol
+-✅ Arquitetura documentada
+-✅ Visão e estratégia
+-✅ Etapas de desenvolvimento
+-✅ Especificações técnicas
+-✅ Integração futura com NΞØ Protocol
 
 **É onde você documenta para não repetir trabalho.**
 
@@ -183,11 +183,11 @@ tokens/
 ```
 
 **Responsabilidades**:
-- ✅ Armazenar cada token criado
-- ✅ Manter histórico completo
-- ✅ Documentação por token
-- ✅ UI gerada por token
-- ✅ Informações de deploy
+-✅ Armazenar cada token criado
+-✅ Manter histórico completo
+-✅ Documentação por token
+-✅ UI gerada por token
+-✅ Informações de deploy
 
 **É o histórico vivo da sua fábrica.**
 
@@ -199,37 +199,37 @@ tokens/
 ```bash
 npx neo-smart-factory init
 ```
-- Cria estrutura em `tokens/nome-do-token/`
-- Gera configurações
-- Prepara templates
+-Cria estrutura em `tokens/nome-do-token/`
+-Gera configurações
+-Prepara templates
 
 ### Passo 2: Configuração
-- Edita `.env` com dados do token
-- Configura tokenômica
-- Define narrativa
+-Edita `.env` com dados do token
+-Configura tokenômica
+-Define narrativa
 
 ### Passo 3: Simulação
 ```bash
 NEO::simulate NOME_DO_TOKEN
 ```
-- Valida segurança
-- Verifica tokenômica
-- Simula 7 dias
-- Gera veredito
+-Valida segurança
+-Verifica tokenômica
+-Simula 7 dias
+-Gera veredito
 
 ### Passo 4: Deploy
 ```bash
 npx neo-smart-factory deploy
 ```
-- Deploy via `smart-core/scripts/deploy.js`
-- Verificação automática
-- Salvamento de informações
+-Deploy via `smart-core/scripts/deploy.js`
+-Verificação automática
+-Salvamento de informações
 
 ### Passo 5: Geração de UI
-- Gera `tokens/nome-do-token/ui/`
-- Landing page personalizada
-- Página de mint
-- Página de informações
+-Gera `tokens/nome-do-token/ui/`
+-Landing page personalizada
+-Página de mint
+-Página de informações
 
 ---
 
@@ -273,7 +273,7 @@ docs/        →  Inteligência (documenta tudo)
 **Email**: neo@neoprotocol.space  
 **Web3 Identity**: neoprotocol.eth  
 **NEØ PROTOCOL**: https://neoprotocol.space  
-[![GitHub](https://img.shields.io/badge/GitHub-neo--smart--token--factory-181717?style=flat&logo=github)](https://github.com/neo-smart-token-factory)
+[![GitHub](<https://img.shields.io/badge/GitHub-neo--smart--token--factory-181717?style=flat&logo=github>)](https://github.com/neo-smart-token-factory)
 
 > *Expand until silence becomes structure.*
 

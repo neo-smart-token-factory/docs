@@ -2,7 +2,7 @@
 
 > **Status**: Ativa e Pública  
 > **Tipo**: Organização GitHub Open Source  
-> **URL**: [github.com/neo-smart-token-factory](https://github.com/neo-smart-token-factory)
+> **URL**: [github.com/neo-smart-token-factory](<https://github.com/neo-smart-token-factory>)
 
 ---
 
@@ -20,17 +20,17 @@ Profissionais com histórico relevante nas áreas:
 
 #### ⚖️ Jurídica
 
-- Segurança cibernética
-- Integridade digital
-- Aplicação do direito em ambientes tecnológicos complexos
-- Compliance e regulação de ativos digitais
+-Segurança cibernética
+-Integridade digital
+-Aplicação do direito em ambientes tecnológicos complexos
+-Compliance e regulação de ativos digitais
 
 #### 💻 Engenharia de Software
 
-- Arquitetura de sistemas distribuídos
-- Desenvolvimento blockchain
-- Segurança de aplicações
-- DevOps e infraestrutura
+-Arquitetura de sistemas distribuídos
+-Desenvolvimento blockchain
+-Segurança de aplicações
+-DevOps e infraestrutura
 
 ---
 
@@ -38,31 +38,31 @@ Profissionais com histórico relevante nas áreas:
 
 ### 1. Desenvolvimento de Código
 
-- **Repositórios abertos** com código-fonte público
-- **Pull requests** revisados por múltiplos membros
-- **Issues** rastreadas publicamente
-- **Releases** versionadas e documentadas
+-**Repositórios abertos** com código-fonte público
+-**Pull requests** revisados por múltiplos membros
+-**Issues** rastreadas publicamente
+-**Releases** versionadas e documentadas
 
 ### 2. Governança Ativa
 
-- **Discussões técnicas** públicas
-- **Decisões arquiteturais** documentadas (ADRs)
-- **Roadmap** transparente
-- **Processos** de revisão e aprovação
+-**Discussões técnicas** públicas
+-**Decisões arquiteturais** documentadas (ADRs)
+-**Roadmap** transparente
+-**Processos** de revisão e aprovação
 
 ### 3. Documentação
 
-- **Documentação técnica** completa
-- **Guias de contribuição**
-- **Padrões de código**
-- **Arquitetura de sistemas**
+-**Documentação técnica** completa
+-**Guias de contribuição**
+-**Padrões de código**
+-**Arquitetura de sistemas**
 
 ### 4. Comunidade
 
-- **Contribuições externas** bem-vindas
-- **Code reviews** construtivos
-- **Mentoria** para novos contribuidores
-- **Transparência** em decisões
+-**Contribuições externas** bem-vindas
+-**Code reviews** construtivos
+-**Mentoria** para novos contribuidores
+-**Transparência** em decisões
 
 ---
 
@@ -72,23 +72,23 @@ Profissionais com histórico relevante nas áreas:
 
 **Core engine — contratos e protocolo**
 
-- Contratos NeoTokenV2, Manual Bridge, vesting, rewards
-- Scripts de deploy (Base, Polygon, Amoy) e bridge
-- Hardhat, OpenZeppelin, multichain-ready
-- **Autoridade de protocolo** (ADR 0002)
+-Contratos NeoTokenV2, Manual Bridge, vesting, rewards
+-Scripts de deploy (Base, Polygon, Amoy) e bridge
+-Hardhat, OpenZeppelin, multichain-ready
+-**Autoridade de protocolo** (ADR 0002)
 
-**URL**: [github.com/neo-smart-token-factory/smart-core](https://github.com/neo-smart-token-factory/smart-core)
+**URL**: [github.com/neo-smart-token-factory/smart-core](<https://github.com/neo-smart-token-factory/smart-core>)
 
 ### 🎨 smart-ui
 
 **Interface de usuário e frontend**
 
-- React + Vite + Tailwind CSS
-- Múltiplos frontends (Landing, Mobile, App Principal)
-- Integração Web3
-- PWA-ready
+-React + Vite + Tailwind CSS
+-Múltiplos frontends (Landing, Mobile, App Principal)
+-Integração Web3
+-PWA-ready
 
-**URL**: [github.com/neo-smart-token-factory/smart-ui](https://github.com/neo-smart-token-factory/smart-ui)
+**URL**: [github.com/neo-smart-token-factory/smart-ui](<https://github.com/neo-smart-token-factory/smart-ui>)
  
  ### 🛠️ smart-cli
  
@@ -99,29 +99,29 @@ Profissionais com histórico relevante nas áreas:
  - Automação de tarefas e integração de ferramentas
  - Canal principal de interação do desenvolvedor
  
- **URL**: [github.com/neo-smart-token-factory/smart-cli](https://github.com/neo-smart-token-factory/smart-cli)
+ **URL**: [github.com/neo-smart-token-factory/smart-cli](<https://github.com/neo-smart-token-factory/smart-cli>)
 
 
 ### 📄 landing
 
 **Landing page e materiais de marketing**
 
-- Design moderno e responsivo
-- Narrativa do projeto
-- Apresentação institucional
+-Design moderno e responsivo
+-Narrativa do projeto
+-Apresentação institucional
 
-**URL**: [github.com/neo-smart-token-factory/landing](https://github.com/neo-smart-token-factory/landing)
+**URL**: [github.com/neo-smart-token-factory/landing](<https://github.com/neo-smart-token-factory/landing>)
 
 ### 📚 docs
 
 **Documentação central**
 
-- Arquitetura de sistemas
-- Guias de uso
-- Referências técnicas
-- ADRs (Architecture Decision Records)
+-Arquitetura de sistemas
+-Guias de uso
+-Referências técnicas
+-ADRs (Architecture Decision Records)
 
-**URL**: [github.com/neo-smart-token-factory/docs](https://github.com/neo-smart-token-factory/docs)
+**URL**: [github.com/neo-smart-token-factory/docs](<https://github.com/neo-smart-token-factory/docs>)
 
 ---
 
@@ -129,30 +129,30 @@ Profissionais com histórico relevante nas áreas:
 
 ### 1. Transparência
 
-- Todas as decisões são documentadas
-- Discussões são públicas
-- Código é open source
-- Processos são claros
+-Todas as decisões são documentadas
+-Discussões são públicas
+-Código é open source
+-Processos são claros
 
 ### 2. Meritocracia
 
-- Contribuições são avaliadas por qualidade
-- Revisões são técnicas e construtivas
-- Reconhecimento baseado em impacto
+-Contribuições são avaliadas por qualidade
+-Revisões são técnicas e construtivas
+-Reconhecimento baseado em impacto
 
 ### 3. Responsabilidade
 
-- Código é auditável
-- Decisões são justificadas
-- Compromissos são cumpridos
-- Segurança é prioridade
+-Código é auditável
+-Decisões são justificadas
+-Compromissos são cumpridos
+-Segurança é prioridade
 
 ### 4. Inclusão
 
-- Contribuições externas são bem-vindas
-- Diversidade de perspectivas é valorizada
-- Mentoria é oferecida
-- Comunidade é respeitosa
+-Contribuições externas são bem-vindas
+-Diversidade de perspectivas é valorizada
+-Mentoria é oferecida
+-Comunidade é respeitosa
 
 ---
 
@@ -160,24 +160,24 @@ Profissionais com histórico relevante nas áreas:
 
 ### ✅ Concluído
 
-- Estrutura organizacional estabelecida
-- Repositórios principais criados
-- Documentação arquitetural inicial
-- Primeiras releases públicas
+-Estrutura organizacional estabelecida
+-Repositórios principais criados
+-Documentação arquitetural inicial
+-Primeiras releases públicas
 
 ### 🚧 Em Andamento
 
-- Expansão da documentação técnica
-- Implementação de controles de governança
-- Desenvolvimento de ferramentas adicionais
-- Estabelecimento de processos de compliance
+-Expansão da documentação técnica
+-Implementação de controles de governança
+-Desenvolvimento de ferramentas adicionais
+-Estabelecimento de processos de compliance
 
 ### 🔮 Planejado
 
-- Lançamento de novos componentes
-- Integração com parceiros institucionais
-- Expansão da comunidade de contribuidores
-- Auditorias de segurança externas
+-Lançamento de novos componentes
+-Integração com parceiros institucionais
+-Expansão da comunidade de contribuidores
+-Auditorias de segurança externas
 
 ---
 
@@ -213,35 +213,35 @@ Novas liberações de componentes e ferramentas devem ocorrer **a qualquer momen
 
 ### 1. Explore os Repositórios
 
-Visite [github.com/neo-smart-token-factory](https://github.com/neo-smart-token-factory) e explore os projetos disponíveis.
+Visite [github.com/neo-smart-token-factory](<https://github.com/neo-smart-token-factory>) e explore os projetos disponíveis.
 
 ### 2. Leia a Documentação
 
 Familiarize-se com:
-- Arquitetura de sistemas
-- Padrões de código
-- Processos de contribuição
-- ADRs (Architecture Decision Records)
+-Arquitetura de sistemas
+-Padrões de código
+-Processos de contribuição
+-ADRs (Architecture Decision Records)
 
 ### 3. Participe das Discussões
 
-- Abra issues para reportar bugs ou sugerir melhorias
-- Comente em pull requests
-- Participe de discussões técnicas
+-Abra issues para reportar bugs ou sugerir melhorias
+-Comente em pull requests
+-Participe de discussões técnicas
 
 ### 4. Contribua com Código
 
-- Fork o repositório
-- Crie uma branch para sua feature
-- Siga os padrões de código
-- Abra um pull request
+-Fork o repositório
+-Crie uma branch para sua feature
+-Siga os padrões de código
+-Abra um pull request
 
 ### 5. Ajude na Documentação
 
-- Melhore documentação existente
-- Adicione exemplos
-- Traduza conteúdo
-- Corrija erros
+-Melhore documentação existente
+-Adicione exemplos
+-Traduza conteúdo
+-Corrija erros
 
 ---
 
@@ -249,18 +249,18 @@ Familiarize-se com:
 
 ### GitHub
 
-- **Organização**: [github.com/neo-smart-token-factory](https://github.com/neo-smart-token-factory)
-- **Issues**: Use os repositórios específicos
-- **Discussions**: Disponível nos repositórios principais
+-**Organização**: [github.com/neo-smart-token-factory](<https://github.com/neo-smart-token-factory>)
+-**Issues**: Use os repositórios específicos
+-**Discussions**: Disponível nos repositórios principais
 
 ### Comunicação
 
 Para questões relacionadas a:
 
-- **Técnicas**: Abra uma issue no repositório relevante
-- **Governança**: Use GitHub Discussions
-- **Segurança**: Siga o processo de divulgação responsável (SECURITY.md)
-- **Parcerias**: Entre em contato através dos canais oficiais
+-**Técnicas**: Abra uma issue no repositório relevante
+-**Governança**: Use GitHub Discussions
+-**Segurança**: Siga o processo de divulgação responsável (SECURITY.md)
+-**Parcerias**: Entre em contato através dos canais oficiais
 
 ---
 
@@ -276,11 +276,11 @@ Please refer to the `LICENSE` file in each project for details.
 
 A **neo-smart-token-factory** reconhece e agradece:
 
-- Todos os contribuidores de código
-- Profissionais que oferecem orientação jurídica e técnica
-- Comunidade open source
-- Parceiros institucionais
-- Usuários que confiam na infraestrutura
+-Todos os contribuidores de código
+-Profissionais que oferecem orientação jurídica e técnica
+-Comunidade open source
+-Parceiros institucionais
+-Usuários que confiam na infraestrutura
 
 ---
 

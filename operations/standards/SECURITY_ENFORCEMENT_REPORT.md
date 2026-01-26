@@ -34,10 +34,10 @@
 #### App.jsx Footer
 **Status**: COMPLIANT  
 **References**:
-- ✓ Organization page (public)
-- ✓ ARCHITECTURAL_ADDENDUMS.md (public docs)
-- ✓ ADRs directory (public docs)
-- ✓ PROJECT_OVERVIEW.md (public docs)
+-✓ Organization page (public)
+-✓ ARCHITECTURAL_ADDENDUMS.md (public docs)
+-✓ ADRs directory (public docs)
+-✓ PROJECT_OVERVIEW.md (public docs)
 
 **No violations detected.**
 
@@ -45,16 +45,16 @@
 
 ## 📋 COMPLIANCE CHECKLIST
 
-- [x] No references to `smart-core`
-- [x] No references to `smart-cli`  
-- [x] No references to `internal-ops`
-- [x] No references to other private repositories
-- [x] Footer links validated (App.jsx)
-- [x] Documentation links validated
-- [x] No security-sensitive details exposed
-- [x] No internal architecture exposed
-- [x] No infrastructure details exposed
-- [x] No operational logic exposed
+-[x] No references to `smart-core`
+-[x] No references to `smart-cli`  
+-[x] No references to `internal-ops`
+-[x] No references to other private repositories
+-[x] Footer links validated (App.jsx)
+-[x] Documentation links validated
+-[x] No security-sensitive details exposed
+-[x] No internal architecture exposed
+-[x] No infrastructure details exposed
+-[x] No operational logic exposed
 
 ---
 
@@ -95,11 +95,11 @@
 The following files contain references to private repositories in **policy/documentation context only** (not as public links):
 
 ### Acceptable References
-- `docs/REPOSITORY_VISIBILITY_POLICY.md` — Defines what is private (policy document)
-- `docs/adr/0001-smart-ui-backend-boundary.md` — Historical ADR (internal doc)
-- `docs/adr/0002-ui-as-demo-and-intent-layer.md` — Historical ADR (internal doc)
-- `docs/GITHUB_ACTIONS_SETUP.md` — Internal setup guide
-- `docs/ui-status.md` — Internal status document
+-`docs/REPOSITORY_VISIBILITY_POLICY.md` — Defines what is private (policy document)
+-`docs/adr/0001-smart-ui-backend-boundary.md` — Historical ADR (internal doc)
+-`docs/adr/0002-ui-as-demo-and-intent-layer.md` — Historical ADR (internal doc)
+-`docs/GITHUB_ACTIONS_SETUP.md` — Internal setup guide
+-`docs/ui-status.md` — Internal status document
 
 **These are acceptable** because:
 1. They are internal documentation
@@ -112,19 +112,19 @@ The following files contain references to private repositories in **policy/docum
 ## 🚨 CRITICAL RULES ENFORCED
 
 ### 1. UI is Demo Layer Only ✅
-- No operational logic exposed
-- No internal components referenced
-- No CLI details mentioned publicly
+-No operational logic exposed
+-No internal components referenced
+-No CLI details mentioned publicly
 
 ### 2. Footer Content Restricted ✅
-- Only public organization page
-- Only public repositories
-- Only public documentation
+-Only public organization page
+-Only public repositories
+-Only public documentation
 
 ### 3. No Exceptions ✅
-- All violations fixed
-- Policy documented
-- Compliance verified
+-All violations fixed
+-Policy documented
+-Compliance verified
 
 ---
 
@@ -139,19 +139,19 @@ The following files contain references to private repositories in **policy/docum
 ## 📝 NEXT STEPS
 
 ### Immediate
-- [x] Policy created
-- [x] Violations fixed
-- [x] Compliance verified
-- [ ] Await further instructions (STOP CONDITION)
+-[x] Policy created
+-[x] Violations fixed
+-[x] Compliance verified
+-[ ] Await further instructions (STOP CONDITION)
 
 ### Ongoing
-- Monitor for new violations
-- Review all public-facing content
-- Enforce policy in code reviews
-- Update policy as needed with governance approval
+-Monitor for new violations
+-Review all public-facing content
+-Enforce policy in code reviews
+-Update policy as needed with governance approval
 
 ### Follow-up
-- [AUDITORIA_VISIBILIDADE_ORGANIZACAO](../../auditoria/AUDITORIA_VISIBILIDADE_ORGANIZACAO.md) (2026-01-24): auditoria de visibilidade, violações (ecosystem-graph, Makefile), exceções formalizadas e sugestões de remediação.
+-[AUDITORIA_VISIBILIDADE_ORGANIZACAO](<../../auditoria/AUDITORIA_VISIBILIDADE_ORGANIZACAO.md>) (2026-01-24): auditoria de visibilidade, violações (ecosystem-graph, Makefile), exceções formalizadas e sugestões de remediação.
 
 ---
 
@@ -160,10 +160,10 @@ The following files contain references to private repositories in **policy/docum
 **Security and governance take priority over convenience.**
 
 This policy is **NON-NEGOTIABLE** and will be enforced in:
-- All pull requests
-- All public documentation
-- All UI components
-- All marketing materials
+-All pull requests
+-All public documentation
+-All UI components
+-All marketing materials
 
 ---
 

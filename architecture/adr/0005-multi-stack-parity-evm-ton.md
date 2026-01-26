@@ -30,30 +30,30 @@ As decisões específicas para TON incluem:
 
 ## Justificativa
 
-- **Integridade da Marca:** "NΞØ" deve significar o mesmo set de garantias e segurança independente da infraestrutura subjacente.
-- **Eficiência Operacional:** Permite que a CLI (`nsf`) e a UI (`smart-ui`) tratem as diferentes chains com uma camada de abstração unificada.
-- **Segurança Jurídica:** Facilita auditorias cross-chain, permitindo que checklists de conformidade sejam aplicados uniformemente.
+-**Integridade da Marca:** "NΞØ" deve significar o mesmo set de garantias e segurança independente da infraestrutura subjacente.
+-**Eficiência Operacional:** Permite que a CLI (`nsf`) e a UI (`smart-ui`) tratem as diferentes chains com uma camada de abstração unificada.
+-**Segurança Jurídica:** Facilita auditorias cross-chain, permitindo que checklists de conformidade sejam aplicados uniformemente.
 
 ---
 
 ## Consequências
 
 ### Positivas
-- ✅ Experiência de usuário consistente.
-- ✅ Facilidade de integração de bridges (as garantias de supply são as mesmas).
-- ✅ Checklist de auditoria unificado.
+-✅ Experiência de usuário consistente.
+-✅ Facilidade de integração de bridges (as garantias de supply são as mesmas).
+-✅ Checklist de auditoria unificado.
 
 ### Negativas
-- ❌ Maior esforço de desenvolvimento (exige portabilidade de lógica complexa).
-- ❌ Limita o uso de "atalhos" específicos de uma chain que não existem na outra.
+-❌ Maior esforço de desenvolvimento (exige portabilidade de lógica complexa).
+-❌ Limita o uso de "atalhos" específicos de uma chain que não existem na outra.
 
 ---
 
 ## Implementação
 
 Esta decisão está materializada em:
-- **smart-core/contracts/ton/**: Implementação FunC/Tact seguindo estas regras.
-- **docs/auditoria/EVM_TON_MAPPING.md**: Documentação técnica da paridade.
+-**smart-core/contracts/ton/**: Implementação FunC/Tact seguindo estas regras.
+-**docs/auditoria/EVM_TON_MAPPING.md**: Documentação técnica da paridade.
 
 ---
 

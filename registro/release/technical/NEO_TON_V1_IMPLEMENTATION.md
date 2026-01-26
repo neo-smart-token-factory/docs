@@ -41,12 +41,12 @@ This document certifies the successful compilation and formal implementation of 
 ```
 
 **Key Features:**
-- ✅ **Public Mint:** Any user can mint tokens by paying TON (configurable price)
-- ✅ **Bridge Integration:** Authorized bridge contracts can mint cross-chain tokens
-- ✅ **Max Supply Control:** Hard cap enforced at contract level
-- ✅ **Economic Parameters:** Configurable mint price and amount per transaction
-- ✅ **Metadata Standard:** Full TEP-64 compliance for wallets/explorers
-- ✅ **Admin Controls:** Withdrawal, minting toggles, emergency pause
+-✅ **Public Mint:** Any user can mint tokens by paying TON (configurable price)
+-✅ **Bridge Integration:** Authorized bridge contracts can mint cross-chain tokens
+-✅ **Max Supply Control:** Hard cap enforced at contract level
+-✅ **Economic Parameters:** Configurable mint price and amount per transaction
+-✅ **Metadata Standard:** Full TEP-64 compliance for wallets/explorers
+-✅ **Admin Controls:** Withdrawal, minting toggles, emergency pause
 
 ---
 
@@ -58,19 +58,19 @@ This document certifies the successful compilation and formal implementation of 
 **Copyright:** © 2026 NΞØ Protocol. All Rights Reserved.
 
 **Terms:**
-- ✓ Attribution required for any reference or implementation
-- ✗ Commercial use prohibited without explicit license
-- ✗ Modifications and derivative works prohibited
-- ✓ Prior art established for patent/IP protection
+-✓ Attribution required for any reference or implementation
+-✗ Commercial use prohibited without explicit license
+-✗ Modifications and derivative works prohibited
+-✓ Prior art established for patent/IP protection
 
 ### Security Validation
 
-- **Source Integrity:** Cryptographically verified via Git commit `69bfe6c`
-- **Compilation:** Validated using `@ton-community/func-js` v0.6.2
-- **Standards Compliance:** TEP-74, TEP-64, TEP-89 conformance verified
-- **Logic Review:** No critical vulnerabilities identified in control flow
-- **Gas Optimization:** Storage rent and computation costs minimized
-- **Actor Model Safety:** Message handling follows TON best practices
+-**Source Integrity:** Cryptographically verified via Git commit `69bfe6c`
+-**Compilation:** Validated using `@ton-community/func-js` v0.6.2
+-**Standards Compliance:** TEP-74, TEP-64, TEP-89 conformance verified
+-**Logic Review:** No critical vulnerabilities identified in control flow
+-**Gas Optimization:** Storage rent and computation costs minimized
+-**Actor Model Safety:** Message handling follows TON best practices
 
 **Audit Status:** Internal review completed. Third-party audit recommended before mainnet launch.
 
@@ -271,30 +271,30 @@ Recommended Test Flow:
 ### Deployment Scripts
 
 Available in `scripts/`:
-- `compile-ton.js` - Compile FunC to BOC
-- `deploy-ton-factory.js` - Deploy factory to network
-- `test-ton-deployment.js` - Post-deploy validation
+-`compile-ton.js` - Compile FunC to BOC
+-`deploy-ton-factory.js` - Deploy factory to network
+-`test-ton-deployment.js` - Post-deploy validation
 
 ---
 
 ## 📚 Standard Compliance
 
 ### TEP-74: Fungible Tokens (Jetton)
-- ✅ Standard transfer message format
-- ✅ Notification callbacks
-- ✅ Balance queries via get methods
-- ✅ Wallet code consistency
+-✅ Standard transfer message format
+-✅ Notification callbacks
+-✅ Balance queries via get methods
+-✅ Wallet code consistency
 
 ### TEP-64: Token Data Standard
-- ✅ On-chain metadata (name, symbol, decimals)
-- ✅ Off-chain URI support
-- ✅ Image/icon references
-- ✅ JSON schema compliance
+-✅ On-chain metadata (name, symbol, decimals)
+-✅ Off-chain URI support
+-✅ Image/icon references
+-✅ JSON schema compliance
 
 ### TEP-89: Jetton Discovery
-- ✅ Get methods: `get_wallet_address`, `get_jetton_data`
-- ✅ Wallet discovery by owner
-- ✅ Supply queries
+-✅ Get methods: `get_wallet_address`, `get_jetton_data`
+-✅ Wallet discovery by owner
+-✅ Supply queries
 
 ---
 
@@ -303,16 +303,16 @@ Available in `scripts/`:
 **Current Version:** V1.0 (V2-Ready)
 
 **V2 Features Already Implemented:**
-- Max supply enforcement
-- Public mint with pricing
-- Bridge integration hooks
-- Multi-minter support framework
+-Max supply enforcement
+-Public mint with pricing
+-Bridge integration hooks
+-Multi-minter support framework
 
 **Planned Enhancements:**
-- DAO governance integration
-- Advanced fee distribution
-- Cross-chain bridge expansion
-- NFT metadata extensions
+-DAO governance integration
+-Advanced fee distribution
+-Cross-chain bridge expansion
+-NFT metadata extensions
 
 **Upgrade Strategy:**
 Contracts are immutable post-deployment. New features require new factory deployment with migration path for existing tokens.

@@ -22,47 +22,47 @@ The following repositories are **ALLOWED** to be referenced publicly:
 ### 1. `smart-ui`
 **Scope**: Demo and narrative layer only  
 **Allowed Content**:
-- User interface demonstrations
-- Frontend code (no secrets)
-- Public-facing documentation
-- Architectural decisions (ADRs)
+-User interface demonstrations
+-Frontend code (no secrets)
+-Public-facing documentation
+-Architectural decisions (ADRs)
 
 **FORBIDDEN Content**:
-- Operational logic
-- Security assumptions
-- Internal state management
-- Roadmap beyond explicitly public scope
+-Operational logic
+-Security assumptions
+-Internal state management
+-Roadmap beyond explicitly public scope
 
 ---
 
 ### 2. `landing`
 **Scope**: Marketing and narrative only  
 **Allowed Content**:
-- Marketing materials
-- Public narrative
-- Brand assets
-- General project description
+-Marketing materials
+-Public narrative
+-Brand assets
+-General project description
 
 **FORBIDDEN Content**:
-- Technical implementation details
-- Internal architecture
-- Operational components
+-Technical implementation details
+-Internal architecture
+-Operational components
 
 ---
 
 ### 3. `docs`
 **Scope**: Architectural decisions and governance only  
 **Allowed Content**:
-- Architecture Decision Records (ADRs)
-- Governance documentation
-- Public policies
-- Contribution guidelines
+-Architecture Decision Records (ADRs)
+-Governance documentation
+-Public policies
+-Contribution guidelines
 
 **FORBIDDEN Content**:
-- Internal operational procedures
-- Security-sensitive architecture details
-- Infrastructure specifications
-- Private roadmap items
+-Internal operational procedures
+-Security-sensitive architecture details
+-Infrastructure specifications
+-Private roadmap items
 
 ---
 
@@ -83,15 +83,15 @@ The following repositories **MUST NEVER BE EXPOSED** publicly:
 **Reason**: Contains operational procedures and infrastructure details
 
 ### ❌ Any repository containing:
-- Operational logic
-- Security assumptions
-- Keys, endpoints or infrastructure details
-- Internal state or automation
-- Roadmap beyond what is explicitly public
-- Proprietary algorithms or business logic
-- Internal APIs or service definitions
-- Deployment configurations
-- Monitoring and alerting systems
+-Operational logic
+-Security assumptions
+-Keys, endpoints or infrastructure details
+-Internal state or automation
+-Roadmap beyond what is explicitly public
+-Proprietary algorithms or business logic
+-Internal APIs or service definitions
+-Deployment configurations
+-Monitoring and alerting systems
 
 ---
 
@@ -99,16 +99,16 @@ The following repositories **MUST NEVER BE EXPOSED** publicly:
 
 Private/restricted repositories **MUST NOT** be:
 
-- ❌ Linked publicly in any form
-- ❌ Mentioned in UI footers
-- ❌ Exposed in landing pages
-- ❌ Referenced in marketing materials
-- ❌ Referenced in pitch materials
-- ❌ Implied as open or accessible
-- ❌ Listed in public organization pages
-- ❌ Mentioned in public documentation
-- ❌ Discussed in public forums or issues
-- ❌ Included in public dependency graphs
+-❌ Linked publicly in any form
+-❌ Mentioned in UI footers
+-❌ Exposed in landing pages
+-❌ Referenced in marketing materials
+-❌ Referenced in pitch materials
+-❌ Implied as open or accessible
+-❌ Listed in public organization pages
+-❌ Mentioned in public documentation
+-❌ Discussed in public forums or issues
+-❌ Included in public dependency graphs
 
 ---
 
@@ -117,22 +117,22 @@ Private/restricted repositories **MUST NOT** be:
 Public repositories may be referenced in:
 
 ### Landing Pages
-- ✓ Link to `smart-ui` repository
-- ✓ Link to `landing` repository
-- ✓ Link to `docs` repository
-- ✓ Link to organization page (filtered view)
+-✓ Link to `smart-ui` repository
+-✓ Link to `landing` repository
+-✓ Link to `docs` repository
+-✓ Link to organization page (filtered view)
 
 ### Pitch Materials
-- ✓ General project description
-- ✓ Public architectural decisions
-- ✓ Governance model
-- ✓ Demo screenshots/videos
+-✓ General project description
+-✓ Public architectural decisions
+-✓ Governance model
+-✓ Demo screenshots/videos
 
 ### Public Documentation
-- ✓ ADRs (Architecture Decision Records)
-- ✓ Contribution guidelines
-- ✓ Code of conduct
-- ✓ Public roadmap items only
+-✓ ADRs (Architecture Decision Records)
+-✓ Contribution guidelines
+-✓ Code of conduct
+-✓ Public roadmap items only
 
 **BUT ONLY within their defined scope.**
 
@@ -145,19 +145,19 @@ The UI is a **DEMO and NARRATIVE layer** only. It demonstrates concepts and capt
 
 ### 2. Forbidden Exposures
 The UI **MUST NOT** expose:
-- ❌ Internal repositories
-- ❌ Operational components
-- ❌ CLI existence or details
-- ❌ Security-sensitive architecture
-- ❌ Internal APIs or endpoints
-- ❌ Infrastructure details
-- ❌ Deployment configurations
+-❌ Internal repositories
+-❌ Operational components
+-❌ CLI existence or details
+-❌ Security-sensitive architecture
+-❌ Internal APIs or endpoints
+-❌ Infrastructure details
+-❌ Deployment configurations
 
 ### 3. Footer Content Restrictions
 Footer content must reference **ONLY**:
-- ✓ The public organization page
-- ✓ Explicitly public repositories (`smart-ui`, `landing`, `docs`)
-- ✓ Public documentation within scope
+-✓ The public organization page
+-✓ Explicitly public repositories (`smart-ui`, `landing`, `docs`)
+-✓ Public documentation within scope
 
 ### 4. No Exceptions
 **No exceptions** to these rules are permitted without explicit governance approval.
@@ -167,24 +167,24 @@ Footer content must reference **ONLY**:
 ## 🔒 ENFORCEMENT MECHANISMS
 
 ### Code Review
-- All pull requests must be reviewed for compliance
-- Reviewers must verify no private references are exposed
-- Automated checks should flag potential violations
+-All pull requests must be reviewed for compliance
+-Reviewers must verify no private references are exposed
+-Automated checks should flag potential violations
 
 ### Documentation Review
-- All public documentation must be reviewed
-- Links must be validated against this policy
-- References to repositories must be verified
+-All public documentation must be reviewed
+-Links must be validated against this policy
+-References to repositories must be verified
 
 ### UI/Frontend Review
-- Footer links must be validated
-- Public-facing content must be audited
-- No internal references in client-side code
+-Footer links must be validated
+-Public-facing content must be audited
+-No internal references in client-side code
 
 ### Automated Scanning
-- Repository references should be scanned
-- Links should be validated against allowlist
-- Violations should trigger alerts
+-Repository references should be scanned
+-Links should be validated against allowlist
+-Violations should trigger alerts
 
 ---
 
@@ -192,16 +192,16 @@ Footer content must reference **ONLY**:
 
 Before any public release or deployment:
 
-- [ ] No references to `smart-core`
-- [ ] No references to `smart-cli`
-- [ ] No references to `internal-ops`
-- [ ] No references to private repositories
-- [ ] Footer links validated
-- [ ] Documentation links validated
-- [ ] No security-sensitive details exposed
-- [ ] No internal architecture exposed
-- [ ] No infrastructure details exposed
-- [ ] No operational logic exposed
+-[ ] No references to `smart-core`
+-[ ] No references to `smart-cli`
+-[ ] No references to `internal-ops`
+-[ ] No references to private repositories
+-[ ] Footer links validated
+-[ ] Documentation links validated
+-[ ] No security-sensitive details exposed
+-[ ] No internal architecture exposed
+-[ ] No infrastructure details exposed
+-[ ] No operational logic exposed
 
 ---
 
@@ -235,15 +235,15 @@ Before any public release or deployment:
 ## 📝 POLICY UPDATES
 
 This policy may only be updated by:
-- Governance approval
-- Security team authorization
-- Documented decision process
+-Governance approval
+-Security team authorization
+-Documented decision process
 
 Updates must:
-- Maintain or strengthen security posture
-- Be documented with rationale
-- Be communicated to all stakeholders
-- Be versioned and tracked
+-Maintain or strengthen security posture
+-Be documented with rationale
+-Be communicated to all stakeholders
+-Be versioned and tracked
 
 ---
 
@@ -275,11 +275,11 @@ This policy is enforced by the **neo-smart-token-factory** governance team.
 
 ## 📚 RELATED POLICIES
 
-- [ARCHITECTURAL_ADDENDUMS](../../architecture/ARCHITECTURAL_ADDENDUMS.md)
-- [ADR 0003: Wallet Extensions & MPC](../../architecture/adr/0003-wallet-extensions-mpc-automation-posture.md)
-- [ADR 0004: KYC & Governance Strategy](../../architecture/adr/0004-kyc-governance-strategy.md)
-- [ORGANIZATION](../../ORGANIZATION.md)
-- [AUDITORIA_VISIBILIDADE_ORGANIZACAO](../../auditoria/AUDITORIA_VISIBILIDADE_ORGANIZACAO.md) — Auditoria de conformidade e sugestões (2026-01-24)
+-[ARCHITECTURAL_ADDENDUMS](<../../architecture/ARCHITECTURAL_ADDENDUMS.md>)
+-[ADR 0003: Wallet Extensions & MPC](<../../architecture/adr/0003-wallet-extensions-mpc-automation-posture.md>)
+-[ADR 0004: KYC & Governance Strategy](<../../architecture/adr/0004-kyc-governance-strategy.md>)
+-[ORGANIZATION](<../../ORGANIZATION.md>)
+-[AUDITORIA_VISIBILIDADE_ORGANIZACAO](<../../auditoria/AUDITORIA_VISIBILIDADE_ORGANIZACAO.md>) — Auditoria de conformidade e sugestões (2026-01-24)
 
 ---
 

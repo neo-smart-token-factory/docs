@@ -11,8 +11,8 @@
 
 ## 🧱 Vínculos
 
-- **Issue(s):** # (adicione o número da issue, ex: #123)
-- **ADR(s):** [ADR-00X](DECISION_LOG.md) (se aplicável)
+-**Issue(s):** # (adicione o número da issue, ex: #123)
+-**ADR(s):** [ADR-00X](<DECISION_LOG.md>) (se aplicável)
 
 ---
 *Ao submeter este PR, confirmo que as alterações seguem os padrões de commit da NΞØ Organization.*

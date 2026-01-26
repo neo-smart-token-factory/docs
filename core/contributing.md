@@ -4,7 +4,7 @@ We value clear, precise, and inspiring documentation. As the NΞØ SMART FACTORY
 
 ## 📝 Guidelines
 
-1. **Precision**: Use the correct technical nomenclature (see **[NOMENCLATURA.md](./NOMENCLATURA.md)**).
+1. **Precision**: Use the correct technical nomenclature (see **[NOMENCLATURA.md](<./NOMENCLATURA.md>)**).
 2. **Branding**: Maintain the "Neural", "Obsidian", and "Multichain" tone.
 3. **Format**: Use standard Markdown. Tables and diagrams are encouraged for complex architectures.
 4. **Versioning**: Always reference the current project version (**v0.5.3**) when updating guides.
@@ -13,7 +13,7 @@ We value clear, precise, and inspiring documentation. As the NΞØ SMART FACTORY
 
 1. **Fork** the `docs` repository.
 2. **Update** or add the necessary markdown files.
-3. **Link** new files in the **[INDEX.md](./INDEX.md)** relative to their section.
+3. **Link** new files in the **[INDEX.md](<./INDEX.md>)** relative to their section.
 4. **Commit** using **Conventional Commits**:
    - `feat`: New documentation section.
    - `docs`: Updates to existing documentation.
@@ -23,10 +23,10 @@ We value clear, precise, and inspiring documentation. As the NΞØ SMART FACTORY
 
 ## 🧱 Structure
 
-- `/` — Main documentation files.
-- `/auditoria/` — Research, historical logs, and status reports.
-- `/branding/` — Visual assets and design guidelines.
-- `/ecosystem/` — Partner and chain-specific details.
+-`/` — Main documentation files.
+-`/auditoria/` — Research, historical logs, and status reports.
+-`/branding/` — Visual assets and design guidelines.
+-`/ecosystem/` — Partner and chain-specific details.
 
 ---
 *NΞØ Protocol — Expand until silence becomes structure.*

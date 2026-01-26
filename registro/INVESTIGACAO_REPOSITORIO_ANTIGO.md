@@ -8,18 +8,18 @@
 ## Informações Conhecidas
 
 ### Organização GitHub
-- **Organização**: `neo-smart-token-factory`
-- **URL**: https://github.com/neo-smart-token-factory
-- **Primeiro commit na organização**: 2025-11-17 (atualização de profile picture)
+-**Organização**: `neo-smart-token-factory`
+-**URL**: https://github.com/neo-smart-token-factory
+-**Primeiro commit na organização**: 2025-11-17 (atualização de profile picture)
 
 ### Repositórios na Organização (conforme documentação)
 
-- `docs` - Documentação
-- `smart-core` - Contratos inteligentes
-- `smart-ui` - Interface visual
-- `smart-cli` - CLI universal
-- `internal-ops` - Scripts operacionais
-- `landing` - Landing page
+-`docs` - Documentação
+-`smart-core` - Contratos inteligentes
+-`smart-ui` - Interface visual
+-`smart-cli` - CLI universal
+-`internal-ops` - Scripts operacionais
+-`landing` - Landing page
 
 ---
 
@@ -29,10 +29,10 @@
 
 ### Dados Confirmados
 
-- [x] **Username do GitHub pessoal**: `neomello`
-- [x] **Nome do repositório mais antigo**: `neo_smart_factory`
-- [x] **Data do primeiro commit**: `2025-11-16` (16 de novembro de 2025)
-- [x] **URL do repositório**: `https://github.com/neomello/neo_smart_factory`
+-[x] **Username do GitHub pessoal**: `neomello`
+-[x] **Nome do repositório mais antigo**: `neo_smart_factory`
+-[x] **Data do primeiro commit**: `2025-11-16` (16 de novembro de 2025)
+-[x] **URL do repositório**: `https://github.com/neomello/neo_smart_factory`
 
 ---
 
@@ -40,9 +40,9 @@
 
 ### Status do Repositório
 
-- **Repositório**: `neomello/neo_smart_factory`
-- **Status**: **PRIVADO** e **INATIVO**
-- **Propósito**: Mantido apenas para fins de registro histórico e prova de anterioridade
+-**Repositório**: `neomello/neo_smart_factory`
+-**Status**: **PRIVADO** e **INATIVO**
+-**Propósito**: Mantido apenas para fins de registro histórico e prova de anterioridade
 
 ### Regras Obrigatórias
 
@@ -53,9 +53,9 @@
 
 ### Motivo
 
-- Repositório mantido para prova de anterioridade (prior art)
-- Qualquer commit acidental pode comprometer a prova histórica
-- O desenvolvimento ativo está na organização `neo-smart-token-factory`
+-Repositório mantido para prova de anterioridade (prior art)
+-Qualquer commit acidental pode comprometer a prova histórica
+-O desenvolvimento ativo está na organização `neo-smart-token-factory`
 
 ---
 
@@ -63,28 +63,28 @@
 
 ### Repositório Mais Antigo (Prova Histórica)
 
-- **URL**: https://github.com/neomello/neo_smart_factory
-- **Primeiro Commit**: 2025-11-16
-- **Tipo**: Monorepo inicial (estrutura `forge-*`)
-- **Status**: Privado, mantido para registro
+-**URL**: https://github.com/neomello/neo_smart_factory
+-**Primeiro Commit**: 2025-11-16
+-**Tipo**: Monorepo inicial (estrutura `forge-*`)
+-**Status**: Privado, mantido para registro
 
 ### Organização Atual (Desenvolvimento Ativo)
 
-- **URL**: https://github.com/neo-smart-token-factory
-- **Primeiro Commit na Org**: 2025-11-17 (profile picture update)
-- **Estrutura**: Multi-repo modular (`smart-*`)
-- **Status**: Ativo, desenvolvimento contínuo
+-**URL**: https://github.com/neo-smart-token-factory
+-**Primeiro Commit na Org**: 2025-11-17 (profile picture update)
+-**Estrutura**: Multi-repo modular (`smart-*`)
+-**Status**: Ativo, desenvolvimento contínuo
 
 ---
 
 ## Próximos Passos
 
-- [x] Identificar repositório mais antigo
-- [x] Confirmar data do primeiro commit
-- [x] Criar nota de segurança
-- [ ] Incluir referência no `AUTHOR_DATA_TEMPLATE.md`
-- [ ] Incluir referência no inventário (Fase 1)
-- [ ] Usar esta informação no documento `01_CORE_Authorship_and_Prior_Art_v1.0_2026-01-22.pdf`
+-[x] Identificar repositório mais antigo
+-[x] Confirmar data do primeiro commit
+-[x] Criar nota de segurança
+-[ ] Incluir referência no `AUTHOR_DATA_TEMPLATE.md`
+-[ ] Incluir referência no inventário (Fase 1)
+-[ ] Usar esta informação no documento `01_CORE_Authorship_and_Prior_Art_v1.0_2026-01-22.pdf`
 
 ---
 

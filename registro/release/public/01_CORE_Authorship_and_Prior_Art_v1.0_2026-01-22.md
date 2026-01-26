@@ -36,10 +36,10 @@ O desenvolvimento do projeto NΞØ SMART TOKEN FACTORY teve início em **16 de n
 **Status**: Repositório privado, mantido para fins de registro histórico
 
 Este repositório contém a estrutura inicial do projeto, incluindo:
-- Contratos inteligentes base
-- Scripts de deploy
-- Documentação inicial
-- Estrutura modular (forge-core, forge-ui, forge-cli)
+-Contratos inteligentes base
+-Scripts de deploy
+-Documentação inicial
+-Estrutura modular (forge-core, forge-ui, forge-cli)
 
 ### Organização GitHub Atual
 
@@ -50,22 +50,22 @@ A partir de **17 de novembro de 2025**, o projeto foi migrado para uma organiza�
 **Status**: Ativo, desenvolvimento contínuo
 
 A organização contém múltiplos repositórios modulares:
-- `smart-core` — Contratos inteligentes e scripts
-- `smart-ui` — Interface visual e PWA
-- `smart-cli` — CLI universal
-- `docs` — Documentação completa
-- `internal-ops` — Scripts operacionais
-- `landing` — Landing page
+-`smart-core` — Contratos inteligentes e scripts
+-`smart-ui` — Interface visual e PWA
+-`smart-cli` — CLI universal
+-`docs` — Documentação completa
+-`internal-ops` — Scripts operacionais
+-`landing` — Landing page
 
 ### Documentação Técnica
 
 A documentação técnica completa do projeto está disponível publicamente no repositório `neo-smart-token-factory/docs`, incluindo:
 
-- Arquitetura detalhada do sistema
-- Especificações técnicas (NeoTokenV2, Account Abstraction, Multichain)
-- Guias operacionais
-- Políticas de segurança e governança
-- Roadmaps técnicos e de produto
+-Arquitetura detalhada do sistema
+-Especificações técnicas (NeoTokenV2, Account Abstraction, Multichain)
+-Guias operacionais
+-Políticas de segurança e governança
+-Roadmaps técnicos e de produto
 
 **Total de documentos técnicos**: 45+ arquivos Markdown organizados em 13 categorias.
 
@@ -84,11 +84,11 @@ Declaro que sou o único autor intelectual e desenvolvedor do projeto NΞØ SMAR
 
 ### Tecnologias e Padrões Utilizados
 
-- **Blockchain**: Solidity ^0.8.20, Hardhat, OpenZeppelin Contracts v5.0
-- **Redes**: Polygon, Base, Arbitrum (multichain)
-- **Padrões**: ERC20, ERC721, EIP-2612 (Account Abstraction)
-- **Frontend**: Next.js 14, Tailwind CSS, Nuxt.js
-- **CLI**: Node.js, Commander.js
+-**Blockchain**: Solidity ^0.8.20, Hardhat, OpenZeppelin Contracts v5.0
+-**Redes**: Polygon, Base, Arbitrum (multichain)
+-**Padrões**: ERC20, ERC721, EIP-2612 (Account Abstraction)
+-**Frontend**: Next.js 14, Tailwind CSS, Nuxt.js
+-**CLI**: Node.js, Commander.js
 
 ---
 
@@ -106,27 +106,27 @@ Este documento serve exclusivamente como prova de autoria e anterioridade do pro
 
 Este documento:
 
-- **NÃO** concede direitos de propriedade intelectual além do estabelecido pela licença MIT do projeto
-- **NÃO** estabelece garantias sobre funcionalidade ou segurança do código
-- **NÃO** cria obrigações contratuais ou comerciais
-- **NÃO** substitui registros formais de propriedade intelectual quando aplicável
+-**NÃO** concede direitos de propriedade intelectual além do estabelecido pela licença MIT do projeto
+-**NÃO** estabelece garantias sobre funcionalidade ou segurança do código
+-**NÃO** cria obrigações contratuais ou comerciais
+-**NÃO** substitui registros formais de propriedade intelectual quando aplicável
 
 ### Uso Permitido
 
 Este documento pode ser utilizado para:
 
-- Prova de anterioridade em disputas de propriedade intelectual
-- Estabelecimento de autoria em processos legais
-- Referência histórica do desenvolvimento do projeto
-- Validação de timeline de desenvolvimento
+-Prova de anterioridade em disputas de propriedade intelectual
+-Estabelecimento de autoria em processos legais
+-Referência histórica do desenvolvimento do projeto
+-Validação de timeline de desenvolvimento
 
 ### Uso Proibido
 
 Este documento **NÃO** deve ser utilizado para:
 
-- Reivindicações de propriedade sobre padrões técnicos ou tecnologias de domínio público
-- Impedir o uso legítimo de tecnologias open-source
-- Criar falsas expectativas sobre direitos exclusivos sobre padrões blockchain
+-Reivindicações de propriedade sobre padrões técnicos ou tecnologias de domínio público
+-Impedir o uso legítimo de tecnologias open-source
+-Criar falsas expectativas sobre direitos exclusivos sobre padrões blockchain
 
 ---
 
@@ -141,10 +141,10 @@ Este documento **NÃO** deve ser utilizado para:
 
 ## OBSERVAÇÕES
 
-- Este documento foi gerado em 2026-01-22.
-- A versão pública contém redactions de dados pessoais sensíveis.
-- A versão private contém informações completas do autor.
-- Este documento faz parte do Pacote de Registro v1.0 do projeto NΞØ SMART TOKEN FACTORY.
+-Este documento foi gerado em 2026-01-22.
+-A versão pública contém redactions de dados pessoais sensíveis.
+-A versão private contém informações completas do autor.
+-Este documento faz parte do Pacote de Registro v1.0 do projeto NΞØ SMART TOKEN FACTORY.
 
 ---
 

@@ -11,11 +11,11 @@ O **Manual Bridge System** é uma solução pragmática e segura para permitir t
 
 ### Características
 
-- ✅ **Multi-Sig**: Validação por múltiplos signers (2/3, 3/5, etc)
-- ✅ **Replay Protection**: Previne ataques de replay com nonces únicos
-- ✅ **Low Cost**: ~50k gas por bridge (vs ~300k+ em protocolos externos)
-- ✅ **Self-Sovereign**: Sem dependências externas ou taxas recorrentes
-- ✅ **Automated**: Scripts Node.js para monitoramento e relay automático
+-✅ **Multi-Sig**: Validação por múltiplos signers (2/3, 3/5, etc)
+-✅ **Replay Protection**: Previne ataques de replay com nonces únicos
+-✅ **Low Cost**: ~50k gas por bridge (vs ~300k+ em protocolos externos)
+-✅ **Self-Sovereign**: Sem dependências externas ou taxas recorrentes
+-✅ **Automated**: Scripts Node.js para monitoramento e relay automático
 
 ---
 
@@ -208,24 +208,24 @@ node relay.js all
 
 ### Multi-Sig
 
-- **Mínimo 2 assinaturas** necessárias
-- Configuração recomendada: **2/3** ou **3/5**
-- Signers devem ser endereços independentes
+-**Mínimo 2 assinaturas** necessárias
+-Configuração recomendada: **2/3** ou **3/5**
+-Signers devem ser endereços independentes
 
 ### Replay Protection
 
-- Cada bridge tem `bridgeId` único
-- Mapping `processedBridges` previne duplicação
-- Nonces por usuário previnem colisões
+-Cada bridge tem `bridgeId` único
+-Mapping `processedBridges` previne duplicação
+-Nonces por usuário previnem colisões
 
 ### Validações
 
-- ✅ Zero address checks
-- ✅ Chain ID validation
-- ✅ Amount > 0
-- ✅ Token suportado
-- ✅ Assinaturas válidas
-- ✅ Sem duplicatas de assinatura
+-✅ Zero address checks
+-✅ Chain ID validation
+-✅ Amount > 0
+-✅ Token suportado
+-✅ Assinaturas válidas
+-✅ Sem duplicatas de assinatura
 
 ---
 
@@ -332,35 +332,35 @@ cast send $BRIDGE_ADDRESS "addSupportedToken(address)" $TOKEN_ADDRESS --private-
 ## 🗺️ Roadmap
 
 ### Fase 1: Manual (✅ Implementado)
-- [x] Contrato ManualBridge
-- [x] Scripts de monitoramento
-- [x] Multi-sig validation
-- [x] Relay automático
+-[x] Contrato ManualBridge
+-[x] Scripts de monitoramento
+-[x] Multi-sig validation
+-[x] Relay automático
 
 ### Fase 2: UI (🔨 Próximo)
-- [ ] Interface web para bridge
-- [ ] Status tracking em tempo real
-- [ ] Histórico de bridges
-- [ ] Estimativa de tempo
+-[ ] Interface web para bridge
+-[ ] Status tracking em tempo real
+-[ ] Histórico de bridges
+-[ ] Estimativa de tempo
 
 ### Fase 3: Otimizações (📋 Futuro)
-- [ ] Batch processing (múltiplas bridges em 1 tx)
-- [ ] Merkle proofs para reduzir gas
-- [ ] Suporte a mais chains (Arbitrum, Optimism)
+-[ ] Batch processing (múltiplas bridges em 1 tx)
+-[ ] Merkle proofs para reduzir gas
+-[ ] Suporte a mais chains (Arbitrum, Optimism)
 
 ---
 
 ## 📚 Referências
 
 ### Contratos
-- `ManualBridge.sol` — Contrato principal
-- `BridgeValidator.sol` — Biblioteca de validação
-- `NeoTokenV2.sol` — Token com suporte a bridge
+-`ManualBridge.sol` — Contrato principal
+-`BridgeValidator.sol` — Biblioteca de validação
+-`NeoTokenV2.sol` — Token com suporte a bridge
 
 ### Scripts
-- `monitor.js` — Monitoramento de eventos
-- `sign-proof.js` — Assinatura de provas
-- `relay.js` — Relay automático
+-`monitor.js` — Monitoramento de eventos
+-`sign-proof.js` — Assinatura de provas
+-`relay.js` — Relay automático
 
 ---
 
@@ -375,6 +375,6 @@ cast send $BRIDGE_ADDRESS "addSupportedToken(address)" $TOKEN_ADDRESS --private-
 **Email**: neo@neoprotocol.space  
 **Web3 Identity**: neoprotocol.eth  
 **NEØ PROTOCOL**: https://neoprotocol.space  
-[![GitHub](https://img.shields.io/badge/GitHub-neo--smart--token--factory-181717?style=flat&logo=github)](https://github.com/neo-smart-token-factory)
+[![GitHub](<https://img.shields.io/badge/GitHub-neo--smart--token--factory-181717?style=flat&logo=github>)](https://github.com/neo-smart-token-factory)
 
 > *Expand until silence becomes structure.*

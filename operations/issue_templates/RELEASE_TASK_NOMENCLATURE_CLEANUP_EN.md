@@ -16,34 +16,34 @@ Consult the normative document: `docs/auditoria/NOMENCLATURA_OFICIAL.md` and `do
 ## 📋 Verification Checklist
 
 ### 1. Code & File naming
-- [ ] Replace `ForgeToken` with `NeoToken` or `SmartToken`.
-- [ ] Replace `ForgeFactory` with `NeoSmartFactory` or `NeoJettonFactory`.
-- [ ] Rename any files containing `forge` in the filename.
-- [ ] Audit variable and function names (`forgeCore`, `initForge`, etc.).
+-[ ] Replace `ForgeToken` with `NeoToken` or `SmartToken`.
+-[ ] Replace `ForgeFactory` with `NeoSmartFactory` or `NeoJettonFactory`.
+-[ ] Rename any files containing `forge` in the filename.
+-[ ] Audit variable and function names (`forgeCore`, `initForge`, etc.).
 
 ### 2. Configuration & Metadata
-- [ ] `package.json`: Verify `name` and dependencies (use `@neosmart/*` scope).
-- [ ] `README.md`: Remove references to "Neural Forge" or "Forge Factory".
-- [ ] Source Code Comments: Update internal documentation and TODOs.
+-[ ] `package.json`: Verify `name` and dependencies (use `@neosmart/*` scope).
+-[ ] `README.md`: Remove references to "Neural Forge" or "Forge Factory".
+-[ ] Source Code Comments: Update internal documentation and TODOs.
 
 ### 3. Licensing & Legal (CRITICAL)
-- [ ] Ensure `LICENSE` file exists in the root (MIT for code).
-- [ ] Ensure `LICENSE-DOCS.md` exists if there is significant documentation (CC BY 4.0).
-- [ ] Add reference to the official authorship proof (January 22, 2026).
+-[ ] Ensure `LICENSE` file exists in the root (MIT for code).
+-[ ] Ensure `LICENSE-DOCS.md` exists if there is significant documentation (CC BY 4.0).
+-[ ] Add reference to the official authorship proof (January 22, 2026).
 
 ### 4. Branding
-- [ ] Project Name: **NΞØ Smart Token Factory**.
-- [ ] CLI: **`nsf`** (instead of `neo-smart-factory` or `forge`).
+-[ ] Project Name: **NΞØ Smart Token Factory**.
+-[ ] CLI: **`nsf`** (instead of `neo-smart-factory` or `forge`).
 
 ---
 
 ## 🚫 Forbidden Terms (Search & Destroy)
 
 Run `grep -ri "forge" .` and eliminate occurrences of:
-- `forge-core`
-- `forge-ui`
-- `forge-cli`
-- `Neural Forge`
+-`forge-core`
+-`forge-ui`
+-`forge-cli`
+-`Neural Forge`
 
 > **Note:** If historical mentions exist in CHANGELOG or ARCHIVE files, add a warning note at the top stating the terminology is obsolete, but **do not alter historical records** unless strictly necessary for core functionality.
 

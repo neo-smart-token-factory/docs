@@ -70,18 +70,18 @@ Integrar suporte nativo para:
 
 ### Contexto
 Com a evolução do ecossistema Web3 para Account Abstraction (ERC-4337) e arquiteturas multichain, o `NeoTokenBase` original precisava evoluir para suportar:
-- Transações gasless via ERC20Permit (EIP-2612)
-- Mint cross-chain via bridges autorizadas
-- Proteção anti-bot nativa
-- Supply cap rígido
+-Transações gasless via ERC20Permit (EIP-2612)
+-Mint cross-chain via bridges autorizadas
+-Proteção anti-bot nativa
+-Supply cap rígido
 
 ### Análise Técnica
 
 #### Limitações do NeoTokenBase
-- Sem suporte nativo para meta-transactions
-- Sem preparação para operações cross-chain
-- Proteção anti-bot dependente de implementação externa
-- Supply cap configurável (não imutável)
+-Sem suporte nativo para meta-transactions
+-Sem preparação para operações cross-chain
+-Proteção anti-bot dependente de implementação externa
+-Supply cap configurável (não imutável)
 
 #### Solução: NeoTokenV2
 Evolução que mantém a filosofia "Vanilla" mas adiciona recursos essenciais para o ecossistema moderno:
@@ -118,10 +118,10 @@ Evolução que mantém a filosofia "Vanilla" mas adiciona recursos essenciais pa
 
 ### Decisão
 Adotar **NeoTokenV2** como padrão para novos tokens que requerem:
-- Account Abstraction
-- Arquitetura Multichain
-- Proteção anti-bot nativa
-- Supply cap imutável
+-Account Abstraction
+-Arquitetura Multichain
+-Proteção anti-bot nativa
+-Supply cap imutável
 
 **NeoTokenBase** permanece disponível para casos de uso mais simples.
 
@@ -133,10 +133,10 @@ Adotar **NeoTokenV2** como padrão para novos tokens que requerem:
 5. **Compatibilidade**: Mantém herança OpenZeppelin v5.0 (auditado)
 
 ### Impacto
-- ✅ Tokens criados são "future-proof" para AA e multichain
-- ✅ Reduz necessidade de upgrades futuros
-- ✅ Mantém filosofia "Vanilla" (sem bloatware)
-- ✅ Facilita integração com wallets modernas
+-✅ Tokens criados são "future-proof" para AA e multichain
+-✅ Reduz necessidade de upgrades futuros
+-✅ Mantém filosofia "Vanilla" (sem bloatware)
+-✅ Facilita integração com wallets modernas
 
 ---
 
@@ -160,8 +160,8 @@ Estabelecer o princípio de **Paridade de Funcionalidades**:
 3. **Multichain Real:** Facilita a criação de bridges e orquestradores que funcionam de forma previsível entre redes.
 
 ### Implementação
-- Implementado em: `smart-core/contracts/ton/` (Jetton Factory, Minter, Wallet).
-- Mapeamento detalhado: `docs/auditoria/EVM_TON_MAPPING.md`.
+-Implementado em: `smart-core/contracts/ton/` (Jetton Factory, Minter, Wallet).
+-Mapeamento detalhado: `docs/auditoria/EVM_TON_MAPPING.md`.
 
 ---
 
@@ -171,6 +171,6 @@ Estabelecer o princípio de **Paridade de Funcionalidades**:
 **Email**: neo@neoprotocol.space  
 **Web3 Identity**: neoprotocol.eth  
 **NEØ PROTOCOL**: https://neoprotocol.space  
-[![GitHub](https://img.shields.io/badge/GitHub-neo--smart--token--factory-181717?style=flat&logo=github)](https://github.com/neo-smart-token-factory)
+[![GitHub](<https://img.shields.io/badge/GitHub-neo--smart--token--factory-181717?style=flat&logo=github>)](https://github.com/neo-smart-token-factory)
 
 > *Expand until silence becomes structure.*

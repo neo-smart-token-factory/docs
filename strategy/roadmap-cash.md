@@ -14,14 +14,14 @@
 ### 🛠️ NΞØ Doctor CLI v0.1
 O `smart-cli` evolui de uma ferramenta interna para um produto de diagnóstico de saúde de contratos.
 
-- [ ] **Diagnóstico de Contrato:** Análise profunda de contratos ERC20/721/1155.
-- [ ] **Proxy & Upgrade Check:** Verificação de integridade de contratos delegados (UUPS/Transparent).
-- [ ] **Permission Matrix:** Mapa visual de permissões (Owner, Roles, Admins).
-- [ ] **Exportable Report:** Geração de relatório técnico em PDF/Markdown (Branded).
-- [ ] **Modo Demo:** Diagnósticos básicos gratuitos (Read-only).
-- [ ] **Modo PRO:** Diagnósticos avançados + Relatórios exportáveis (Requer Licença/Token).
+-[ ] **Diagnóstico de Contrato:** Análise profunda de contratos ERC20/721/1155.
+-[ ] **Proxy & Upgrade Check:** Verificação de integridade de contratos delegados (UUPS/Transparent).
+-[ ] **Permission Matrix:** Mapa visual de permissões (Owner, Roles, Admins).
+-[ ] **Exportable Report:** Geração de relatório técnico em PDF/Markdown (Branded).
+-[ ] **Modo Demo:** Diagnósticos básicos gratuitos (Read-only).
+-[ ] **Modo PRO:** Diagnósticos avançados + Relatórios exportáveis (Requer Licença/Token).
 
-> **📌 Nota de Valor:** Isso é vendável como um "Pre-Audit Check" rápido. Veja mais em [Doctor CLI Deep Dive](../architecture/specs/doctor-cli-deep-dive.md).
+> **📌 Nota de Valor:** Isso é vendável como um "Pre-Audit Check" rápido. Veja mais em [Doctor CLI Deep Dive](<../architecture/specs/doctor-cli-deep-dive.md>).
 
 ---
 
@@ -30,10 +30,10 @@ O `smart-cli` evolui de uma ferramenta interna para um produto de diagnóstico d
 **Foco:** Consultoria técnica de alto ticket e entrega acelerada.
 **Objetivo:** Ticket alto, poucos clientes. Isso paga seu tempo.
 
-- [ ] **Escopo Fechado:** Definição clara do que é o "Bundle de Lançamento NΞØ".
-- [ ] **Pricing Explícito:** Transparência de custos (Deploy + Setup + Consultoria).
-- [ ] **Checklist de Entrega:** Padrão de qualidade milimétrico para cada novo token emitido.
-- [ ] **Processo de Intake:** Formulário qualificado para filtrar projetos reais de "noise".
+-[ ] **Escopo Fechado:** Definição clara do que é o "Bundle de Lançamento NΞØ".
+-[ ] **Pricing Explícito:** Transparência de custos (Deploy + Setup + Consultoria).
+-[ ] **Checklist de Entrega:** Padrão de qualidade milimétrico para cada novo token emitido.
+-[ ] **Processo de Intake:** Formulário qualificado para filtrar projetos reais de "noise".
 
 > **📌 Nota de Valor:** Foco em qualidade cirúrgica sobre quantidade.
 
@@ -44,10 +44,10 @@ O `smart-cli` evolui de uma ferramenta interna para um produto de diagnóstico d
 **Foco:** Funil de vendas otimizado para os produtos das fases A e B.
 **Objetivo:** Filtrar e converter sem complexidade técnica.
 
-- [ ] **One-Page Landing:** Focada em conversão, zero distrações.
-- [ ] **Copy Técnica:** Linguagem que fala diretamente com o "Pain Point" de quem quer lançar um token seguro.
-- [ ] **CTA Único:** Direcionamento claro para o CLI Pro ou para o Founder Kernel.
-- [ ] **Simple Forms:** Coleta mínima de dados, foco no "Wallet-Connect" ou "Contact".
+-[ ] **One-Page Landing:** Focada em conversão, zero distrações.
+-[ ] **Copy Técnica:** Linguagem que fala diretamente com o "Pain Point" de quem quer lançar um token seguro.
+-[ ] **CTA Único:** Direcionamento claro para o CLI Pro ou para o Founder Kernel.
+-[ ] **Simple Forms:** Coleta mínima de dados, foco no "Wallet-Connect" ou "Contact".
 
 > **📌 Nota de Valor:** Estética Premium (Neon/Obsidiana), mas funcionalidade simples.
 
@@ -58,9 +58,9 @@ O `smart-cli` evolui de uma ferramenta interna para um produto de diagnóstico d
 **Foco:** Expansão tecnológica e inteligência autônoma.
 **Objetivo:** Escalar além do fator humano.
 
-- [ ] **NΞØ Agent Kit:** Integração com AgentKit da Coinbase para operações autônomas.
-- [ ] **LLM Integration:** Interface de "Natural Language to Contract".
-- [ ] **Multichain Intelligence:** Sugestões automáticas de chain baseadas em gas/liquidez.
+-[ ] **NΞØ Agent Kit:** Integração com AgentKit da Coinbase para operações autônomas.
+-[ ] **LLM Integration:** Interface de "Natural Language to Contract".
+-[ ] **Multichain Intelligence:** Sugestões automáticas de chain baseadas em gas/liquidez.
 
 ---
 

@@ -33,17 +33,17 @@ O TXID pode ser obtido através da API do ArDrive usando o File ID.
 
 ## 📝 INFORMAÇÕES QUE VOCÊ TEM AGORA
 
-- **File ID**: `09f56c2f-47ef-40e2-a604-a926bbac2bb6`
-- **Link ArDrive**: <https://app.ardrive.io/#/file/09f56c2f-47ef-40e2-a604-a926bbac2bb6/view?fileKey=d14g8iBu4QE_LFOKUU_zOytsyIGBTPE96YF_Ohc-aYo>
-- **Rede**: Arweave
-- **Data**: 2026-01-22 (ou data do upload)
+-**File ID**: `09f56c2f-47ef-40e2-a604-a926bbac2bb6`
+-**Link ArDrive**: <https://app.ardrive.io/#/file/09f56c2f-47ef-40e2-a604-a926bbac2bb6/view?fileKey=d14g8iBu4QE_LFOKUU_zOytsyIGBTPE96YF_Ohc-aYo>
+-**Rede**: Arweave
+-**Data**: 2026-01-22 (ou data do upload)
 
 ---
 
 ## 🎯 PRÓXIMO PASSO
 
 **Encontre o TXID** na página do arquivo ou no histórico da wallet e me envie:
-- TXID: [hash da transação Arweave]
-- Data: [data do upload]
+-TXID: [hash da transação Arweave]
+-Data: [data do upload]
 
 Depois preencho o documento 04_PROOF!

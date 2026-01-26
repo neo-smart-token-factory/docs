@@ -10,7 +10,7 @@
 
 ### Repositórios GitHub
 
-**Organization**: [`neo-smart-token-factory`](https://github.com/neo-smart-token-factory)
+**Organization**: [`neo-smart-token-factory`](<https://github.com/neo-smart-token-factory>)
 
 | ✅ CORRETO | ❌ OBSOLETO | Status |
 |------------|-------------|--------|
@@ -48,17 +48,17 @@
 **NΞØ Smart Token Factory**
 
 Variações aceitas:
-- NΞØ SMART FACTORY
-- neo-smart-token-factory (GitHub, lowercase)
-- @neo-smart-token-factory (NPM, lowercase)
+-NΞØ SMART FACTORY
+-neo-smart-token-factory (GitHub, lowercase)
+-@neo-smart-token-factory (NPM, lowercase)
 
 ### Símbolo
 **NΞØ** (com Epsilon grego `Ξ`)
 
 Não usar:
-- ❌ NEO (sem símbolo)
-- ❌ NEØ (sem Epsilon)
-- ❌ NEO (apenas maiúsculas sem símbolo)
+-❌ NEO (sem símbolo)
+-❌ NEØ (sem Epsilon)
+-❌ NEO (apenas maiúsculas sem símbolo)
 
 ---
 
@@ -76,9 +76,9 @@ nsf verify        # Verificação em explorer
 ```
 
 Não usar:
-- ❌ `neo-smart-factory` (obsoleto)
-- ❌ `forge` (obsoleto)
-- ❌ `nxf` (obsoleto)
+-❌ `neo-smart-factory` (obsoleto)
+-❌ `forge` (obsoleto)
+-❌ `nxf` (obsoleto)
 
 ---
 
@@ -110,17 +110,17 @@ smart-cli/
 ## 🌐 URLs e Domínios
 
 ### Planejados
-- `neo-smart.factory` (principal)
-- `docs.neo-smart.factory` (documentação)
-- `app.neo-smart.factory` (aplicação web)
-- `api.neo-smart.factory` (API, se aplicável)
+-`neo-smart.factory` (principal)
+-`docs.neo-smart.factory` (documentação)
+-`app.neo-smart.factory` (aplicação web)
+-`api.neo-smart.factory` (API, se aplicável)
 
 ### GitHub
-- `github.com/neo-smart-token-factory` (organization)
-- `github.com/neo-smart-token-factory/smart-core`
-- `github.com/neo-smart-token-factory/smart-ui`
-- `github.com/neo-smart-token-factory/smart-cli`
-- `github.com/neo-smart-token-factory/docs`
+-`github.com/neo-smart-token-factory` (organization)
+-`github.com/neo-smart-token-factory/smart-core`
+-`github.com/neo-smart-token-factory/smart-ui`
+-`github.com/neo-smart-token-factory/smart-cli`
+-`github.com/neo-smart-token-factory/docs`
 
 ---
 
@@ -190,21 +190,21 @@ git commit -m "update stuff"
 ## 🚫 Nomenclatura OBSOLETA (Não Usar)
 
 ### Repositórios Obsoletos
-- ❌ `forge-core`
-- ❌ `forge-ui`
-- ❌ `forge-cli`
-- ❌ `forge-oracle`
-- ❌ `forge-dna`
-- ❌ `forge-cult`
-- ❌ `forge-kernel`
+-❌ `forge-core`
+-❌ `forge-ui`
+-❌ `forge-cli`
+-❌ `forge-oracle`
+-❌ `forge-dna`
+-❌ `forge-cult`
+-❌ `forge-kernel`
 
 ### CLI Obsoleto
-- ❌ `neo-smart-factory` (comando antigo)
-- ❌ `forge` (nunca foi oficial)
+-❌ `neo-smart-factory` (comando antigo)
+-❌ `forge` (nunca foi oficial)
 
 ### Organização Obsoleta
-- ❌ `neo-forge-factory` (nunca existiu)
-- ❌ Qualquer variação com "forge"
+-❌ `neo-forge-factory` (nunca existiu)
+-❌ Qualquer variação com "forge"
 
 ---
 
@@ -212,13 +212,13 @@ git commit -m "update stuff"
 
 Ao criar novos documentos, código ou conteúdo:
 
-- [ ] Usar `smart-*` para repositórios (não `forge-*`)
-- [ ] Usar `nsf` para CLI (não `neo-smart-factory`)
-- [ ] Usar `@neo-smart-token-factory` para NPM packages
-- [ ] Usar `NΞØ` com Epsilon grego no branding
-- [ ] Verificar links GitHub apontam para `neo-smart-token-factory` org
-- [ ] Verificar imports usam `@neo-smart-token-factory` scoped packages
-- [ ] Verificar documentação não tem referências obsoletas
+-[ ] Usar `smart-*` para repositórios (não `forge-*`)
+-[ ] Usar `nsf` para CLI (não `neo-smart-factory`)
+-[ ] Usar `@neo-smart-token-factory` para NPM packages
+-[ ] Usar `NΞØ` com Epsilon grego no branding
+-[ ] Verificar links GitHub apontam para `neo-smart-token-factory` org
+-[ ] Verificar imports usam `@neo-smart-token-factory` scoped packages
+-[ ] Verificar documentação não tem referências obsoletas
 
 ---
 
@@ -243,20 +243,20 @@ grep "forge-" auditoria/factory-status.md
 ## 📊 Migração Histórica
 
 ### v0.5.0 e anteriores
-- Nomenclatura `forge-*` era usada internamente
-- CLI era `neo-smart-factory`
-- Organização não estava pública
+-Nomenclatura `forge-*` era usada internamente
+-CLI era `neo-smart-factory`
+-Organização não estava pública
 
 ### v0.5.1 - v0.5.2
-- Transição para nomenclatura `smart-*`
-- CLI ainda era `neo-smart-factory`
-- Organização criada: `neo-smart-token-factory`
+-Transição para nomenclatura `smart-*`
+-CLI ainda era `neo-smart-factory`
+-Organização criada: `neo-smart-token-factory`
 
 ### v0.5.3 (atual)
-- ✅ Nomenclatura `smart-*` padronizada
-- ✅ CLI unificada: `nsf`
-- ✅ NPM organization: `@neo-smart-token-factory`
-- ✅ Multi-repo ativo e público
+-✅ Nomenclatura `smart-*` padronizada
+-✅ CLI unificada: `nsf`
+-✅ NPM organization: `@neo-smart-token-factory`
+-✅ Multi-repo ativo e público
 
 ---
 
@@ -265,14 +265,14 @@ grep "forge-" auditoria/factory-status.md
 **Owner**: NODE NEØ (Architecture Lead)
 
 **Enforcement**:
-- Code reviews devem verificar nomenclatura
-- PRs com nomenclatura obsoleta devem ser rejeitados
-- Documentação deve ser atualizada em batch se encontrado inconsistências
+-Code reviews devem verificar nomenclatura
+-PRs com nomenclatura obsoleta devem ser rejeitados
+-Documentação deve ser atualizada em batch se encontrado inconsistências
 
 **Atualizações**:
-- Este documento é a fonte única de verdade (SSOT)
-- Mudanças requerem aprovação de NODE NEØ
-- Versão deve ser incrementada a cada update
+-Este documento é a fonte única de verdade (SSOT)
+-Mudanças requerem aprovação de NODE NEØ
+-Versão deve ser incrementada a cada update
 
 ---
 
@@ -302,7 +302,7 @@ Qualquer menção a `Forge` em código novo, documentação ativa ou comunicaç�
 
 Para garantir o alinhamento em todos os repositórios da organização `neo-smart-token-factory`, deve-se abrir uma **Issue de Verificação** em cada repositório contendo o checklist padrão.
 
-1. **Copie o Template**: Utilize o arquivo [`operations/issue_templates/RELEASE_TASK_NOMENCLATURE_CLEANUP.md`](../operations/issue_templates/RELEASE_TASK_NOMENCLATURE_CLEANUP.md)
+1. **Copie o Template**: Utilize o arquivo [`operations/issue_templates/RELEASE_TASK_NOMENCLATURE_CLEANUP.md`](<../operations/issue_templates/RELEASE_TASK_NOMENCLATURE_CLEANUP.md>)
 2. **Abra a Issue**: Crie uma issue com label `chore` e `high-priority`
 3. **Execute o Cleanup**: Siga o checklist rigorosamente
 

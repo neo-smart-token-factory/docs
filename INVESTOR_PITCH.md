@@ -45,11 +45,11 @@ Imagine uma "fábrica digital" onde você entra com uma ideia e sai com um token
 
 ### Diferenciais Técnicos
 
-- **Multichain:** Suporte para múltiplas blockchains (Ethereum, Base, Polygon)
-- **Segurança por Design:** Contratos baseados em padrões auditados da indústria
-- **Sem KYC:** Acesso livre e descentralizado (filosofia Web3)
-- **Código Aberto:** Transparência total e auditável
-- **Modular:** Componentes independentes e reutilizáveis
+-**Multichain:** Suporte para múltiplas blockchains (Ethereum, Base, Polygon)
+-**Segurança por Design:** Contratos baseados em padrões auditados da indústria
+-**Sem KYC:** Acesso livre e descentralizado (filosofia Web3)
+-**Código Aberto:** Transparência total e auditável
+-**Modular:** Componentes independentes e reutilizáveis
 
 ---
 
@@ -59,46 +59,46 @@ Imagine uma "fábrica digital" onde você entra com uma ideia e sai com um token
 
 #### 1. Taxa Embutida no Protocolo (Receita Passiva)
 
-- **5% de taxa automática** em cada transação de tokens criados pela plataforma
-- Receita perpétua e escalável
-- Não requer manutenção ativa após o deploy
+-**5% de taxa automática** em cada transação de tokens criados pela plataforma
+-Receita perpétua e escalável
+-Não requer manutenção ativa após o deploy
 
 #### 2. Serviços Premium "Done-for-You" (Receita Ativa)
 
-- **Implantação Elite:** Serviço completo de configuração e deploy
+-**Implantação Elite:** Serviço completo de configuração e deploy
   - Preço: US$ 1.500 - US$ 3.000 por projeto
   - Inclui: Customização completa, deploy, verificação e integração
   - Mercado-alvo: Fundadores e projetos em estágio inicial
 
 #### 3. Licenças de Software (SaaS)
 
-- **Licença de Produção:** Acesso premium às ferramentas CLI
+-**Licença de Produção:** Acesso premium às ferramentas CLI
   - Preço: US$ 99/mês ou US$ 950/ano
   - Inclui: Diagnósticos avançados, relatórios exportáveis, suporte prioritário
   - Mercado-alvo: Desenvolvedores e operadores Web3 profissionais
 
 #### 4. Upsells e Add-ons
 
-- Geração de logos e identidade visual
-- Criação de whitepapers via IA
-- Consultoria em tokenomics e estratégia
-- Marketing e campanhas de lançamento
+-Geração de logos e identidade visual
+-Criação de whitepapers via IA
+-Consultoria em tokenomics e estratégia
+-Marketing e campanhas de lançamento
 
 ### Projeção de Receita (Cenário Conservador)
 
 **Ano 1:**
 
-- 50 implantações Elite × US$ 2.000 = **US$ 100.000**
-- 20 licenças anuais × US$ 950 = **US$ 19.000**
-- Taxa de protocolo (estimativa conservadora) = **US$ 30.000**
-- **Total Ano 1: ~US$ 149.000**
+-50 implantações Elite × US$ 2.000 = **US$ 100.000**
+-20 licenças anuais × US$ 950 = **US$ 19.000**
+-Taxa de protocolo (estimativa conservadora) = **US$ 30.000**
+-**Total Ano 1: ~US$ 149.000**
 
 **Ano 2 (Escala):**
 
-- 200 implantações × US$ 2.000 = **US$ 400.000**
-- 100 licenças × US$ 950 = **US$ 95.000**
-- Taxa de protocolo (crescimento orgânico) = **US$ 150.000**
-- **Total Ano 2: ~US$ 645.000**
+-200 implantações × US$ 2.000 = **US$ 400.000**
+-100 licenças × US$ 950 = **US$ 95.000**
+-Taxa de protocolo (crescimento orgânico) = **US$ 150.000**
+-**Total Ano 2: ~US$ 645.000**
 
 ---
 
@@ -108,28 +108,28 @@ Imagine uma "fábrica digital" onde você entra com uma ideia e sai com um token
 
 **Frontend:**
 
-- React 18 + Next.js 14 (Interface principal)
-- Nuxt 3 (Aplicações móveis e Mini Apps)
-- Tailwind CSS (Design moderno e responsivo)
+-React 18 + Next.js 14 (Interface principal)
+-Nuxt 3 (Aplicações móveis e Mini Apps)
+-Tailwind CSS (Design moderno e responsivo)
 
 **Blockchain:**
 
-- Solidity (Contratos inteligentes)
-- Ethers.js v6 (Integração Web3)
-- Suporte multichain (Ethereum, Base, Polygon)
+-Solidity (Contratos inteligentes)
+-Ethers.js v6 (Integração Web3)
+-Suporte multichain (Ethereum, Base, Polygon)
 
 **Infraestrutura:**
 
-- Neon Database (PostgreSQL serverless)
-- Vercel (Hospedagem e deploy)
-- IPFS (Armazenamento descentralizado)
+-Neon Database (PostgreSQL serverless)
+-Vercel (Hospedagem e deploy)
+-IPFS (Armazenamento descentralizado)
 
 ### Segurança
 
-- Contratos baseados em padrões OpenZeppelin (auditados)
-- Proteções contra reentrância e vulnerabilidades conhecidas
-- Validações rigorosas de entrada
-- Código aberto para auditoria pública
+-Contratos baseados em padrões OpenZeppelin (auditados)
+-Proteções contra reentrância e vulnerabilidades conhecidas
+-Validações rigorosas de entrada
+-Código aberto para auditoria pública
 
 ---
 
@@ -137,9 +137,9 @@ Imagine uma "fábrica digital" onde você entra com uma ideia e sai com um token
 
 ### Tamanho do Mercado
 
-- **Mercado Total Endereçável (TAM):** US$ 2+ bilhões (mercado de criação de tokens e infraestrutura DeFi)
-- **Mercado Endereçável Servido (SAM):** US$ 500+ milhões (projetos que precisam de ferramentas de criação)
-- **Mercado Endereçável Imediato (SOM):** US$ 50+ milhões (projetos ativos hoje)
+-**Mercado Total Endereçável (TAM):** US$ 2+ bilhões (mercado de criação de tokens e infraestrutura DeFi)
+-**Mercado Endereçável Servido (SAM):** US$ 500+ milhões (projetos que precisam de ferramentas de criação)
+-**Mercado Endereçável Imediato (SOM):** US$ 50+ milhões (projetos ativos hoje)
 
 ### Tendências de Mercado
 
@@ -152,16 +152,16 @@ Imagine uma "fábrica digital" onde você entra com uma ideia e sai com um token
 
 **Concorrentes Diretos:**
 
-- Token Factory (limitado a uma blockchain)
-- Ferramentas de código aberto (requerem conhecimento técnico)
+-Token Factory (limitado a uma blockchain)
+-Ferramentas de código aberto (requerem conhecimento técnico)
 
 **Nossas Vantagens Competitivas:**
 
-- ✅ Multichain nativo
-- ✅ Interface mais intuitiva
-- ✅ Modelo de receita sustentável (taxa embutida)
-- ✅ Ferramentas de diagnóstico integradas
-- ✅ Filosofia Web3 (sem KYC, código aberto)
+-✅ Multichain nativo
+-✅ Interface mais intuitiva
+-✅ Modelo de receita sustentável (taxa embutida)
+-✅ Ferramentas de diagnóstico integradas
+-✅ Filosofia Web3 (sem KYC, código aberto)
 
 ---
 
@@ -171,42 +171,42 @@ Imagine uma "fábrica digital" onde você entra com uma ideia e sai com um token
 
 **Concluído:**
 
-- ✅ Fábrica básica de tokens (ERC20, ERC721)
-- ✅ Sistema de vesting automatizado
-- ✅ Sistema de recompensas e badges
-- ✅ Interface web funcional
-- ✅ Suporte multichain (Ethereum, Base, Polygon)
-- ✅ CLI de diagnóstico básico
+-✅ Fábrica básica de tokens (ERC20, ERC721)
+-✅ Sistema de vesting automatizado
+-✅ Sistema de recompensas e badges
+-✅ Interface web funcional
+-✅ Suporte multichain (Ethereum, Base, Polygon)
+-✅ CLI de diagnóstico básico
 
 ### 🔄 Próximas Fases
 
 **Fase A — CLI como Produto (0-3 meses)**
 
-- Evolução do CLI para produto comercial
-- Diagnósticos avançados de contratos
-- Relatórios exportáveis profissionais
-- Sistema de licenciamento
+-Evolução do CLI para produto comercial
+-Diagnósticos avançados de contratos
+-Relatórios exportáveis profissionais
+-Sistema de licenciamento
 
 **Fase B — Serviços Premium (3-6 meses)**
 
-- Pacotes de implantação estruturados
-- Processo de onboarding otimizado
-- Gateway de pagamento integrado
-- Suporte prioritário
+-Pacotes de implantação estruturados
+-Processo de onboarding otimizado
+-Gateway de pagamento integrado
+-Suporte prioritário
 
 **Fase C — Landing e Marketing (6-9 meses)**
 
-- Landing page de alta conversão
-- Funil de vendas otimizado
-- Campanhas de marketing direcionadas
-- Parcerias estratégicas
+-Landing page de alta conversão
+-Funil de vendas otimizado
+-Campanhas de marketing direcionadas
+-Parcerias estratégicas
 
 **Fase D — Automação e IA (9-12 meses)**
 
-- Integração com agentes de IA
-- Geração automática de contratos via linguagem natural
-- Sugestões inteligentes de configuração
-- Automação completa de processos
+-Integração com agentes de IA
+-Geração automática de contratos via linguagem natural
+-Sugestões inteligentes de configuração
+-Automação completa de processos
 
 ---
 
@@ -216,23 +216,23 @@ Imagine uma "fábrica digital" onde você entra com uma ideia e sai com um token
 
 **NODE NEØ** — Project Lead
 
-- Experiência em desenvolvimento Web3
-- Especialista em contratos inteligentes
-- Visão estratégica do ecossistema blockchain
+-Experiência em desenvolvimento Web3
+-Especialista em contratos inteligentes
+-Visão estratégica do ecossistema blockchain
 
 **Contato:**
 
-- Email: <neo@neoprotocol.space>
-- Web3 Identity: neoprotocol.eth
-- Website: <https://neoprotocol.space>
+-Email: <neo@neoprotocol.space>
+-Web3 Identity: neoprotocol.eth
+-Website: <https://neoprotocol.space>
 
 ### Filosofia Organizacional
 
-- **Transparência Radical:** Código aberto e processos públicos
-- **Autonomia:** Não dependência de Big Tech
-- **Eficiência:** Transformar semanas em minutos
-- **Segurança:** Contratos auditáveis e seguros por design
-- **Modularidade:** Componentes independentes e reutilizáveis
+-**Transparência Radical:** Código aberto e processos públicos
+-**Autonomia:** Não dependência de Big Tech
+-**Eficiência:** Transformar semanas em minutos
+-**Segurança:** Contratos auditáveis e seguros por design
+-**Modularidade:** Componentes independentes e reutilizáveis
 
 ---
 
@@ -242,34 +242,34 @@ Imagine uma "fábrica digital" onde você entra com uma ideia e sai com um token
 
 **Desenvolvimento de Produto (40%)**
 
-- Expansão da CLI como produto comercial
-- Melhorias na interface de usuário
-- Novas funcionalidades e integrações
+-Expansão da CLI como produto comercial
+-Melhorias na interface de usuário
+-Novas funcionalidades e integrações
 
 **Marketing e Vendas (30%)**
 
-- Desenvolvimento de landing page de alta conversão
-- Campanhas de marketing direcionadas
-- Construção de funil de vendas
+-Desenvolvimento de landing page de alta conversão
+-Campanhas de marketing direcionadas
+-Construção de funil de vendas
 
 **Operações e Infraestrutura (20%)**
 
-- Escalabilidade da infraestrutura
-- Melhorias de segurança
-- Suporte ao cliente
+-Escalabilidade da infraestrutura
+-Melhorias de segurança
+-Suporte ao cliente
 
 **Reserva Operacional (10%)**
 
-- Capital de giro
-- Imprevistos
-- Expansão futura
+-Capital de giro
+-Imprevistos
+-Expansão futura
 
 ### Retorno Esperado para Investidores
 
-- **Modelo de Receita Múltipla:** Taxa perpétua + serviços + SaaS
-- **Escalabilidade:** Receita cresce organicamente com cada token criado
-- **Mercado em Expansão:** Setor blockchain em crescimento acelerado
-- **Vantagem Competitiva:** Posicionamento único no mercado
+-**Modelo de Receita Múltipla:** Taxa perpétua + serviços + SaaS
+-**Escalabilidade:** Receita cresce organicamente com cada token criado
+-**Mercado em Expansão:** Setor blockchain em crescimento acelerado
+-**Vantagem Competitiva:** Posicionamento único no mercado
 
 ---
 
@@ -279,28 +279,28 @@ Imagine uma "fábrica digital" onde você entra com uma ideia e sai com um token
 
 **Crescimento:**
 
-- Número de tokens criados mensalmente
-- Taxa de conversão (visitantes → usuários)
-- Crescimento de receita recorrente
+-Número de tokens criados mensalmente
+-Taxa de conversão (visitantes → usuários)
+-Crescimento de receita recorrente
 
 **Engajamento:**
 
-- Usuários ativos mensais
-- Taxa de retenção de licenças
-- Número de implantações premium
+-Usuários ativos mensais
+-Taxa de retenção de licenças
+-Número de implantações premium
 
 **Financeiro:**
 
-- Receita recorrente mensal (MRR)
-- Receita total anual (ARR)
-- Margem de lucro operacional
+-Receita recorrente mensal (MRR)
+-Receita total anual (ARR)
+-Margem de lucro operacional
 
 ### Metas de Curto Prazo (6 meses)
 
-- 100 tokens criados na plataforma
-- 10 clientes de Implantação Elite
-- 25 licenças de produção ativas
-- US$ 50.000 em receita total
+-100 tokens criados na plataforma
+-10 clientes de Implantação Elite
+-25 licenças de produção ativas
+-US$ 50.000 em receita total
 
 ---
 
@@ -351,11 +351,11 @@ GitHub: <https://github.com/neo-smart-token-factory>
 
 ## 📎 Anexos e Documentação Adicional
 
-- [Manifesto Completo](core/manifesto.md)
-- [Arquitetura Técnica](architecture/architecture.md)
-- [Roadmap Detalhado](strategy/roadmap-cash.md)
-- [Plano de Monetização](strategy/planning/monetization-plan.md)
-- [Análise de Ecossistema](ecosystem/ANALYSIS_2026_01.md)
+-[Manifesto Completo](<core/manifesto.md>)
+-[Arquitetura Técnica](<architecture/architecture.md>)
+-[Roadmap Detalhado](<strategy/roadmap-cash.md>)
+-[Plano de Monetização](<strategy/planning/monetization-plan.md>)
+-[Análise de Ecossistema](<ecosystem/ANALYSIS_2026_01.md>)
 
 ---
 
