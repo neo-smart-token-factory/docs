@@ -13,6 +13,7 @@ Welcome to the official documentation repository of the NΞØ SMART FACTORY. Thi
 
 ### ⛓️ Technical Core
 - **[NeoTokenV2](./NEOTOKENV2.md)** — Deep dive into the Multichain & AA-Ready token standard.
+- **[Protocol Evolution](./architecture/PROTOCOL_EVOLUTION_2026.md)** — Security handles, Circuit Breakers, and MPC readiness.
 - **[Manual Bridge](./MANUAL_BRIDGE.md)** — Security and logistics of cross-chain transfers.
 - **[Architecture](./architecture.md)** — The underlying structure of our smart contracts.
 

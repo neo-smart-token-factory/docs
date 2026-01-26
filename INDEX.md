@@ -32,6 +32,7 @@ Planejamento de mercado, monetização e roadmaps.
 ## 🏗️ 3. Arquitetura & Decisões
 Especificações técnicas e registros de decisões estruturais.
 
+- **[Protocol Evolution (2026)](architecture/PROTOCOL_EVOLUTION_2026.md)** ⭐ — Technical shift, security handles, and MPC/MCP readiness.
 - **[Arquitetura Detalhada](architecture/architecture.md)** — Visão técnica dos contratos.
 - **[Arquitetura Cirúrgica](architecture/surgical.md)** — Análise modular dos blocos do sistema.
 - **[Adendos Arquiteturais](architecture/ARCHITECTURAL_ADDENDUMS.md)** — MCP, MPC, KYC, governança.
