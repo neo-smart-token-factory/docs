@@ -153,7 +153,7 @@ Uma plataforma que permite criar tokens profissionais em minutos:
 -Visão estratégica do ecossistema
 -Experiência em desenvolvimento blockchain
 
-**Contato:** <neo@neoprotocol.space>
+**Contato:** <team@nsfactory.xyz>
 
 ---
 
@@ -209,7 +209,7 @@ Uma plataforma que permite criar tokens profissionais em minutos:
 3. **Proposta de Investimento** — Estruturação de termos
 4. **Fechamento** — Início da parceria estratégica
 
-**Contato:** <neo@neoprotocol.space>
+**Contato:** <team@nsfactory.xyz>
 
 ---
 

@@ -16,7 +16,7 @@ Specifically for the NΞØ Smart Token Factory project, the following versions a
 If you discover a security vulnerability, we appreciate your help in disclosing it to us in a responsible manner. We take all reports seriously and will work to address them promptly.
 
 Please report any security concerns directly to the Project Lead:
-**nettomello@hotmail.com** (with "SECURITY VULNERABILITY" in the subject line).
+**team@nsfactory.xyz** (with "SECURITY VULNERABILITY" in the subject line).
 
 ### What to include in your report:
 -A detailed description of the vulnerability.

@@ -85,6 +85,6 @@
 
 **Project Lead:** NODE NEØ  
 **Web3 Identity:** neoprotocol.eth  
-**Email:** neo@neoprotocol.space
+**Email:** team@nsfactory.xyz
 
 *Expand until silence becomes structure.*

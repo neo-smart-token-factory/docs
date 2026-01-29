@@ -89,7 +89,7 @@ Arquivo e verificações de segurança.
 ### 👤 Autoria
 
 **Project Lead**: NODE NEØ  
-**NEØ PROTOCOL**: https://neoprotocol.space  
+**NEØ PROTOCOL**: https://nsfactory.xyz  
 [![GitHub](<https://img.shields.io/badge/GitHub-neo--smart--token--factory-181717?style=flat&logo=github>)](https://github.com/neo-smart-token-factory)
 
 > *Expand until silence becomes structure.*
