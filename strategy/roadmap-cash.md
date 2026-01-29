@@ -67,6 +67,6 @@ O `smart-cli` evolui de uma ferramenta interna para um produto de diagnóstico d
 ### 👤 Autoria e Governança
 
 **Project Lead**: NODE NEØ
-**NΞØ PROTOCOL**: https://neoprotocol.space
+**NΞØ PROTOCOL**: https://nsfactory.xyz
 
 > *Expand until silence becomes structure.*

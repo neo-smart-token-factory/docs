@@ -220,9 +220,9 @@ Cada versão tem um nome temático relacionado ao manifesto:
 ### 👤 Autoria
 
 **Project Lead**: NODE NEØ  
-**Email**: neo@neoprotocol.space  
+**Email**: team@nsfactory.xyz  
 **Web3 Identity**: neoprotocol.eth  
-**NEØ PROTOCOL**: https://neoprotocol.space  
+**NEØ PROTOCOL**: https://nsfactory.xyz  
 [![GitHub](<https://img.shields.io/badge/GitHub-neo--smart--token--factory-181717?style=flat&logo=github>)](https://github.com/neo-smart-token-factory)
 
 > *Expand until silence becomes structure.*

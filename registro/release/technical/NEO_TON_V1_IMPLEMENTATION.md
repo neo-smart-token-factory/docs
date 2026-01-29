@@ -323,8 +323,8 @@ Contracts are immutable post-deployment. New features require new factory deploy
 
 **Protocol Maintainer:** NΞØ Protocol Team  
 **Technical Issues:** GitHub Issues in repository  
-**License Inquiries:** legal@neoprotocol.xyz  
-**Security Reports:** security@neoprotocol.xyz (PGP key available)
+**License Inquiries:** team@nsfactory.xyz  
+**Security Reports:** team@nsfactory.xyz (PGP key available)
 
 ---
 

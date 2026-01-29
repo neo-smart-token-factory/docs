@@ -222,9 +222,9 @@ Imagine uma "fábrica digital" onde você entra com uma ideia e sai com um token
 
 **Contato:**
 
--Email: <neo@neoprotocol.space>
+-Email: <team@nsfactory.xyz>
 -Web3 Identity: neoprotocol.eth
--Website: <https://neoprotocol.space>
+-Website: <https://nsfactory.xyz>
 
 ### Filosofia Organizacional
 
@@ -343,8 +343,8 @@ Imagine uma "fábrica digital" onde você entra com uma ideia e sai com um token
 
 **NODE NEØ**
 
-Email: <neo@neoprotocol.space>  
-Website: <https://neoprotocol.space>  
+Email: <team@nsfactory.xyz>  
+Website: <https://nsfactory.xyz>  
 GitHub: <https://github.com/neo-smart-token-factory>
 
 ---
