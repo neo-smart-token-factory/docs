@@ -3,15 +3,15 @@
 > **A assinatura da fábrica no ecossistema Ethereum.**
 
 /**
- * 
- *  ███╗   ██╗     ███████╗    ███████╗ █████╗  ██████╗████████╗ ██████╗ ██████╗ ██╗   ██╗
- *  ████╗  ██║     ██╔════╝    ██╔════╝██╔══██╗██╔════╝╚══██╔══╝██╔═══██╗██╔══██╗╚██╗ ██╔╝
- *  ██╔██╗ ██║     ███████╗    █████╗  ███████║██║        ██║   ██║   ██║██████╔╝ ╚████╔╝ 
- *  ██║╚██╗██║     ╚════██║    ██╔══╝  ██╔══██║██║        ██║   ██║   ██║██╔══██╗  ╚██╔╝  
- *  ██║ ╚████║     ███████║    ██║     ██║  ██║╚██████╗   ██║   ╚██████╔╝██║  ██║   ██║   
- *  ╚═╝  ╚═══╝     ╚══════╝    ╚═╝     ╚═╝  ╚═╝ ╚═════╝   ╚═╝    ╚═════╝ ╚═╝  ╚═╝   ╚═╝   
+ *  █▄░█ █▀▀ █▀█   █▀ █▀▄▀█ ▄▀█ █▀█ ▀█▀
+ *  █░▀█ ██▄ █▄█   ▄█ █░▀░█ █▀█ █▀▄ ░█░
  *
- *  NΞØ SMART FACTORY v0.5.2 — FOUNDATION
+ *  NΞØ SMART FACTORY v0.5.3 - NΞØ PROTOCOL | TOKENIZE
+ *  Author: NODE NEØ
+ *
+ *  Licensed under MIT. Attribution to NΞØ Protocol is required for derivatives.
+ *  Any fork or usage of this factory for financial protocols must reference:
+ *  "Powered by NΞØ SMART FACTORY"
  */
  
 ## 🌐 Domínios ENS (Ecosystem Siblings)
