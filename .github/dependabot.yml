@@ -1,0 +1,22 @@
+# Dependabot configuration for keeping GitHub Actions up to date
+# This file configures Dependabot to check for updates to GitHub Actions
+# used in the workflows directory
+
+version: 2
+updates:
+  # Maintain dependencies for GitHub Actions
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "09:00"
+    commit-message:
+      prefix: "ci"
+      include: "scope"
+    labels:
+      - "dependencies"
+      - "github-actions"
+    reviewers:
+      - "neomello"
+    open-pull-requests-limit: 5
